@@ -26,7 +26,12 @@ https://cedric.cnam.fr/~lamberta/Library/k-cluster.html
     - $B_1:= Rand(Z^0)^{m<n,n} $
     - $r_1\in R^{m, 1}$, s.t. $B_1 x^* =r_1$
 
-- linear/3: [($B_1$, $c_1$, $\ge$)] 
+- linear/3: [($B_1$, $c_1$, $=$)] 
+    - $Q$ form `biqbin/k-cluster/3`
+    - $B_1:= Rand(Z^0)^{m<n,n} $
+    - $r_1\in R^{m, 1}$, s.t. $B_1 x^* =r_1$
+
+- linear/4: [($B_1$, $c_1$, $\ge$)] 
     - $Q$ form `biqbin/k-cluster/3`
     - $B_1:= Rand(Z^0)^{m<n,n} $
     - $r_1\in R^{m, 1}$, s.t. $B_1 x^* \ge r_1$
