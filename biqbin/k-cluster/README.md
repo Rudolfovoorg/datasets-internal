@@ -43,4 +43,8 @@ Q_col = data["qubo"]["col"]
 Q_shape = data["qubo"]["shape"]
 
 Q = sp.sparse.coo_matrix((Q_data, (Q_row, Q_col), shape=Q_shape))
+offset = data["offset"]
+k = data["info"]["k"]
+lambda = data["info"]["lambda"]
+mu = data["info"]["mu"]
 ```
