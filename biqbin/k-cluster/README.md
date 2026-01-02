@@ -13,15 +13,14 @@ Where: $A$ is adjacency matrix, $offset = \lambda k + \mu k^2$.
 Note, that optimal value for the densest k-subgraph problem imply optimal value for the sparsest k-subgraph problem as follows:
 
 
-$$opt^{sparsest}_k = \frac{k(k-1)}{2}-opt^{densest}_k
+$$
+opt^{sparsest}_k = \frac{k(k-1)}{2}-opt^{densest}_k
 $$.
 
 
 The quadratic penalty term for problem instance $i$ is encoded ussing varying $\mu$ as follows:
 
-
-$$
-\mu^i_1 < \mu^i_2 < \mu^i_3
+$$\mu^i_1 < \mu^i_2 < \mu^i_3
 $$.
 
     .
