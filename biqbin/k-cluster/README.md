@@ -3,8 +3,10 @@
 https://cedric.cnam.fr/~lamberta/Library/k-cluster.html
 
 The instances are encoded as unconstrained binary optimization problem on a complement of a graph. Thus, the densest k-subgraph problem become an equivalent sparsest k-subgraph problem on a graph compment. The objective is modified as follows: 
+
 $$x^TQx + offset = 1/2*x^TA(\overline G)x-\lambda(\sum_{x_i\in x} x_i-k) + \mu(\sum_{x_i\in x} x_i-k)^2$$
 Where: $A$ is adjacency matrix, $offset = \lambda k + \mu k^2$.
+
 Note, that optimal value for the densest k-subgraph problem imply optimal value for the sparsest k-subgraph problem as follows:
 $$
 opt^{sparsest}_k = \frac{k(k-1)}{2}-opt^{densest}_k
