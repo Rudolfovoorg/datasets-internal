@@ -13,8 +13,7 @@ Where: $A$ is adjacency matrix, $offset = \lambda k + \mu k^2$.
 Note, that optimal value for the densest k-subgraph problem imply optimal value for the sparsest k-subgraph problem as follows:
 
 
-$$
-opt^{sparsest}_k = \frac{k(k-1)}{2}-opt^{densest}_k
+$$opt^{sparsest}_k = \frac{k(k-1)}{2}-opt^{densest}_k
 $$.
 
 
