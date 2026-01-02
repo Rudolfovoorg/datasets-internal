@@ -1,6 +1,14 @@
-## k-cluster or densest subgraph Problem Instances
+### A collection of internal benchmark instances for the sparsest k-subgraph problem
 
-https://cedric.cnam.fr/~lamberta/Library/k-cluster.html
+These problem instances were generated from the collection of benchmark instances for the k-cluster (densest) subgraph problem. See https://cedric.cnam.fr/~lamberta/Library/k-cluster.html
+
+The k-cluster (densest) subgraph problem and the sparsest k-subgraph problem are trivially equivalent via a complement of a graph. I.e. an optimal k-cluster (densest k-subgraph) in some fraph $G$ is an optimal sparsest k-subgraph in the complement of $G: \overline G$. In this collection constraints are added in a way that the original optimal solution is preserved.
+
+In the text bellow we use the following notation: 
+- $A^D$ - an adjacency matrix for the k-cluster problem
+- $A^S$ - an adjacency matrix for its equivallent sparsest k-subgraph problem
+
+### Files
 
 
     .
@@ -10,14 +18,14 @@ https://cedric.cnam.fr/~lamberta/Library/k-cluster.html
         ├── 2               # see linear/2             
         ├── 3               # see linear/3             
         └── 4               # see linear/4 
-    ├── quadratic
+    └── quadratic
         ├── 1               # see quadratic/1
         ├── 2               # see quadratic/2             
         ├── 3               # see quadratic/3             
         └── 4               # see quadratic/4 
 ### Linear
 - linear/1: [($B_1$, $c_1$, $=$)] 
-    - $Q:=\frac{1}{2}A(G)$
+    - $Q:=\frac{1}{2}A^S$
     - $B_1:= \mathbf{1}^{1,n} $
     - $r_1:=(k,)$
 
@@ -39,28 +47,30 @@ https://cedric.cnam.fr/~lamberta/Library/k-cluster.html
 ### Quadratic
 - quadratic/1: [($Q_1$, $r_1$, $\ge$)] 
     - $Q$ form `biqbin/k-cluster/1`
-    - $Q_1:=\frac{1}{2}A(\overline G)$
+    - $Q_1:=\frac{1}{2}A^D$
     - $r_1:=\overline{opt}-\epsilon, \epsilon\in Rand(Z^+)$
 
 - quadratic/2: [($Q_1$, $r_1$, $\le$)] 
     - $Q$ form `biqbin/k-cluster/1`
-    - $Q_1:=\frac{1}{2}A(\overline G)$
+    - $Q_1:=\frac{1}{2}A^D$
     - $r_1:=\overline{opt}+\epsilon, \epsilon\in Rand(Z^+)$
 
 - quadratic/1: [($Q_1$, $r_1$, $\ge$)] 
     - $Q$ form `biqbin/k-cluster/3`
-    - $Q_1:=\frac{1}{2}A(G)$
+    - $Q_1:=\frac{1}{2}A^S$
     - $r_1:=opt-\epsilon, \epsilon\in Rand(Z^+)$
 
 - quadratic/1: [($Q_1$, $r_1$, $\le$)] 
     - $Q$ form `biqbin/k-cluster/3`
-    - $Q_1:=\frac{1}{2}A(G)$
+    - $Q_1:=\frac{1}{2}A^S$
     - $r_1:=opt+\epsilon, \epsilon\in Rand(Z^+)$
 
 ### Data
 The matrices $Q, B_i, Q_i$ is encoded in sparse COO format and can be loaded as follows:
 ```
+import json
 import scipy as sp
+
 
 ((Q_data, (Q_row, Q_col)), Q_shape) = data['QBO']['Q']
 Q = sp.sparse.coo_matrix((Q_data, (Q_row, Q_col)), Q_shape)
@@ -78,5 +88,14 @@ quadratic = [
         ri, 
         sense
     ) for ((Qi_data, (Qi_row, Qi_col)), Qi_shape), ri, sense in  data['QBO']['constraints']['quadratic']]
+
+x = np.array(data['x'])
+instance = data['instance']
+optimum = data['optimum']
+k = data['info']['k']
+l = data['info']['lambda']
+mu = data['info']['mu']
+offset = data['QBO']['offset']
+
 
 ```
