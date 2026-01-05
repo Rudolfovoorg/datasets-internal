@@ -1,7 +1,7 @@
 # SIDON set based QUBOS
 This is a collection of QUBOS based on Sidon sets(https://en.wikipedia.org/wiki/Sidon_sequence). These problem instances were created during a study of QAC by Miha. See relevant literature in the folder `literature\`.
 
-Here, random spin glasses on actual D-wave topology with $h=0$ and $J \in \pm \frac{1}{28} \{8, 13, 19, 25, 28\}$.
+Here, random spin glasses on actual D-wave topology with $h=0$ and $J \in \pm \frac{1}{28}\{8, 13, 19, 25, 28\}$.
 
 Note, that for these problem instances it appears that D-wave quantum annealer OVERPERFORMS classical approach (Goemans-Williamson & simulated annealing)! See `notebooks/06_result_analysis.ipynb`.
 
