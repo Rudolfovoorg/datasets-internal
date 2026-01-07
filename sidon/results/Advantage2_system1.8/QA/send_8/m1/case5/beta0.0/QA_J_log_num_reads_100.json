@@ -1,0 +1,336 @@
+{
+    "value": -10.071428571428573,
+    "X": {
+        "72": -1,
+        "84": -1,
+        "168": 1,
+        "180": 1,
+        "264": 1,
+        "276": -1,
+        "2472": -1,
+        "2484": 1,
+        "2568": -1,
+        "2580": 1,
+        "2664": -1,
+        "2676": 1
+    },
+    "sampler_response": {
+        "type": "SampleSet",
+        "version": {
+            "sampleset_schema": "3.2.0"
+        },
+        "num_variables": 12,
+        "num_rows": 9,
+        "sample_data": {
+            "type": "array",
+            "data": [
+                [
+                    2716
+                ],
+                [
+                    1379
+                ],
+                [
+                    1442
+                ],
+                [
+                    2653
+                ],
+                [
+                    2700
+                ],
+                [
+                    1395
+                ],
+                [
+                    2464
+                ],
+                [
+                    1631
+                ],
+                [
+                    1378
+                ]
+            ],
+            "data_type": "uint32",
+            "shape": [
+                9,
+                1
+            ],
+            "use_bytes": false
+        },
+        "sample_type": "int8",
+        "sample_packed": true,
+        "vectors": {
+            "energy": {
+                "type": "array",
+                "data": [
+                    -10.071428571428573,
+                    -10.071428571428573,
+                    -10.071428571428573,
+                    -10.071428571428573,
+                    -9.928571428571429,
+                    -9.928571428571429,
+                    -9.785714285714288,
+                    -9.785714285714288,
+                    -9.5
+                ],
+                "data_type": "float64",
+                "shape": [
+                    9
+                ],
+                "use_bytes": false
+            },
+            "num_occurrences": {
+                "type": "array",
+                "data": [
+                    16,
+                    13,
+                    23,
+                    37,
+                    1,
+                    5,
+                    1,
+                    3,
+                    1
+                ],
+                "data_type": "int64",
+                "shape": [
+                    9
+                ],
+                "use_bytes": false
+            },
+            "chain_break_fraction": {
+                "type": "array",
+                "data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "data_type": "float64",
+                "shape": [
+                    9
+                ],
+                "use_bytes": false
+            }
+        },
+        "variable_labels": [
+            72,
+            84,
+            168,
+            180,
+            264,
+            276,
+            2472,
+            2484,
+            2568,
+            2580,
+            2664,
+            2676
+        ],
+        "variable_type": "SPIN",
+        "info": {
+            "timing": {
+                "qpu_sampling_time": 109524.0,
+                "qpu_anneal_time_per_sample": 1000.0,
+                "qpu_readout_time_per_sample": 34.67,
+                "qpu_access_time": 144113.6,
+                "qpu_access_overhead_time": 488.4,
+                "qpu_programming_time": 34589.6,
+                "qpu_delay_time_per_sample": 60.57,
+                "post_processing_overhead_time": 1.0,
+                "total_post_processing_time": 1.0
+            },
+            "problem_id": "6a67ed88-a10f-4f01-b300-2f404675f8de"
+        }
+    },
+    "ising": {
+        "data": {
+            "directed": false,
+            "multigraph": false,
+            "graph": {
+                "weight": "h",
+                "default": 0.0
+            },
+            "nodes": [
+                {
+                    "h": 0.0,
+                    "id": 2472
+                },
+                {
+                    "h": 0.0,
+                    "id": 2568
+                },
+                {
+                    "h": 0.0,
+                    "id": 2664
+                },
+                {
+                    "h": 0.0,
+                    "id": 72
+                },
+                {
+                    "h": 0.0,
+                    "id": 168
+                },
+                {
+                    "h": 0.0,
+                    "id": 264
+                },
+                {
+                    "h": 0.0,
+                    "id": 2484
+                },
+                {
+                    "h": 0.0,
+                    "id": 2580
+                },
+                {
+                    "h": 0.0,
+                    "id": 2676
+                },
+                {
+                    "h": 0.0,
+                    "id": 84
+                },
+                {
+                    "h": 0.0,
+                    "id": 180
+                },
+                {
+                    "h": 0.0,
+                    "id": 276
+                }
+            ],
+            "edges": [
+                {
+                    "J": 0.2857142857142857,
+                    "source": 2472,
+                    "target": 2484
+                },
+                {
+                    "J": -0.2857142857142857,
+                    "source": 2472,
+                    "target": 72
+                },
+                {
+                    "J": 1.0,
+                    "source": 2568,
+                    "target": 2580
+                },
+                {
+                    "J": 1.0,
+                    "source": 2568,
+                    "target": 72
+                },
+                {
+                    "J": 0.6785714285714286,
+                    "source": 2568,
+                    "target": 168
+                },
+                {
+                    "J": -0.6785714285714286,
+                    "source": 2568,
+                    "target": 84
+                },
+                {
+                    "J": 0.8928571428571429,
+                    "source": 2568,
+                    "target": 180
+                },
+                {
+                    "J": 0.8928571428571429,
+                    "source": 2664,
+                    "target": 2676
+                },
+                {
+                    "J": -0.8928571428571429,
+                    "source": 2664,
+                    "target": 84
+                },
+                {
+                    "J": 0.8928571428571429,
+                    "source": 2664,
+                    "target": 180
+                },
+                {
+                    "J": -1.0,
+                    "source": 72,
+                    "target": 84
+                },
+                {
+                    "J": -0.8928571428571429,
+                    "source": 168,
+                    "target": 2484
+                },
+                {
+                    "J": -0.4642857142857143,
+                    "source": 168,
+                    "target": 2580
+                },
+                {
+                    "J": -0.6785714285714286,
+                    "source": 168,
+                    "target": 180
+                },
+                {
+                    "J": 0.8928571428571429,
+                    "source": 264,
+                    "target": 2484
+                },
+                {
+                    "J": -0.2857142857142857,
+                    "source": 264,
+                    "target": 2580
+                },
+                {
+                    "J": 0.6785714285714286,
+                    "source": 264,
+                    "target": 276
+                },
+                {
+                    "J": -0.8928571428571429,
+                    "source": 2580,
+                    "target": 180
+                },
+                {
+                    "J": 1.0,
+                    "source": 2580,
+                    "target": 276
+                },
+                {
+                    "J": 0.8928571428571429,
+                    "source": 2676,
+                    "target": 180
+                },
+                {
+                    "J": 0.4642857142857143,
+                    "source": 2676,
+                    "target": 276
+                }
+            ]
+        },
+        "info": {
+            "type": "J_log (n3)",
+            "case": "case",
+            "topology": "Advantage2_system1.8"
+        }
+    },
+    "time": 0.0018260478973388672,
+    "sampler": {
+        "class": "FixedEmbeddingComposite",
+        "kwargs": {
+            "num_reads": 100,
+            "annealing_time": 1000,
+            "auto_scale": true,
+            "reduce_intersample_correlation": true
+        }
+    },
+    "additional_info": {}
+}
