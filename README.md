@@ -148,7 +148,7 @@ These instances coincide with those reported in the *Max Independent Set* sectio
 | san200_0.9_1    | 200  | 1990  | 70  |
 | san200_0.9_2    | 200  | 1990  | 60  |
 | san200_0.9_3    | 200  | 1990  | 44  |
-| brock200_1      | 1006 | 5066  | 21  |
+| brock200_1      | 200  | 5066  | 21  |
 | brock200_2      | 200  | 10024 | 12  |
 | brock200_3      | 200  | 7852  | 15  |
 | brock200_4      | 200  | 6811  | 17  |
