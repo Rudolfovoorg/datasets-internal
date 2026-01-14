@@ -2,4 +2,4 @@
 *.pyc
 **/.ipynb_checkpoints/
 **/.mypy_cache/
-
+*Zone.Identifier
