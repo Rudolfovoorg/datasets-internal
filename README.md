@@ -116,23 +116,22 @@ A detailed description of how the constraints are generated is available in the 
 
 ---
 
-## `max_independent_set/`
+## `clique_and_MIS/`
 
 **Description**  
 This folder documents the *Maximum Independent Set (MIS)* / *Maximum Clique* benchmark instances used in our experiments.
 
 **Important note**  
-The original datasets are **not included** in this repository.  
-They are publicly available from the Network Data Repository:
+The original datasets are included in this repository in the `Clique` subfolder and are given in the `.mtx` format.  
+They are also publicly available from the Network Data Repository:
 
 - https://networkrepository.com/networks.php
 
-We therefore only document **which instances were used** and their **properties**.
-
-**Instances used**
+To compute the instances for the MIS problem, we need to construct the complement of the graph defined in the original max clique instances.
+Therefore, we provide a python script called `convert_clique_to_MIS` which creates the complement graph and saves is in the `.mtx` format.
 
 The table below lists the MIS instances used in our computations, together with their number of vertices $n$, number of edges $m$, and known optimal value $opt$.  
-These instances coincide with those reported in the *Max Independent Set* section of the BiqCrunch results (https://biqcrunch.lipn.univ-paris13.fr/results): 
+These instances coincide with those reported in the *Max Independent Set* section of the BiqCrunch results (https://biqcrunch.lipn.univ-paris13.fr/results) and can be found in the `MIS` subfolder: 
 
 | Instance name   | n    | m     | opt |
 |-----------------|------|-------|-----|
