@@ -1,0 +1,3107 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "_original_labeling": 0,
+                "id": 0
+            },
+            {
+                "_original_labeling": 2,
+                "id": 2
+            },
+            {
+                "_original_labeling": 3,
+                "id": 3
+            },
+            {
+                "_original_labeling": 4,
+                "id": 4
+            },
+            {
+                "_original_labeling": 6,
+                "id": 6
+            },
+            {
+                "_original_labeling": 7,
+                "id": 7
+            },
+            {
+                "_original_labeling": 8,
+                "id": 8
+            },
+            {
+                "_original_labeling": 9,
+                "id": 9
+            },
+            {
+                "_original_labeling": 11,
+                "id": 11
+            },
+            {
+                "_original_labeling": 12,
+                "id": 12
+            },
+            {
+                "_original_labeling": 14,
+                "id": 14
+            },
+            {
+                "_original_labeling": 17,
+                "id": 17
+            },
+            {
+                "_original_labeling": 18,
+                "id": 18
+            },
+            {
+                "_original_labeling": 22,
+                "id": 22
+            },
+            {
+                "_original_labeling": 25,
+                "id": 25
+            },
+            {
+                "_original_labeling": 27,
+                "id": 27
+            },
+            {
+                "_original_labeling": 30,
+                "id": 30
+            },
+            {
+                "_original_labeling": 33,
+                "id": 33
+            },
+            {
+                "_original_labeling": 36,
+                "id": 36
+            },
+            {
+                "_original_labeling": 37,
+                "id": 37
+            }
+        ],
+        "edges": [
+            {
+                "source": 0,
+                "target": 3
+            },
+            {
+                "source": 0,
+                "target": 9
+            },
+            {
+                "source": 3,
+                "target": 37
+            },
+            {
+                "source": 4,
+                "target": 12
+            },
+            {
+                "source": 4,
+                "target": 17
+            },
+            {
+                "source": 6,
+                "target": 11
+            },
+            {
+                "source": 7,
+                "target": 11
+            },
+            {
+                "source": 7,
+                "target": 14
+            },
+            {
+                "source": 7,
+                "target": 22
+            },
+            {
+                "source": 9,
+                "target": 30
+            },
+            {
+                "source": 9,
+                "target": 37
+            },
+            {
+                "source": 11,
+                "target": 33
+            },
+            {
+                "source": 12,
+                "target": 30
+            },
+            {
+                "source": 14,
+                "target": 37
+            },
+            {
+                "source": 17,
+                "target": 30
+            },
+            {
+                "source": 22,
+                "target": 25
+            },
+            {
+                "source": 22,
+                "target": 36
+            },
+            {
+                "source": 25,
+                "target": 36
+            },
+            {
+                "source": 36,
+                "target": 37
+            }
+        ]
+    },
+    "sampler_response": {
+        "x": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+        ],
+        "value": -80.99999999999547,
+        "cardinality": 20,
+        "sampleset": {
+            "type": "SampleSet",
+            "version": {
+                "sampleset_schema": "3.2.0"
+            },
+            "num_variables": 40,
+            "num_rows": 10,
+            "sample_data": {
+                "type": "array",
+                "data": [
+                    [
+                        1242977245,
+                        90
+                    ],
+                    [
+                        1242979293,
+                        26
+                    ],
+                    [
+                        1242977245,
+                        114
+                    ],
+                    [
+                        1246125023,
+                        34
+                    ],
+                    [
+                        1247173597,
+                        18
+                    ],
+                    [
+                        1246125021,
+                        50
+                    ],
+                    [
+                        1242977245,
+                        114
+                    ],
+                    [
+                        1242977245,
+                        90
+                    ],
+                    [
+                        1254513629,
+                        18
+                    ],
+                    [
+                        1247171549,
+                        50
+                    ]
+                ],
+                "data_type": "uint32",
+                "shape": [
+                    10,
+                    2
+                ],
+                "use_bytes": false
+            },
+            "sample_type": "int8",
+            "sample_packed": true,
+            "vectors": {
+                "energy": {
+                    "type": "array",
+                    "data": [
+                        -80.99999999999545,
+                        -80.99999999999545,
+                        -80.99999999999545,
+                        -80.99999999999545,
+                        -80.99999999999547,
+                        -80.99999999999547,
+                        -80.99999999999545,
+                        -80.99999999999545,
+                        -80.99999999999547,
+                        -80.99999999999545
+                    ],
+                    "data_type": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "use_bytes": false
+                },
+                "num_occurrences": {
+                    "type": "array",
+                    "data": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "data_type": "int64",
+                    "shape": [
+                        10
+                    ],
+                    "use_bytes": false
+                }
+            },
+            "variable_labels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+            ],
+            "variable_type": "BINARY",
+            "info": {
+                "beta_range": [
+                    0.053524878807717745,
+                    1339592989062532.8
+                ],
+                "beta_schedule_type": "geometric",
+                "timing": {
+                    "preprocessing_ns": 809741,
+                    "sampling_ns": 1575902,
+                    "postprocessing_ns": 69660
+                }
+            }
+        }
+    },
+    "additional_info": {
+        "algo_summary": {
+            "algorithm": "AlgoAugementedLagrangianSA():",
+            "g": {
+                "directed": false,
+                "multigraph": false,
+                "graph": {},
+                "nodes": [
+                    {
+                        "_original_labeling": 0,
+                        "id": 0
+                    },
+                    {
+                        "_original_labeling": 1,
+                        "id": 1
+                    },
+                    {
+                        "_original_labeling": 2,
+                        "id": 2
+                    },
+                    {
+                        "_original_labeling": 3,
+                        "id": 3
+                    },
+                    {
+                        "_original_labeling": 4,
+                        "id": 4
+                    },
+                    {
+                        "_original_labeling": 5,
+                        "id": 5
+                    },
+                    {
+                        "_original_labeling": 6,
+                        "id": 6
+                    },
+                    {
+                        "_original_labeling": 7,
+                        "id": 7
+                    },
+                    {
+                        "_original_labeling": 8,
+                        "id": 8
+                    },
+                    {
+                        "_original_labeling": 9,
+                        "id": 9
+                    },
+                    {
+                        "_original_labeling": 10,
+                        "id": 10
+                    },
+                    {
+                        "_original_labeling": 11,
+                        "id": 11
+                    },
+                    {
+                        "_original_labeling": 12,
+                        "id": 12
+                    },
+                    {
+                        "_original_labeling": 13,
+                        "id": 13
+                    },
+                    {
+                        "_original_labeling": 14,
+                        "id": 14
+                    },
+                    {
+                        "_original_labeling": 15,
+                        "id": 15
+                    },
+                    {
+                        "_original_labeling": 16,
+                        "id": 16
+                    },
+                    {
+                        "_original_labeling": 17,
+                        "id": 17
+                    },
+                    {
+                        "_original_labeling": 18,
+                        "id": 18
+                    },
+                    {
+                        "_original_labeling": 19,
+                        "id": 19
+                    },
+                    {
+                        "_original_labeling": 20,
+                        "id": 20
+                    },
+                    {
+                        "_original_labeling": 21,
+                        "id": 21
+                    },
+                    {
+                        "_original_labeling": 22,
+                        "id": 22
+                    },
+                    {
+                        "_original_labeling": 23,
+                        "id": 23
+                    },
+                    {
+                        "_original_labeling": 24,
+                        "id": 24
+                    },
+                    {
+                        "_original_labeling": 25,
+                        "id": 25
+                    },
+                    {
+                        "_original_labeling": 26,
+                        "id": 26
+                    },
+                    {
+                        "_original_labeling": 27,
+                        "id": 27
+                    },
+                    {
+                        "_original_labeling": 28,
+                        "id": 28
+                    },
+                    {
+                        "_original_labeling": 29,
+                        "id": 29
+                    },
+                    {
+                        "_original_labeling": 30,
+                        "id": 30
+                    },
+                    {
+                        "_original_labeling": 31,
+                        "id": 31
+                    },
+                    {
+                        "_original_labeling": 32,
+                        "id": 32
+                    },
+                    {
+                        "_original_labeling": 33,
+                        "id": 33
+                    },
+                    {
+                        "_original_labeling": 34,
+                        "id": 34
+                    },
+                    {
+                        "_original_labeling": 35,
+                        "id": 35
+                    },
+                    {
+                        "_original_labeling": 36,
+                        "id": 36
+                    },
+                    {
+                        "_original_labeling": 37,
+                        "id": 37
+                    },
+                    {
+                        "_original_labeling": 38,
+                        "id": 38
+                    },
+                    {
+                        "_original_labeling": 39,
+                        "id": 39
+                    }
+                ],
+                "edges": [
+                    {
+                        "source": 0,
+                        "target": 3
+                    },
+                    {
+                        "source": 0,
+                        "target": 9
+                    },
+                    {
+                        "source": 0,
+                        "target": 15
+                    },
+                    {
+                        "source": 0,
+                        "target": 16
+                    },
+                    {
+                        "source": 0,
+                        "target": 21
+                    },
+                    {
+                        "source": 0,
+                        "target": 31
+                    },
+                    {
+                        "source": 0,
+                        "target": 32
+                    },
+                    {
+                        "source": 0,
+                        "target": 34
+                    },
+                    {
+                        "source": 1,
+                        "target": 2
+                    },
+                    {
+                        "source": 1,
+                        "target": 13
+                    },
+                    {
+                        "source": 1,
+                        "target": 18
+                    },
+                    {
+                        "source": 1,
+                        "target": 28
+                    },
+                    {
+                        "source": 1,
+                        "target": 32
+                    },
+                    {
+                        "source": 1,
+                        "target": 33
+                    },
+                    {
+                        "source": 1,
+                        "target": 34
+                    },
+                    {
+                        "source": 1,
+                        "target": 36
+                    },
+                    {
+                        "source": 1,
+                        "target": 38
+                    },
+                    {
+                        "source": 2,
+                        "target": 5
+                    },
+                    {
+                        "source": 2,
+                        "target": 13
+                    },
+                    {
+                        "source": 2,
+                        "target": 20
+                    },
+                    {
+                        "source": 3,
+                        "target": 5
+                    },
+                    {
+                        "source": 3,
+                        "target": 15
+                    },
+                    {
+                        "source": 3,
+                        "target": 23
+                    },
+                    {
+                        "source": 3,
+                        "target": 24
+                    },
+                    {
+                        "source": 3,
+                        "target": 26
+                    },
+                    {
+                        "source": 3,
+                        "target": 32
+                    },
+                    {
+                        "source": 3,
+                        "target": 34
+                    },
+                    {
+                        "source": 3,
+                        "target": 35
+                    },
+                    {
+                        "source": 3,
+                        "target": 37
+                    },
+                    {
+                        "source": 4,
+                        "target": 12
+                    },
+                    {
+                        "source": 4,
+                        "target": 15
+                    },
+                    {
+                        "source": 4,
+                        "target": 16
+                    },
+                    {
+                        "source": 4,
+                        "target": 17
+                    },
+                    {
+                        "source": 4,
+                        "target": 19
+                    },
+                    {
+                        "source": 4,
+                        "target": 24
+                    },
+                    {
+                        "source": 4,
+                        "target": 26
+                    },
+                    {
+                        "source": 4,
+                        "target": 28
+                    },
+                    {
+                        "source": 4,
+                        "target": 31
+                    },
+                    {
+                        "source": 4,
+                        "target": 38
+                    },
+                    {
+                        "source": 5,
+                        "target": 6
+                    },
+                    {
+                        "source": 5,
+                        "target": 9
+                    },
+                    {
+                        "source": 5,
+                        "target": 10
+                    },
+                    {
+                        "source": 5,
+                        "target": 14
+                    },
+                    {
+                        "source": 5,
+                        "target": 21
+                    },
+                    {
+                        "source": 5,
+                        "target": 22
+                    },
+                    {
+                        "source": 5,
+                        "target": 25
+                    },
+                    {
+                        "source": 5,
+                        "target": 27
+                    },
+                    {
+                        "source": 5,
+                        "target": 31
+                    },
+                    {
+                        "source": 5,
+                        "target": 37
+                    },
+                    {
+                        "source": 5,
+                        "target": 38
+                    },
+                    {
+                        "source": 5,
+                        "target": 39
+                    },
+                    {
+                        "source": 6,
+                        "target": 11
+                    },
+                    {
+                        "source": 6,
+                        "target": 13
+                    },
+                    {
+                        "source": 6,
+                        "target": 16
+                    },
+                    {
+                        "source": 6,
+                        "target": 23
+                    },
+                    {
+                        "source": 6,
+                        "target": 24
+                    },
+                    {
+                        "source": 6,
+                        "target": 28
+                    },
+                    {
+                        "source": 6,
+                        "target": 31
+                    },
+                    {
+                        "source": 7,
+                        "target": 11
+                    },
+                    {
+                        "source": 7,
+                        "target": 14
+                    },
+                    {
+                        "source": 7,
+                        "target": 22
+                    },
+                    {
+                        "source": 7,
+                        "target": 24
+                    },
+                    {
+                        "source": 7,
+                        "target": 26
+                    },
+                    {
+                        "source": 7,
+                        "target": 28
+                    },
+                    {
+                        "source": 7,
+                        "target": 29
+                    },
+                    {
+                        "source": 8,
+                        "target": 13
+                    },
+                    {
+                        "source": 8,
+                        "target": 16
+                    },
+                    {
+                        "source": 9,
+                        "target": 15
+                    },
+                    {
+                        "source": 9,
+                        "target": 16
+                    },
+                    {
+                        "source": 9,
+                        "target": 21
+                    },
+                    {
+                        "source": 9,
+                        "target": 26
+                    },
+                    {
+                        "source": 9,
+                        "target": 29
+                    },
+                    {
+                        "source": 9,
+                        "target": 30
+                    },
+                    {
+                        "source": 9,
+                        "target": 32
+                    },
+                    {
+                        "source": 9,
+                        "target": 34
+                    },
+                    {
+                        "source": 9,
+                        "target": 37
+                    },
+                    {
+                        "source": 10,
+                        "target": 14
+                    },
+                    {
+                        "source": 10,
+                        "target": 17
+                    },
+                    {
+                        "source": 10,
+                        "target": 18
+                    },
+                    {
+                        "source": 10,
+                        "target": 25
+                    },
+                    {
+                        "source": 10,
+                        "target": 26
+                    },
+                    {
+                        "source": 10,
+                        "target": 32
+                    },
+                    {
+                        "source": 10,
+                        "target": 33
+                    },
+                    {
+                        "source": 10,
+                        "target": 34
+                    },
+                    {
+                        "source": 10,
+                        "target": 36
+                    },
+                    {
+                        "source": 10,
+                        "target": 37
+                    },
+                    {
+                        "source": 10,
+                        "target": 38
+                    },
+                    {
+                        "source": 10,
+                        "target": 39
+                    },
+                    {
+                        "source": 11,
+                        "target": 15
+                    },
+                    {
+                        "source": 11,
+                        "target": 20
+                    },
+                    {
+                        "source": 11,
+                        "target": 21
+                    },
+                    {
+                        "source": 11,
+                        "target": 29
+                    },
+                    {
+                        "source": 11,
+                        "target": 31
+                    },
+                    {
+                        "source": 11,
+                        "target": 33
+                    },
+                    {
+                        "source": 11,
+                        "target": 38
+                    },
+                    {
+                        "source": 12,
+                        "target": 24
+                    },
+                    {
+                        "source": 12,
+                        "target": 28
+                    },
+                    {
+                        "source": 12,
+                        "target": 29
+                    },
+                    {
+                        "source": 12,
+                        "target": 30
+                    },
+                    {
+                        "source": 12,
+                        "target": 31
+                    },
+                    {
+                        "source": 12,
+                        "target": 35
+                    },
+                    {
+                        "source": 12,
+                        "target": 39
+                    },
+                    {
+                        "source": 13,
+                        "target": 17
+                    },
+                    {
+                        "source": 13,
+                        "target": 18
+                    },
+                    {
+                        "source": 13,
+                        "target": 20
+                    },
+                    {
+                        "source": 13,
+                        "target": 27
+                    },
+                    {
+                        "source": 13,
+                        "target": 28
+                    },
+                    {
+                        "source": 13,
+                        "target": 29
+                    },
+                    {
+                        "source": 13,
+                        "target": 31
+                    },
+                    {
+                        "source": 13,
+                        "target": 33
+                    },
+                    {
+                        "source": 13,
+                        "target": 35
+                    },
+                    {
+                        "source": 13,
+                        "target": 36
+                    },
+                    {
+                        "source": 13,
+                        "target": 39
+                    },
+                    {
+                        "source": 14,
+                        "target": 19
+                    },
+                    {
+                        "source": 14,
+                        "target": 23
+                    },
+                    {
+                        "source": 14,
+                        "target": 32
+                    },
+                    {
+                        "source": 14,
+                        "target": 37
+                    },
+                    {
+                        "source": 14,
+                        "target": 38
+                    },
+                    {
+                        "source": 15,
+                        "target": 16
+                    },
+                    {
+                        "source": 15,
+                        "target": 17
+                    },
+                    {
+                        "source": 15,
+                        "target": 23
+                    },
+                    {
+                        "source": 15,
+                        "target": 24
+                    },
+                    {
+                        "source": 15,
+                        "target": 26
+                    },
+                    {
+                        "source": 15,
+                        "target": 27
+                    },
+                    {
+                        "source": 15,
+                        "target": 33
+                    },
+                    {
+                        "source": 16,
+                        "target": 17
+                    },
+                    {
+                        "source": 16,
+                        "target": 22
+                    },
+                    {
+                        "source": 16,
+                        "target": 23
+                    },
+                    {
+                        "source": 16,
+                        "target": 26
+                    },
+                    {
+                        "source": 16,
+                        "target": 27
+                    },
+                    {
+                        "source": 16,
+                        "target": 33
+                    },
+                    {
+                        "source": 16,
+                        "target": 38
+                    },
+                    {
+                        "source": 17,
+                        "target": 19
+                    },
+                    {
+                        "source": 17,
+                        "target": 26
+                    },
+                    {
+                        "source": 17,
+                        "target": 29
+                    },
+                    {
+                        "source": 17,
+                        "target": 30
+                    },
+                    {
+                        "source": 17,
+                        "target": 34
+                    },
+                    {
+                        "source": 17,
+                        "target": 35
+                    },
+                    {
+                        "source": 17,
+                        "target": 39
+                    },
+                    {
+                        "source": 18,
+                        "target": 20
+                    },
+                    {
+                        "source": 18,
+                        "target": 21
+                    },
+                    {
+                        "source": 19,
+                        "target": 24
+                    },
+                    {
+                        "source": 19,
+                        "target": 26
+                    },
+                    {
+                        "source": 19,
+                        "target": 27
+                    },
+                    {
+                        "source": 19,
+                        "target": 31
+                    },
+                    {
+                        "source": 19,
+                        "target": 34
+                    },
+                    {
+                        "source": 19,
+                        "target": 35
+                    },
+                    {
+                        "source": 19,
+                        "target": 36
+                    },
+                    {
+                        "source": 19,
+                        "target": 37
+                    },
+                    {
+                        "source": 19,
+                        "target": 39
+                    },
+                    {
+                        "source": 20,
+                        "target": 21
+                    },
+                    {
+                        "source": 20,
+                        "target": 24
+                    },
+                    {
+                        "source": 20,
+                        "target": 29
+                    },
+                    {
+                        "source": 20,
+                        "target": 33
+                    },
+                    {
+                        "source": 20,
+                        "target": 39
+                    },
+                    {
+                        "source": 21,
+                        "target": 28
+                    },
+                    {
+                        "source": 21,
+                        "target": 30
+                    },
+                    {
+                        "source": 21,
+                        "target": 32
+                    },
+                    {
+                        "source": 21,
+                        "target": 39
+                    },
+                    {
+                        "source": 22,
+                        "target": 25
+                    },
+                    {
+                        "source": 22,
+                        "target": 35
+                    },
+                    {
+                        "source": 22,
+                        "target": 36
+                    },
+                    {
+                        "source": 22,
+                        "target": 38
+                    },
+                    {
+                        "source": 23,
+                        "target": 25
+                    },
+                    {
+                        "source": 23,
+                        "target": 29
+                    },
+                    {
+                        "source": 23,
+                        "target": 35
+                    },
+                    {
+                        "source": 24,
+                        "target": 26
+                    },
+                    {
+                        "source": 24,
+                        "target": 30
+                    },
+                    {
+                        "source": 24,
+                        "target": 34
+                    },
+                    {
+                        "source": 25,
+                        "target": 26
+                    },
+                    {
+                        "source": 25,
+                        "target": 29
+                    },
+                    {
+                        "source": 25,
+                        "target": 36
+                    },
+                    {
+                        "source": 25,
+                        "target": 39
+                    },
+                    {
+                        "source": 26,
+                        "target": 33
+                    },
+                    {
+                        "source": 26,
+                        "target": 35
+                    },
+                    {
+                        "source": 26,
+                        "target": 38
+                    },
+                    {
+                        "source": 26,
+                        "target": 39
+                    },
+                    {
+                        "source": 27,
+                        "target": 28
+                    },
+                    {
+                        "source": 27,
+                        "target": 31
+                    },
+                    {
+                        "source": 28,
+                        "target": 29
+                    },
+                    {
+                        "source": 28,
+                        "target": 30
+                    },
+                    {
+                        "source": 28,
+                        "target": 34
+                    },
+                    {
+                        "source": 28,
+                        "target": 36
+                    },
+                    {
+                        "source": 28,
+                        "target": 37
+                    },
+                    {
+                        "source": 28,
+                        "target": 38
+                    },
+                    {
+                        "source": 29,
+                        "target": 37
+                    },
+                    {
+                        "source": 30,
+                        "target": 39
+                    },
+                    {
+                        "source": 32,
+                        "target": 34
+                    },
+                    {
+                        "source": 32,
+                        "target": 36
+                    },
+                    {
+                        "source": 32,
+                        "target": 37
+                    },
+                    {
+                        "source": 32,
+                        "target": 39
+                    },
+                    {
+                        "source": 33,
+                        "target": 34
+                    },
+                    {
+                        "source": 33,
+                        "target": 38
+                    },
+                    {
+                        "source": 33,
+                        "target": 39
+                    },
+                    {
+                        "source": 34,
+                        "target": 35
+                    },
+                    {
+                        "source": 34,
+                        "target": 36
+                    },
+                    {
+                        "source": 34,
+                        "target": 39
+                    },
+                    {
+                        "source": 35,
+                        "target": 37
+                    },
+                    {
+                        "source": 35,
+                        "target": 38
+                    },
+                    {
+                        "source": 36,
+                        "target": 37
+                    },
+                    {
+                        "source": 38,
+                        "target": 39
+                    }
+                ]
+            },
+            "method": {
+                "sampler": "Sampler(sampler=SimulatedAnnealingSampler(), num_reads=10)"
+            },
+            "qubo": {
+                "Q": [
+                    [
+                        [
+                            -5.95,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            1.1,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1,
+                            0.1,
+                            1.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            1.1,
+                            0.1,
+                            0.1,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            1.1,
+                            1.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            0.1,
+                            0.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95,
+                            1.1
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -5.95
+                        ]
+                    ]
+                ],
+                "lambda": [
+                    4
+                ],
+                "mu_half": [
+                    0.1
+                ],
+                "norm_Q": [
+                    40.80563686551161
+                ]
+            },
+            "computed_cardinality": 20,
+            "mui": 0.1,
+            "best_computed_cardinality": 20,
+            "best_computed_cardinality_x": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "initial_lambda": 4,
+            "lambdai": 4,
+            "step": 1.1,
+            "max_iterations": 50,
+            "number_of_iterations": 1
+        }
+    },
+    "algorithm": "AlgoAugementedLagrangianSA(g=(40, 201),k=20, method=Sampler(sampler=SimulatedAnnealingSampler(), num_reads=10), result=Result, initial_lambda=4,initial_mu=0.1, step=1.1, max_iterations=50))\nlambdai=4\nmui=0.1\nnumber_of_iterations=1",
+    "super_summary": {
+        "instance": "kcluster40_075_20_5",
+        "algorithm": "AlgoAugementedLagrangianSA",
+        "optimum": 19.0,
+        "computed_val": 19,
+        "is_optimal": true,
+        "computed_cardinality": 20,
+        "time": 0.0035066604614257812
+    }
+}

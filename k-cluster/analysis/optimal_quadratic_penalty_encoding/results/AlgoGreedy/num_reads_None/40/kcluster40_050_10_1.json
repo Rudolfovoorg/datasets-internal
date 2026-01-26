@@ -1,0 +1,81 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "id": 6
+            },
+            {
+                "id": 8
+            },
+            {
+                "id": 13
+            },
+            {
+                "id": 17
+            },
+            {
+                "id": 18
+            },
+            {
+                "id": 19
+            },
+            {
+                "id": 23
+            },
+            {
+                "id": 31
+            },
+            {
+                "id": 33
+            },
+            {
+                "id": 36
+            }
+        ],
+        "edges": [
+            {
+                "source": 6,
+                "target": 13
+            },
+            {
+                "source": 6,
+                "target": 17
+            },
+            {
+                "source": 6,
+                "target": 36
+            },
+            {
+                "source": 8,
+                "target": 17
+            },
+            {
+                "source": 13,
+                "target": 19
+            },
+            {
+                "source": 18,
+                "target": 23
+            },
+            {
+                "source": 19,
+                "target": 31
+            }
+        ]
+    },
+    "sampler_response": null,
+    "additional_info": {},
+    "algorithm": "Greedy",
+    "super_summary": {
+        "instance": "kcluster40_050_10_1",
+        "algorithm": "AlgoGreedy",
+        "optimum": 5.0,
+        "computed_val": 7,
+        "is_optimal": false,
+        "computed_cardinality": 10,
+        "time": 0.00041866302490234375
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "id": 3
+            },
+            {
+                "id": 7
+            },
+            {
+                "id": 8
+            },
+            {
+                "id": 10
+            },
+            {
+                "id": 12
+            },
+            {
+                "id": 13
+            },
+            {
+                "id": 15
+            },
+            {
+                "id": 19
+            },
+            {
+                "id": 24
+            },
+            {
+                "id": 26
+            }
+        ],
+        "edges": []
+    },
+    "sampler_response": null,
+    "additional_info": {},
+    "algorithm": "Greedy",
+    "super_summary": {
+        "instance": "kcluster40_075_10_3",
+        "algorithm": "AlgoGreedy",
+        "optimum": 0.0,
+        "computed_val": 0,
+        "is_optimal": true,
+        "computed_cardinality": 10,
+        "time": 0.0002903938293457031
+    }
+}

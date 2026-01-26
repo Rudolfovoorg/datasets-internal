@@ -1,0 +1,133 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "id": 2
+            },
+            {
+                "id": 3
+            },
+            {
+                "id": 4
+            },
+            {
+                "id": 8
+            },
+            {
+                "id": 14
+            },
+            {
+                "id": 22
+            },
+            {
+                "id": 23
+            },
+            {
+                "id": 26
+            },
+            {
+                "id": 29
+            },
+            {
+                "id": 32
+            }
+        ],
+        "edges": [
+            {
+                "source": 2,
+                "target": 3
+            },
+            {
+                "source": 2,
+                "target": 4
+            },
+            {
+                "source": 2,
+                "target": 8
+            },
+            {
+                "source": 2,
+                "target": 22
+            },
+            {
+                "source": 2,
+                "target": 23
+            },
+            {
+                "source": 2,
+                "target": 32
+            },
+            {
+                "source": 3,
+                "target": 8
+            },
+            {
+                "source": 3,
+                "target": 14
+            },
+            {
+                "source": 3,
+                "target": 26
+            },
+            {
+                "source": 4,
+                "target": 22
+            },
+            {
+                "source": 4,
+                "target": 26
+            },
+            {
+                "source": 4,
+                "target": 29
+            },
+            {
+                "source": 8,
+                "target": 14
+            },
+            {
+                "source": 8,
+                "target": 22
+            },
+            {
+                "source": 8,
+                "target": 32
+            },
+            {
+                "source": 14,
+                "target": 29
+            },
+            {
+                "source": 14,
+                "target": 32
+            },
+            {
+                "source": 22,
+                "target": 23
+            },
+            {
+                "source": 23,
+                "target": 29
+            },
+            {
+                "source": 23,
+                "target": 32
+            }
+        ]
+    },
+    "sampler_response": null,
+    "additional_info": {},
+    "algorithm": "Greedy",
+    "super_summary": {
+        "instance": "kcluster40_025_10_4",
+        "algorithm": "AlgoGreedy",
+        "optimum": 18.0,
+        "computed_val": 20,
+        "is_optimal": false,
+        "computed_cardinality": 10,
+        "time": 0.0005390644073486328
+    }
+}

@@ -1,0 +1,3671 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "_original_labeling": 2,
+                "id": 2
+            },
+            {
+                "_original_labeling": 3,
+                "id": 3
+            },
+            {
+                "_original_labeling": 5,
+                "id": 5
+            },
+            {
+                "_original_labeling": 6,
+                "id": 6
+            },
+            {
+                "_original_labeling": 39,
+                "id": 39
+            },
+            {
+                "_original_labeling": 9,
+                "id": 9
+            },
+            {
+                "_original_labeling": 23,
+                "id": 23
+            },
+            {
+                "_original_labeling": 27,
+                "id": 27
+            },
+            {
+                "_original_labeling": 28,
+                "id": 28
+            },
+            {
+                "_original_labeling": 30,
+                "id": 30
+            }
+        ],
+        "edges": [
+            {
+                "source": 2,
+                "target": 3
+            },
+            {
+                "source": 2,
+                "target": 6
+            },
+            {
+                "source": 2,
+                "target": 9
+            },
+            {
+                "source": 3,
+                "target": 5
+            },
+            {
+                "source": 5,
+                "target": 27
+            },
+            {
+                "source": 5,
+                "target": 39
+            },
+            {
+                "source": 6,
+                "target": 27
+            },
+            {
+                "source": 6,
+                "target": 30
+            },
+            {
+                "source": 6,
+                "target": 39
+            },
+            {
+                "source": 23,
+                "target": 30
+            }
+        ]
+    },
+    "sampler_response": {
+        "x": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "value": -590.0,
+        "cardinality": 10,
+        "sampleset": {
+            "type": "SampleSet",
+            "version": {
+                "sampleset_schema": "3.2.0"
+            },
+            "num_variables": 40,
+            "num_rows": 10,
+            "sample_data": {
+                "type": "array",
+                "data": [
+                    [
+                        88610370,
+                        2
+                    ],
+                    [
+                        1484784236,
+                        128
+                    ],
+                    [
+                        218112514,
+                        99
+                    ],
+                    [
+                        71372832,
+                        155
+                    ],
+                    [
+                        218378372,
+                        34
+                    ],
+                    [
+                        8848458,
+                        5
+                    ],
+                    [
+                        541196441,
+                        161
+                    ],
+                    [
+                        851446280,
+                        129
+                    ],
+                    [
+                        102774850,
+                        96
+                    ],
+                    [
+                        279969876,
+                        140
+                    ]
+                ],
+                "data_type": "uint32",
+                "shape": [
+                    10,
+                    2
+                ],
+                "use_bytes": false
+            },
+            "sample_type": "int8",
+            "sample_packed": true,
+            "vectors": {
+                "energy": {
+                    "type": "array",
+                    "data": [
+                        -588,
+                        -590,
+                        -588,
+                        -583,
+                        -590,
+                        -589,
+                        -586,
+                        -588,
+                        -586,
+                        -590
+                    ],
+                    "data_type": "float64",
+                    "shape": [
+                        10
+                    ],
+                    "use_bytes": false
+                },
+                "num_occurrences": {
+                    "type": "array",
+                    "data": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "data_type": "int64",
+                    "shape": [
+                        10
+                    ],
+                    "use_bytes": false
+                }
+            },
+            "variable_labels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39
+            ],
+            "variable_type": "BINARY",
+            "info": {
+                "beta_range": [
+                    0.0018337226998940352,
+                    1.3823416066836713
+                ],
+                "beta_schedule_type": "geometric",
+                "timing": {
+                    "preprocessing_ns": 842794,
+                    "sampling_ns": 9756897,
+                    "postprocessing_ns": 98630
+                }
+            }
+        }
+    },
+    "additional_info": {
+        "algo_summary": {
+            "algorithm": "AlgoAugementedLagrangianPenExactType2SA():",
+            "g": {
+                "directed": false,
+                "multigraph": false,
+                "graph": {},
+                "nodes": [
+                    {
+                        "_original_labeling": 0,
+                        "id": 0
+                    },
+                    {
+                        "_original_labeling": 1,
+                        "id": 1
+                    },
+                    {
+                        "_original_labeling": 2,
+                        "id": 2
+                    },
+                    {
+                        "_original_labeling": 3,
+                        "id": 3
+                    },
+                    {
+                        "_original_labeling": 4,
+                        "id": 4
+                    },
+                    {
+                        "_original_labeling": 5,
+                        "id": 5
+                    },
+                    {
+                        "_original_labeling": 6,
+                        "id": 6
+                    },
+                    {
+                        "_original_labeling": 7,
+                        "id": 7
+                    },
+                    {
+                        "_original_labeling": 8,
+                        "id": 8
+                    },
+                    {
+                        "_original_labeling": 9,
+                        "id": 9
+                    },
+                    {
+                        "_original_labeling": 10,
+                        "id": 10
+                    },
+                    {
+                        "_original_labeling": 11,
+                        "id": 11
+                    },
+                    {
+                        "_original_labeling": 12,
+                        "id": 12
+                    },
+                    {
+                        "_original_labeling": 13,
+                        "id": 13
+                    },
+                    {
+                        "_original_labeling": 14,
+                        "id": 14
+                    },
+                    {
+                        "_original_labeling": 15,
+                        "id": 15
+                    },
+                    {
+                        "_original_labeling": 16,
+                        "id": 16
+                    },
+                    {
+                        "_original_labeling": 17,
+                        "id": 17
+                    },
+                    {
+                        "_original_labeling": 18,
+                        "id": 18
+                    },
+                    {
+                        "_original_labeling": 19,
+                        "id": 19
+                    },
+                    {
+                        "_original_labeling": 20,
+                        "id": 20
+                    },
+                    {
+                        "_original_labeling": 21,
+                        "id": 21
+                    },
+                    {
+                        "_original_labeling": 22,
+                        "id": 22
+                    },
+                    {
+                        "_original_labeling": 23,
+                        "id": 23
+                    },
+                    {
+                        "_original_labeling": 24,
+                        "id": 24
+                    },
+                    {
+                        "_original_labeling": 25,
+                        "id": 25
+                    },
+                    {
+                        "_original_labeling": 26,
+                        "id": 26
+                    },
+                    {
+                        "_original_labeling": 27,
+                        "id": 27
+                    },
+                    {
+                        "_original_labeling": 28,
+                        "id": 28
+                    },
+                    {
+                        "_original_labeling": 29,
+                        "id": 29
+                    },
+                    {
+                        "_original_labeling": 30,
+                        "id": 30
+                    },
+                    {
+                        "_original_labeling": 31,
+                        "id": 31
+                    },
+                    {
+                        "_original_labeling": 32,
+                        "id": 32
+                    },
+                    {
+                        "_original_labeling": 33,
+                        "id": 33
+                    },
+                    {
+                        "_original_labeling": 34,
+                        "id": 34
+                    },
+                    {
+                        "_original_labeling": 35,
+                        "id": 35
+                    },
+                    {
+                        "_original_labeling": 36,
+                        "id": 36
+                    },
+                    {
+                        "_original_labeling": 37,
+                        "id": 37
+                    },
+                    {
+                        "_original_labeling": 38,
+                        "id": 38
+                    },
+                    {
+                        "_original_labeling": 39,
+                        "id": 39
+                    }
+                ],
+                "edges": [
+                    {
+                        "source": 0,
+                        "target": 1
+                    },
+                    {
+                        "source": 0,
+                        "target": 2
+                    },
+                    {
+                        "source": 0,
+                        "target": 3
+                    },
+                    {
+                        "source": 0,
+                        "target": 5
+                    },
+                    {
+                        "source": 0,
+                        "target": 9
+                    },
+                    {
+                        "source": 0,
+                        "target": 13
+                    },
+                    {
+                        "source": 0,
+                        "target": 14
+                    },
+                    {
+                        "source": 0,
+                        "target": 15
+                    },
+                    {
+                        "source": 0,
+                        "target": 16
+                    },
+                    {
+                        "source": 0,
+                        "target": 18
+                    },
+                    {
+                        "source": 0,
+                        "target": 20
+                    },
+                    {
+                        "source": 0,
+                        "target": 21
+                    },
+                    {
+                        "source": 0,
+                        "target": 22
+                    },
+                    {
+                        "source": 0,
+                        "target": 23
+                    },
+                    {
+                        "source": 0,
+                        "target": 24
+                    },
+                    {
+                        "source": 0,
+                        "target": 26
+                    },
+                    {
+                        "source": 0,
+                        "target": 27
+                    },
+                    {
+                        "source": 0,
+                        "target": 29
+                    },
+                    {
+                        "source": 0,
+                        "target": 32
+                    },
+                    {
+                        "source": 0,
+                        "target": 34
+                    },
+                    {
+                        "source": 0,
+                        "target": 35
+                    },
+                    {
+                        "source": 0,
+                        "target": 36
+                    },
+                    {
+                        "source": 0,
+                        "target": 37
+                    },
+                    {
+                        "source": 0,
+                        "target": 38
+                    },
+                    {
+                        "source": 1,
+                        "target": 2
+                    },
+                    {
+                        "source": 1,
+                        "target": 3
+                    },
+                    {
+                        "source": 1,
+                        "target": 4
+                    },
+                    {
+                        "source": 1,
+                        "target": 5
+                    },
+                    {
+                        "source": 1,
+                        "target": 8
+                    },
+                    {
+                        "source": 1,
+                        "target": 12
+                    },
+                    {
+                        "source": 1,
+                        "target": 15
+                    },
+                    {
+                        "source": 1,
+                        "target": 17
+                    },
+                    {
+                        "source": 1,
+                        "target": 18
+                    },
+                    {
+                        "source": 1,
+                        "target": 20
+                    },
+                    {
+                        "source": 1,
+                        "target": 24
+                    },
+                    {
+                        "source": 1,
+                        "target": 25
+                    },
+                    {
+                        "source": 1,
+                        "target": 27
+                    },
+                    {
+                        "source": 1,
+                        "target": 30
+                    },
+                    {
+                        "source": 1,
+                        "target": 35
+                    },
+                    {
+                        "source": 1,
+                        "target": 36
+                    },
+                    {
+                        "source": 1,
+                        "target": 37
+                    },
+                    {
+                        "source": 2,
+                        "target": 3
+                    },
+                    {
+                        "source": 2,
+                        "target": 6
+                    },
+                    {
+                        "source": 2,
+                        "target": 7
+                    },
+                    {
+                        "source": 2,
+                        "target": 8
+                    },
+                    {
+                        "source": 2,
+                        "target": 9
+                    },
+                    {
+                        "source": 2,
+                        "target": 10
+                    },
+                    {
+                        "source": 2,
+                        "target": 11
+                    },
+                    {
+                        "source": 2,
+                        "target": 12
+                    },
+                    {
+                        "source": 2,
+                        "target": 14
+                    },
+                    {
+                        "source": 2,
+                        "target": 17
+                    },
+                    {
+                        "source": 2,
+                        "target": 19
+                    },
+                    {
+                        "source": 2,
+                        "target": 22
+                    },
+                    {
+                        "source": 2,
+                        "target": 34
+                    },
+                    {
+                        "source": 2,
+                        "target": 35
+                    },
+                    {
+                        "source": 2,
+                        "target": 37
+                    },
+                    {
+                        "source": 2,
+                        "target": 38
+                    },
+                    {
+                        "source": 3,
+                        "target": 4
+                    },
+                    {
+                        "source": 3,
+                        "target": 5
+                    },
+                    {
+                        "source": 3,
+                        "target": 8
+                    },
+                    {
+                        "source": 3,
+                        "target": 11
+                    },
+                    {
+                        "source": 3,
+                        "target": 12
+                    },
+                    {
+                        "source": 3,
+                        "target": 14
+                    },
+                    {
+                        "source": 3,
+                        "target": 15
+                    },
+                    {
+                        "source": 3,
+                        "target": 24
+                    },
+                    {
+                        "source": 3,
+                        "target": 25
+                    },
+                    {
+                        "source": 3,
+                        "target": 26
+                    },
+                    {
+                        "source": 3,
+                        "target": 33
+                    },
+                    {
+                        "source": 3,
+                        "target": 35
+                    },
+                    {
+                        "source": 3,
+                        "target": 36
+                    },
+                    {
+                        "source": 3,
+                        "target": 38
+                    },
+                    {
+                        "source": 4,
+                        "target": 5
+                    },
+                    {
+                        "source": 4,
+                        "target": 6
+                    },
+                    {
+                        "source": 4,
+                        "target": 8
+                    },
+                    {
+                        "source": 4,
+                        "target": 9
+                    },
+                    {
+                        "source": 4,
+                        "target": 11
+                    },
+                    {
+                        "source": 4,
+                        "target": 12
+                    },
+                    {
+                        "source": 4,
+                        "target": 15
+                    },
+                    {
+                        "source": 4,
+                        "target": 17
+                    },
+                    {
+                        "source": 4,
+                        "target": 21
+                    },
+                    {
+                        "source": 4,
+                        "target": 23
+                    },
+                    {
+                        "source": 4,
+                        "target": 27
+                    },
+                    {
+                        "source": 4,
+                        "target": 30
+                    },
+                    {
+                        "source": 4,
+                        "target": 33
+                    },
+                    {
+                        "source": 4,
+                        "target": 37
+                    },
+                    {
+                        "source": 5,
+                        "target": 7
+                    },
+                    {
+                        "source": 5,
+                        "target": 8
+                    },
+                    {
+                        "source": 5,
+                        "target": 11
+                    },
+                    {
+                        "source": 5,
+                        "target": 13
+                    },
+                    {
+                        "source": 5,
+                        "target": 14
+                    },
+                    {
+                        "source": 5,
+                        "target": 15
+                    },
+                    {
+                        "source": 5,
+                        "target": 16
+                    },
+                    {
+                        "source": 5,
+                        "target": 19
+                    },
+                    {
+                        "source": 5,
+                        "target": 21
+                    },
+                    {
+                        "source": 5,
+                        "target": 24
+                    },
+                    {
+                        "source": 5,
+                        "target": 27
+                    },
+                    {
+                        "source": 5,
+                        "target": 32
+                    },
+                    {
+                        "source": 5,
+                        "target": 33
+                    },
+                    {
+                        "source": 5,
+                        "target": 39
+                    },
+                    {
+                        "source": 6,
+                        "target": 7
+                    },
+                    {
+                        "source": 6,
+                        "target": 10
+                    },
+                    {
+                        "source": 6,
+                        "target": 11
+                    },
+                    {
+                        "source": 6,
+                        "target": 13
+                    },
+                    {
+                        "source": 6,
+                        "target": 14
+                    },
+                    {
+                        "source": 6,
+                        "target": 16
+                    },
+                    {
+                        "source": 6,
+                        "target": 18
+                    },
+                    {
+                        "source": 6,
+                        "target": 19
+                    },
+                    {
+                        "source": 6,
+                        "target": 22
+                    },
+                    {
+                        "source": 6,
+                        "target": 27
+                    },
+                    {
+                        "source": 6,
+                        "target": 30
+                    },
+                    {
+                        "source": 6,
+                        "target": 32
+                    },
+                    {
+                        "source": 6,
+                        "target": 37
+                    },
+                    {
+                        "source": 6,
+                        "target": 38
+                    },
+                    {
+                        "source": 6,
+                        "target": 39
+                    },
+                    {
+                        "source": 7,
+                        "target": 10
+                    },
+                    {
+                        "source": 7,
+                        "target": 14
+                    },
+                    {
+                        "source": 7,
+                        "target": 15
+                    },
+                    {
+                        "source": 7,
+                        "target": 16
+                    },
+                    {
+                        "source": 7,
+                        "target": 19
+                    },
+                    {
+                        "source": 7,
+                        "target": 20
+                    },
+                    {
+                        "source": 7,
+                        "target": 22
+                    },
+                    {
+                        "source": 7,
+                        "target": 25
+                    },
+                    {
+                        "source": 7,
+                        "target": 28
+                    },
+                    {
+                        "source": 7,
+                        "target": 32
+                    },
+                    {
+                        "source": 7,
+                        "target": 33
+                    },
+                    {
+                        "source": 7,
+                        "target": 34
+                    },
+                    {
+                        "source": 7,
+                        "target": 38
+                    },
+                    {
+                        "source": 8,
+                        "target": 9
+                    },
+                    {
+                        "source": 8,
+                        "target": 10
+                    },
+                    {
+                        "source": 8,
+                        "target": 12
+                    },
+                    {
+                        "source": 8,
+                        "target": 15
+                    },
+                    {
+                        "source": 8,
+                        "target": 16
+                    },
+                    {
+                        "source": 8,
+                        "target": 20
+                    },
+                    {
+                        "source": 8,
+                        "target": 22
+                    },
+                    {
+                        "source": 8,
+                        "target": 24
+                    },
+                    {
+                        "source": 8,
+                        "target": 27
+                    },
+                    {
+                        "source": 8,
+                        "target": 28
+                    },
+                    {
+                        "source": 8,
+                        "target": 31
+                    },
+                    {
+                        "source": 8,
+                        "target": 32
+                    },
+                    {
+                        "source": 8,
+                        "target": 35
+                    },
+                    {
+                        "source": 8,
+                        "target": 38
+                    },
+                    {
+                        "source": 9,
+                        "target": 12
+                    },
+                    {
+                        "source": 9,
+                        "target": 14
+                    },
+                    {
+                        "source": 9,
+                        "target": 17
+                    },
+                    {
+                        "source": 9,
+                        "target": 19
+                    },
+                    {
+                        "source": 9,
+                        "target": 21
+                    },
+                    {
+                        "source": 9,
+                        "target": 22
+                    },
+                    {
+                        "source": 9,
+                        "target": 25
+                    },
+                    {
+                        "source": 9,
+                        "target": 26
+                    },
+                    {
+                        "source": 9,
+                        "target": 29
+                    },
+                    {
+                        "source": 9,
+                        "target": 31
+                    },
+                    {
+                        "source": 9,
+                        "target": 38
+                    },
+                    {
+                        "source": 10,
+                        "target": 11
+                    },
+                    {
+                        "source": 10,
+                        "target": 13
+                    },
+                    {
+                        "source": 10,
+                        "target": 14
+                    },
+                    {
+                        "source": 10,
+                        "target": 20
+                    },
+                    {
+                        "source": 10,
+                        "target": 21
+                    },
+                    {
+                        "source": 10,
+                        "target": 23
+                    },
+                    {
+                        "source": 10,
+                        "target": 24
+                    },
+                    {
+                        "source": 10,
+                        "target": 25
+                    },
+                    {
+                        "source": 10,
+                        "target": 27
+                    },
+                    {
+                        "source": 10,
+                        "target": 28
+                    },
+                    {
+                        "source": 10,
+                        "target": 29
+                    },
+                    {
+                        "source": 10,
+                        "target": 30
+                    },
+                    {
+                        "source": 10,
+                        "target": 31
+                    },
+                    {
+                        "source": 10,
+                        "target": 34
+                    },
+                    {
+                        "source": 10,
+                        "target": 35
+                    },
+                    {
+                        "source": 10,
+                        "target": 36
+                    },
+                    {
+                        "source": 10,
+                        "target": 38
+                    },
+                    {
+                        "source": 10,
+                        "target": 39
+                    },
+                    {
+                        "source": 11,
+                        "target": 13
+                    },
+                    {
+                        "source": 11,
+                        "target": 14
+                    },
+                    {
+                        "source": 11,
+                        "target": 15
+                    },
+                    {
+                        "source": 11,
+                        "target": 18
+                    },
+                    {
+                        "source": 11,
+                        "target": 19
+                    },
+                    {
+                        "source": 11,
+                        "target": 20
+                    },
+                    {
+                        "source": 11,
+                        "target": 22
+                    },
+                    {
+                        "source": 11,
+                        "target": 23
+                    },
+                    {
+                        "source": 11,
+                        "target": 24
+                    },
+                    {
+                        "source": 11,
+                        "target": 29
+                    },
+                    {
+                        "source": 11,
+                        "target": 30
+                    },
+                    {
+                        "source": 11,
+                        "target": 37
+                    },
+                    {
+                        "source": 12,
+                        "target": 14
+                    },
+                    {
+                        "source": 12,
+                        "target": 16
+                    },
+                    {
+                        "source": 12,
+                        "target": 18
+                    },
+                    {
+                        "source": 12,
+                        "target": 20
+                    },
+                    {
+                        "source": 12,
+                        "target": 23
+                    },
+                    {
+                        "source": 12,
+                        "target": 28
+                    },
+                    {
+                        "source": 12,
+                        "target": 34
+                    },
+                    {
+                        "source": 12,
+                        "target": 36
+                    },
+                    {
+                        "source": 12,
+                        "target": 37
+                    },
+                    {
+                        "source": 12,
+                        "target": 39
+                    },
+                    {
+                        "source": 13,
+                        "target": 14
+                    },
+                    {
+                        "source": 13,
+                        "target": 16
+                    },
+                    {
+                        "source": 13,
+                        "target": 19
+                    },
+                    {
+                        "source": 13,
+                        "target": 20
+                    },
+                    {
+                        "source": 13,
+                        "target": 21
+                    },
+                    {
+                        "source": 13,
+                        "target": 23
+                    },
+                    {
+                        "source": 13,
+                        "target": 25
+                    },
+                    {
+                        "source": 13,
+                        "target": 27
+                    },
+                    {
+                        "source": 13,
+                        "target": 28
+                    },
+                    {
+                        "source": 13,
+                        "target": 29
+                    },
+                    {
+                        "source": 13,
+                        "target": 30
+                    },
+                    {
+                        "source": 13,
+                        "target": 31
+                    },
+                    {
+                        "source": 13,
+                        "target": 32
+                    },
+                    {
+                        "source": 13,
+                        "target": 34
+                    },
+                    {
+                        "source": 13,
+                        "target": 36
+                    },
+                    {
+                        "source": 13,
+                        "target": 39
+                    },
+                    {
+                        "source": 14,
+                        "target": 15
+                    },
+                    {
+                        "source": 14,
+                        "target": 17
+                    },
+                    {
+                        "source": 14,
+                        "target": 19
+                    },
+                    {
+                        "source": 14,
+                        "target": 21
+                    },
+                    {
+                        "source": 14,
+                        "target": 23
+                    },
+                    {
+                        "source": 14,
+                        "target": 25
+                    },
+                    {
+                        "source": 14,
+                        "target": 27
+                    },
+                    {
+                        "source": 14,
+                        "target": 28
+                    },
+                    {
+                        "source": 14,
+                        "target": 31
+                    },
+                    {
+                        "source": 14,
+                        "target": 35
+                    },
+                    {
+                        "source": 14,
+                        "target": 36
+                    },
+                    {
+                        "source": 14,
+                        "target": 37
+                    },
+                    {
+                        "source": 14,
+                        "target": 38
+                    },
+                    {
+                        "source": 15,
+                        "target": 17
+                    },
+                    {
+                        "source": 15,
+                        "target": 18
+                    },
+                    {
+                        "source": 15,
+                        "target": 21
+                    },
+                    {
+                        "source": 15,
+                        "target": 25
+                    },
+                    {
+                        "source": 15,
+                        "target": 26
+                    },
+                    {
+                        "source": 15,
+                        "target": 27
+                    },
+                    {
+                        "source": 15,
+                        "target": 28
+                    },
+                    {
+                        "source": 15,
+                        "target": 29
+                    },
+                    {
+                        "source": 15,
+                        "target": 30
+                    },
+                    {
+                        "source": 15,
+                        "target": 31
+                    },
+                    {
+                        "source": 15,
+                        "target": 33
+                    },
+                    {
+                        "source": 15,
+                        "target": 37
+                    },
+                    {
+                        "source": 15,
+                        "target": 38
+                    },
+                    {
+                        "source": 16,
+                        "target": 19
+                    },
+                    {
+                        "source": 16,
+                        "target": 21
+                    },
+                    {
+                        "source": 16,
+                        "target": 25
+                    },
+                    {
+                        "source": 16,
+                        "target": 29
+                    },
+                    {
+                        "source": 16,
+                        "target": 33
+                    },
+                    {
+                        "source": 16,
+                        "target": 34
+                    },
+                    {
+                        "source": 16,
+                        "target": 35
+                    },
+                    {
+                        "source": 16,
+                        "target": 36
+                    },
+                    {
+                        "source": 16,
+                        "target": 37
+                    },
+                    {
+                        "source": 16,
+                        "target": 38
+                    },
+                    {
+                        "source": 17,
+                        "target": 20
+                    },
+                    {
+                        "source": 17,
+                        "target": 22
+                    },
+                    {
+                        "source": 17,
+                        "target": 25
+                    },
+                    {
+                        "source": 17,
+                        "target": 26
+                    },
+                    {
+                        "source": 17,
+                        "target": 27
+                    },
+                    {
+                        "source": 17,
+                        "target": 28
+                    },
+                    {
+                        "source": 17,
+                        "target": 30
+                    },
+                    {
+                        "source": 17,
+                        "target": 31
+                    },
+                    {
+                        "source": 17,
+                        "target": 35
+                    },
+                    {
+                        "source": 17,
+                        "target": 36
+                    },
+                    {
+                        "source": 17,
+                        "target": 37
+                    },
+                    {
+                        "source": 18,
+                        "target": 20
+                    },
+                    {
+                        "source": 18,
+                        "target": 21
+                    },
+                    {
+                        "source": 18,
+                        "target": 22
+                    },
+                    {
+                        "source": 18,
+                        "target": 25
+                    },
+                    {
+                        "source": 18,
+                        "target": 26
+                    },
+                    {
+                        "source": 18,
+                        "target": 27
+                    },
+                    {
+                        "source": 18,
+                        "target": 28
+                    },
+                    {
+                        "source": 18,
+                        "target": 29
+                    },
+                    {
+                        "source": 18,
+                        "target": 30
+                    },
+                    {
+                        "source": 18,
+                        "target": 31
+                    },
+                    {
+                        "source": 18,
+                        "target": 34
+                    },
+                    {
+                        "source": 18,
+                        "target": 35
+                    },
+                    {
+                        "source": 18,
+                        "target": 36
+                    },
+                    {
+                        "source": 18,
+                        "target": 38
+                    },
+                    {
+                        "source": 19,
+                        "target": 26
+                    },
+                    {
+                        "source": 19,
+                        "target": 28
+                    },
+                    {
+                        "source": 19,
+                        "target": 32
+                    },
+                    {
+                        "source": 19,
+                        "target": 37
+                    },
+                    {
+                        "source": 19,
+                        "target": 39
+                    },
+                    {
+                        "source": 20,
+                        "target": 22
+                    },
+                    {
+                        "source": 20,
+                        "target": 24
+                    },
+                    {
+                        "source": 20,
+                        "target": 26
+                    },
+                    {
+                        "source": 20,
+                        "target": 27
+                    },
+                    {
+                        "source": 20,
+                        "target": 29
+                    },
+                    {
+                        "source": 20,
+                        "target": 30
+                    },
+                    {
+                        "source": 20,
+                        "target": 32
+                    },
+                    {
+                        "source": 20,
+                        "target": 33
+                    },
+                    {
+                        "source": 20,
+                        "target": 37
+                    },
+                    {
+                        "source": 21,
+                        "target": 22
+                    },
+                    {
+                        "source": 21,
+                        "target": 23
+                    },
+                    {
+                        "source": 21,
+                        "target": 26
+                    },
+                    {
+                        "source": 21,
+                        "target": 27
+                    },
+                    {
+                        "source": 21,
+                        "target": 29
+                    },
+                    {
+                        "source": 21,
+                        "target": 30
+                    },
+                    {
+                        "source": 21,
+                        "target": 32
+                    },
+                    {
+                        "source": 21,
+                        "target": 33
+                    },
+                    {
+                        "source": 21,
+                        "target": 36
+                    },
+                    {
+                        "source": 21,
+                        "target": 38
+                    },
+                    {
+                        "source": 22,
+                        "target": 24
+                    },
+                    {
+                        "source": 22,
+                        "target": 28
+                    },
+                    {
+                        "source": 22,
+                        "target": 30
+                    },
+                    {
+                        "source": 22,
+                        "target": 34
+                    },
+                    {
+                        "source": 22,
+                        "target": 38
+                    },
+                    {
+                        "source": 22,
+                        "target": 39
+                    },
+                    {
+                        "source": 23,
+                        "target": 26
+                    },
+                    {
+                        "source": 23,
+                        "target": 30
+                    },
+                    {
+                        "source": 23,
+                        "target": 31
+                    },
+                    {
+                        "source": 23,
+                        "target": 33
+                    },
+                    {
+                        "source": 23,
+                        "target": 36
+                    },
+                    {
+                        "source": 23,
+                        "target": 37
+                    },
+                    {
+                        "source": 23,
+                        "target": 38
+                    },
+                    {
+                        "source": 24,
+                        "target": 25
+                    },
+                    {
+                        "source": 24,
+                        "target": 27
+                    },
+                    {
+                        "source": 24,
+                        "target": 28
+                    },
+                    {
+                        "source": 24,
+                        "target": 30
+                    },
+                    {
+                        "source": 24,
+                        "target": 35
+                    },
+                    {
+                        "source": 24,
+                        "target": 36
+                    },
+                    {
+                        "source": 24,
+                        "target": 39
+                    },
+                    {
+                        "source": 25,
+                        "target": 28
+                    },
+                    {
+                        "source": 25,
+                        "target": 31
+                    },
+                    {
+                        "source": 25,
+                        "target": 33
+                    },
+                    {
+                        "source": 25,
+                        "target": 34
+                    },
+                    {
+                        "source": 25,
+                        "target": 35
+                    },
+                    {
+                        "source": 25,
+                        "target": 36
+                    },
+                    {
+                        "source": 26,
+                        "target": 29
+                    },
+                    {
+                        "source": 26,
+                        "target": 30
+                    },
+                    {
+                        "source": 26,
+                        "target": 31
+                    },
+                    {
+                        "source": 26,
+                        "target": 35
+                    },
+                    {
+                        "source": 26,
+                        "target": 39
+                    },
+                    {
+                        "source": 27,
+                        "target": 29
+                    },
+                    {
+                        "source": 27,
+                        "target": 31
+                    },
+                    {
+                        "source": 27,
+                        "target": 32
+                    },
+                    {
+                        "source": 27,
+                        "target": 34
+                    },
+                    {
+                        "source": 27,
+                        "target": 35
+                    },
+                    {
+                        "source": 28,
+                        "target": 29
+                    },
+                    {
+                        "source": 28,
+                        "target": 31
+                    },
+                    {
+                        "source": 28,
+                        "target": 33
+                    },
+                    {
+                        "source": 28,
+                        "target": 34
+                    },
+                    {
+                        "source": 28,
+                        "target": 36
+                    },
+                    {
+                        "source": 28,
+                        "target": 37
+                    },
+                    {
+                        "source": 28,
+                        "target": 38
+                    },
+                    {
+                        "source": 29,
+                        "target": 30
+                    },
+                    {
+                        "source": 29,
+                        "target": 31
+                    },
+                    {
+                        "source": 29,
+                        "target": 33
+                    },
+                    {
+                        "source": 29,
+                        "target": 35
+                    },
+                    {
+                        "source": 29,
+                        "target": 38
+                    },
+                    {
+                        "source": 30,
+                        "target": 31
+                    },
+                    {
+                        "source": 30,
+                        "target": 33
+                    },
+                    {
+                        "source": 30,
+                        "target": 34
+                    },
+                    {
+                        "source": 30,
+                        "target": 36
+                    },
+                    {
+                        "source": 30,
+                        "target": 38
+                    },
+                    {
+                        "source": 31,
+                        "target": 32
+                    },
+                    {
+                        "source": 31,
+                        "target": 33
+                    },
+                    {
+                        "source": 31,
+                        "target": 35
+                    },
+                    {
+                        "source": 31,
+                        "target": 37
+                    },
+                    {
+                        "source": 31,
+                        "target": 38
+                    },
+                    {
+                        "source": 32,
+                        "target": 33
+                    },
+                    {
+                        "source": 32,
+                        "target": 36
+                    },
+                    {
+                        "source": 32,
+                        "target": 37
+                    },
+                    {
+                        "source": 32,
+                        "target": 38
+                    },
+                    {
+                        "source": 33,
+                        "target": 36
+                    },
+                    {
+                        "source": 33,
+                        "target": 39
+                    },
+                    {
+                        "source": 34,
+                        "target": 35
+                    },
+                    {
+                        "source": 34,
+                        "target": 38
+                    },
+                    {
+                        "source": 35,
+                        "target": 37
+                    },
+                    {
+                        "source": 36,
+                        "target": 37
+                    }
+                ]
+            },
+            "method": {
+                "sampler": "Sampler(sampler=SimulatedAnnealingSampler(), num_reads=10)"
+            },
+            "qubo": {
+                "Q": [
+                    [
+                        [
+                            -114.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            -114.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            13.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            12.0,
+                            13.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            13.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            13.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0,
+                            12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -114.0
+                        ]
+                    ]
+                ],
+                "lambda": [
+                    0
+                ],
+                "mu_half": [
+                    12
+                ],
+                "norm_Q": [
+                    800.7402824886482
+                ]
+            },
+            "computed_cardinality": 10,
+            "mui": 12,
+            "best_computed_cardinality": 10,
+            "best_computed_cardinality_x": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "initial_lambda": 0,
+            "lambdai": 0,
+            "step": 1.1,
+            "max_iterations": 50,
+            "number_of_iterations": 1
+        }
+    },
+    "algorithm": "AlgoAugementedLagrangianPenExactType2SA(g=(40, 361),k=10, method=Sampler(sampler=SimulatedAnnealingSampler(), num_reads=10), result=Result, initial_lambda=0,initial_mu=12, step=1.1, max_iterations=50))\nlambdai=0\nmui=12\nnumber_of_iterations=1",
+    "super_summary": {
+        "instance": "kcluster40_050_10_2",
+        "algorithm": "AlgoAugementedLagrangianPenExactType2SA",
+        "optimum": 4.0,
+        "computed_val": 10,
+        "is_optimal": false,
+        "computed_cardinality": 10,
+        "time": 0.012117624282836914
+    }
+}

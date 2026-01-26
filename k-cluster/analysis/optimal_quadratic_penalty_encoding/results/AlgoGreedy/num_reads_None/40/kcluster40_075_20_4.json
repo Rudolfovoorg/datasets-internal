@@ -1,0 +1,159 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "id": 0
+            },
+            {
+                "id": 2
+            },
+            {
+                "id": 3
+            },
+            {
+                "id": 6
+            },
+            {
+                "id": 7
+            },
+            {
+                "id": 9
+            },
+            {
+                "id": 11
+            },
+            {
+                "id": 12
+            },
+            {
+                "id": 16
+            },
+            {
+                "id": 17
+            },
+            {
+                "id": 18
+            },
+            {
+                "id": 20
+            },
+            {
+                "id": 24
+            },
+            {
+                "id": 25
+            },
+            {
+                "id": 26
+            },
+            {
+                "id": 29
+            },
+            {
+                "id": 31
+            },
+            {
+                "id": 32
+            },
+            {
+                "id": 35
+            },
+            {
+                "id": 39
+            }
+        ],
+        "edges": [
+            {
+                "source": 0,
+                "target": 16
+            },
+            {
+                "source": 0,
+                "target": 20
+            },
+            {
+                "source": 0,
+                "target": 39
+            },
+            {
+                "source": 2,
+                "target": 12
+            },
+            {
+                "source": 3,
+                "target": 39
+            },
+            {
+                "source": 6,
+                "target": 17
+            },
+            {
+                "source": 6,
+                "target": 29
+            },
+            {
+                "source": 7,
+                "target": 12
+            },
+            {
+                "source": 7,
+                "target": 31
+            },
+            {
+                "source": 9,
+                "target": 16
+            },
+            {
+                "source": 9,
+                "target": 26
+            },
+            {
+                "source": 11,
+                "target": 25
+            },
+            {
+                "source": 16,
+                "target": 20
+            },
+            {
+                "source": 17,
+                "target": 32
+            },
+            {
+                "source": 18,
+                "target": 29
+            },
+            {
+                "source": 18,
+                "target": 31
+            },
+            {
+                "source": 20,
+                "target": 26
+            },
+            {
+                "source": 24,
+                "target": 29
+            },
+            {
+                "source": 26,
+                "target": 39
+            }
+        ]
+    },
+    "sampler_response": null,
+    "additional_info": {},
+    "algorithm": "Greedy",
+    "super_summary": {
+        "instance": "kcluster40_075_20_4",
+        "algorithm": "AlgoGreedy",
+        "optimum": 19.0,
+        "computed_val": 19,
+        "is_optimal": true,
+        "computed_cardinality": 20,
+        "time": 0.00025844573974609375
+    }
+}

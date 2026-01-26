@@ -1,0 +1,475 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "id": 2
+            },
+            {
+                "id": 5
+            },
+            {
+                "id": 13
+            },
+            {
+                "id": 14
+            },
+            {
+                "id": 15
+            },
+            {
+                "id": 25
+            },
+            {
+                "id": 30
+            },
+            {
+                "id": 39
+            },
+            {
+                "id": 40
+            },
+            {
+                "id": 42
+            },
+            {
+                "id": 45
+            },
+            {
+                "id": 47
+            },
+            {
+                "id": 50
+            },
+            {
+                "id": 51
+            },
+            {
+                "id": 55
+            },
+            {
+                "id": 59
+            },
+            {
+                "id": 65
+            },
+            {
+                "id": 69
+            },
+            {
+                "id": 71
+            },
+            {
+                "id": 72
+            },
+            {
+                "id": 79
+            },
+            {
+                "id": 80
+            },
+            {
+                "id": 86
+            },
+            {
+                "id": 88
+            },
+            {
+                "id": 92
+            },
+            {
+                "id": 99
+            },
+            {
+                "id": 102
+            },
+            {
+                "id": 103
+            },
+            {
+                "id": 118
+            },
+            {
+                "id": 119
+            },
+            {
+                "id": 122
+            },
+            {
+                "id": 125
+            },
+            {
+                "id": 130
+            },
+            {
+                "id": 132
+            },
+            {
+                "id": 138
+            },
+            {
+                "id": 140
+            },
+            {
+                "id": 142
+            },
+            {
+                "id": 145
+            },
+            {
+                "id": 155
+            },
+            {
+                "id": 157
+            }
+        ],
+        "edges": [
+            {
+                "source": 2,
+                "target": 14
+            },
+            {
+                "source": 2,
+                "target": 59
+            },
+            {
+                "source": 2,
+                "target": 103
+            },
+            {
+                "source": 2,
+                "target": 118
+            },
+            {
+                "source": 2,
+                "target": 122
+            },
+            {
+                "source": 5,
+                "target": 15
+            },
+            {
+                "source": 5,
+                "target": 42
+            },
+            {
+                "source": 5,
+                "target": 50
+            },
+            {
+                "source": 5,
+                "target": 102
+            },
+            {
+                "source": 13,
+                "target": 15
+            },
+            {
+                "source": 13,
+                "target": 45
+            },
+            {
+                "source": 13,
+                "target": 79
+            },
+            {
+                "source": 13,
+                "target": 88
+            },
+            {
+                "source": 13,
+                "target": 125
+            },
+            {
+                "source": 14,
+                "target": 45
+            },
+            {
+                "source": 14,
+                "target": 80
+            },
+            {
+                "source": 14,
+                "target": 103
+            },
+            {
+                "source": 14,
+                "target": 119
+            },
+            {
+                "source": 15,
+                "target": 79
+            },
+            {
+                "source": 25,
+                "target": 30
+            },
+            {
+                "source": 25,
+                "target": 51
+            },
+            {
+                "source": 25,
+                "target": 71
+            },
+            {
+                "source": 25,
+                "target": 72
+            },
+            {
+                "source": 25,
+                "target": 118
+            },
+            {
+                "source": 25,
+                "target": 130
+            },
+            {
+                "source": 30,
+                "target": 42
+            },
+            {
+                "source": 30,
+                "target": 69
+            },
+            {
+                "source": 30,
+                "target": 102
+            },
+            {
+                "source": 30,
+                "target": 140
+            },
+            {
+                "source": 39,
+                "target": 50
+            },
+            {
+                "source": 39,
+                "target": 142
+            },
+            {
+                "source": 40,
+                "target": 42
+            },
+            {
+                "source": 40,
+                "target": 118
+            },
+            {
+                "source": 40,
+                "target": 122
+            },
+            {
+                "source": 40,
+                "target": 140
+            },
+            {
+                "source": 42,
+                "target": 69
+            },
+            {
+                "source": 42,
+                "target": 138
+            },
+            {
+                "source": 45,
+                "target": 59
+            },
+            {
+                "source": 45,
+                "target": 72
+            },
+            {
+                "source": 45,
+                "target": 99
+            },
+            {
+                "source": 47,
+                "target": 125
+            },
+            {
+                "source": 47,
+                "target": 132
+            },
+            {
+                "source": 47,
+                "target": 155
+            },
+            {
+                "source": 47,
+                "target": 157
+            },
+            {
+                "source": 50,
+                "target": 59
+            },
+            {
+                "source": 50,
+                "target": 79
+            },
+            {
+                "source": 50,
+                "target": 140
+            },
+            {
+                "source": 51,
+                "target": 72
+            },
+            {
+                "source": 51,
+                "target": 119
+            },
+            {
+                "source": 51,
+                "target": 157
+            },
+            {
+                "source": 55,
+                "target": 59
+            },
+            {
+                "source": 55,
+                "target": 130
+            },
+            {
+                "source": 55,
+                "target": 132
+            },
+            {
+                "source": 59,
+                "target": 99
+            },
+            {
+                "source": 59,
+                "target": 102
+            },
+            {
+                "source": 65,
+                "target": 69
+            },
+            {
+                "source": 65,
+                "target": 88
+            },
+            {
+                "source": 65,
+                "target": 99
+            },
+            {
+                "source": 69,
+                "target": 86
+            },
+            {
+                "source": 69,
+                "target": 88
+            },
+            {
+                "source": 69,
+                "target": 157
+            },
+            {
+                "source": 71,
+                "target": 72
+            },
+            {
+                "source": 71,
+                "target": 92
+            },
+            {
+                "source": 71,
+                "target": 132
+            },
+            {
+                "source": 72,
+                "target": 138
+            },
+            {
+                "source": 72,
+                "target": 142
+            },
+            {
+                "source": 79,
+                "target": 119
+            },
+            {
+                "source": 79,
+                "target": 145
+            },
+            {
+                "source": 80,
+                "target": 122
+            },
+            {
+                "source": 80,
+                "target": 145
+            },
+            {
+                "source": 86,
+                "target": 130
+            },
+            {
+                "source": 88,
+                "target": 142
+            },
+            {
+                "source": 92,
+                "target": 145
+            },
+            {
+                "source": 99,
+                "target": 122
+            },
+            {
+                "source": 99,
+                "target": 155
+            },
+            {
+                "source": 102,
+                "target": 132
+            },
+            {
+                "source": 103,
+                "target": 122
+            },
+            {
+                "source": 103,
+                "target": 155
+            },
+            {
+                "source": 119,
+                "target": 130
+            },
+            {
+                "source": 122,
+                "target": 138
+            },
+            {
+                "source": 125,
+                "target": 145
+            },
+            {
+                "source": 130,
+                "target": 142
+            },
+            {
+                "source": 132,
+                "target": 142
+            }
+        ]
+    },
+    "sampler_response": null,
+    "additional_info": {},
+    "algorithm": "Greedy",
+    "super_summary": {
+        "instance": "kcluster160_075_40_5",
+        "algorithm": "AlgoGreedy",
+        "optimum": 74.0,
+        "computed_val": 83,
+        "is_optimal": false,
+        "computed_cardinality": 40,
+        "time": 0.004065990447998047
+    }
+}

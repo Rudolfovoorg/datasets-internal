@@ -1,0 +1,111 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "id": 2
+            },
+            {
+                "id": 5
+            },
+            {
+                "id": 12
+            },
+            {
+                "id": 19
+            },
+            {
+                "id": 21
+            },
+            {
+                "id": 24
+            },
+            {
+                "id": 25
+            },
+            {
+                "id": 26
+            },
+            {
+                "id": 27
+            },
+            {
+                "id": 28
+            },
+            {
+                "id": 30
+            },
+            {
+                "id": 32
+            },
+            {
+                "id": 36
+            },
+            {
+                "id": 50
+            },
+            {
+                "id": 53
+            },
+            {
+                "id": 56
+            },
+            {
+                "id": 57
+            },
+            {
+                "id": 63
+            },
+            {
+                "id": 72
+            },
+            {
+                "id": 76
+            }
+        ],
+        "edges": [
+            {
+                "source": 2,
+                "target": 25
+            },
+            {
+                "source": 5,
+                "target": 56
+            },
+            {
+                "source": 5,
+                "target": 76
+            },
+            {
+                "source": 19,
+                "target": 57
+            },
+            {
+                "source": 24,
+                "target": 36
+            },
+            {
+                "source": 25,
+                "target": 30
+            },
+            {
+                "source": 32,
+                "target": 50
+            }
+        ]
+    },
+    "sampler_response": null,
+    "additional_info": {},
+    "algorithm": "Greedy",
+    "super_summary": {
+        "instance": "kcluster80_075_20_3",
+        "algorithm": "AlgoGreedy",
+        "optimum": 6.0,
+        "computed_val": 7,
+        "is_optimal": false,
+        "computed_cardinality": 20,
+        "time": 0.0012574195861816406
+    }
+}

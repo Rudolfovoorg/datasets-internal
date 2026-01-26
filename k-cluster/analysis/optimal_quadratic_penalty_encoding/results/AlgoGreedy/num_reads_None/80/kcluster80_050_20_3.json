@@ -1,0 +1,291 @@
+{
+    "g": {
+        "directed": false,
+        "multigraph": false,
+        "graph": {},
+        "nodes": [
+            {
+                "id": 1
+            },
+            {
+                "id": 4
+            },
+            {
+                "id": 5
+            },
+            {
+                "id": 6
+            },
+            {
+                "id": 7
+            },
+            {
+                "id": 8
+            },
+            {
+                "id": 11
+            },
+            {
+                "id": 17
+            },
+            {
+                "id": 23
+            },
+            {
+                "id": 24
+            },
+            {
+                "id": 25
+            },
+            {
+                "id": 28
+            },
+            {
+                "id": 33
+            },
+            {
+                "id": 34
+            },
+            {
+                "id": 41
+            },
+            {
+                "id": 46
+            },
+            {
+                "id": 47
+            },
+            {
+                "id": 54
+            },
+            {
+                "id": 58
+            },
+            {
+                "id": 68
+            }
+        ],
+        "edges": [
+            {
+                "source": 1,
+                "target": 17
+            },
+            {
+                "source": 1,
+                "target": 23
+            },
+            {
+                "source": 1,
+                "target": 33
+            },
+            {
+                "source": 4,
+                "target": 8
+            },
+            {
+                "source": 4,
+                "target": 41
+            },
+            {
+                "source": 4,
+                "target": 46
+            },
+            {
+                "source": 4,
+                "target": 54
+            },
+            {
+                "source": 5,
+                "target": 17
+            },
+            {
+                "source": 5,
+                "target": 41
+            },
+            {
+                "source": 5,
+                "target": 46
+            },
+            {
+                "source": 5,
+                "target": 47
+            },
+            {
+                "source": 5,
+                "target": 54
+            },
+            {
+                "source": 6,
+                "target": 24
+            },
+            {
+                "source": 6,
+                "target": 25
+            },
+            {
+                "source": 6,
+                "target": 28
+            },
+            {
+                "source": 6,
+                "target": 41
+            },
+            {
+                "source": 7,
+                "target": 11
+            },
+            {
+                "source": 7,
+                "target": 28
+            },
+            {
+                "source": 7,
+                "target": 34
+            },
+            {
+                "source": 7,
+                "target": 46
+            },
+            {
+                "source": 7,
+                "target": 58
+            },
+            {
+                "source": 7,
+                "target": 68
+            },
+            {
+                "source": 8,
+                "target": 17
+            },
+            {
+                "source": 8,
+                "target": 23
+            },
+            {
+                "source": 8,
+                "target": 25
+            },
+            {
+                "source": 8,
+                "target": 34
+            },
+            {
+                "source": 8,
+                "target": 41
+            },
+            {
+                "source": 11,
+                "target": 23
+            },
+            {
+                "source": 11,
+                "target": 25
+            },
+            {
+                "source": 11,
+                "target": 33
+            },
+            {
+                "source": 11,
+                "target": 54
+            },
+            {
+                "source": 17,
+                "target": 24
+            },
+            {
+                "source": 17,
+                "target": 28
+            },
+            {
+                "source": 17,
+                "target": 68
+            },
+            {
+                "source": 23,
+                "target": 34
+            },
+            {
+                "source": 23,
+                "target": 46
+            },
+            {
+                "source": 23,
+                "target": 54
+            },
+            {
+                "source": 24,
+                "target": 46
+            },
+            {
+                "source": 24,
+                "target": 58
+            },
+            {
+                "source": 25,
+                "target": 33
+            },
+            {
+                "source": 25,
+                "target": 34
+            },
+            {
+                "source": 28,
+                "target": 33
+            },
+            {
+                "source": 28,
+                "target": 46
+            },
+            {
+                "source": 28,
+                "target": 47
+            },
+            {
+                "source": 28,
+                "target": 68
+            },
+            {
+                "source": 33,
+                "target": 34
+            },
+            {
+                "source": 33,
+                "target": 58
+            },
+            {
+                "source": 41,
+                "target": 47
+            },
+            {
+                "source": 41,
+                "target": 58
+            },
+            {
+                "source": 46,
+                "target": 58
+            },
+            {
+                "source": 47,
+                "target": 54
+            },
+            {
+                "source": 54,
+                "target": 68
+            }
+        ]
+    },
+    "sampler_response": null,
+    "additional_info": {},
+    "algorithm": "Greedy",
+    "super_summary": {
+        "instance": "kcluster80_050_20_3",
+        "algorithm": "AlgoGreedy",
+        "optimum": 46.0,
+        "computed_val": 52,
+        "is_optimal": false,
+        "computed_cardinality": 20,
+        "time": 0.0014195442199707031
+    }
+}
