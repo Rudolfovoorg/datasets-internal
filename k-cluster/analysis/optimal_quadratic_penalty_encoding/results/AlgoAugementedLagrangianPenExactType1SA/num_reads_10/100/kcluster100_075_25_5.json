@@ -9,6 +9,10 @@
                 "id": 1
             },
             {
+                "_original_labeling": 3,
+                "id": 3
+            },
+            {
                 "_original_labeling": 4,
                 "id": 4
             },
@@ -21,106 +25,106 @@
                 "id": 12
             },
             {
-                "_original_labeling": 15,
-                "id": 15
+                "_original_labeling": 20,
+                "id": 20
             },
             {
-                "_original_labeling": 18,
-                "id": 18
+                "_original_labeling": 21,
+                "id": 21
             },
             {
                 "_original_labeling": 23,
                 "id": 23
             },
             {
-                "_original_labeling": 24,
-                "id": 24
-            },
-            {
-                "_original_labeling": 28,
-                "id": 28
-            },
-            {
-                "_original_labeling": 30,
-                "id": 30
+                "_original_labeling": 29,
+                "id": 29
             },
             {
                 "_original_labeling": 33,
                 "id": 33
             },
             {
-                "_original_labeling": 34,
-                "id": 34
+                "_original_labeling": 43,
+                "id": 43
             },
             {
-                "_original_labeling": 36,
-                "id": 36
-            },
-            {
-                "_original_labeling": 38,
-                "id": 38
+                "_original_labeling": 49,
+                "id": 49
             },
             {
                 "_original_labeling": 55,
                 "id": 55
             },
             {
-                "_original_labeling": 57,
-                "id": 57
+                "_original_labeling": 56,
+                "id": 56
+            },
+            {
+                "_original_labeling": 60,
+                "id": 60
             },
             {
                 "_original_labeling": 62,
                 "id": 62
             },
             {
+                "_original_labeling": 63,
+                "id": 63
+            },
+            {
+                "_original_labeling": 65,
+                "id": 65
+            },
+            {
+                "_original_labeling": 66,
+                "id": 66
+            },
+            {
                 "_original_labeling": 67,
                 "id": 67
-            },
-            {
-                "_original_labeling": 71,
-                "id": 71
-            },
-            {
-                "_original_labeling": 75,
-                "id": 75
             },
             {
                 "_original_labeling": 76,
                 "id": 76
             },
             {
-                "_original_labeling": 77,
-                "id": 77
+                "_original_labeling": 87,
+                "id": 87
             },
             {
-                "_original_labeling": 80,
-                "id": 80
+                "_original_labeling": 90,
+                "id": 90
             },
             {
-                "_original_labeling": 88,
-                "id": 88
+                "_original_labeling": 91,
+                "id": 91
             },
             {
-                "_original_labeling": 89,
-                "id": 89
+                "_original_labeling": 96,
+                "id": 96
             }
         ],
         "edges": [
             {
-                "source": 1,
-                "target": 30
-            },
-            {
-                "source": 1,
-                "target": 77
-            },
-            {
-                "source": 1,
-                "target": 80
+                "source": 3,
+                "target": 4
             },
             {
                 "source": 4,
-                "target": 71
+                "target": 21
+            },
+            {
+                "source": 4,
+                "target": 29
+            },
+            {
+                "source": 4,
+                "target": 66
+            },
+            {
+                "source": 11,
+                "target": 21
             },
             {
                 "source": 12,
@@ -128,99 +132,107 @@
             },
             {
                 "source": 12,
-                "target": 28
+                "target": 63
             },
             {
                 "source": 12,
-                "target": 36
+                "target": 96
             },
             {
-                "source": 15,
-                "target": 18
+                "source": 20,
+                "target": 21
             },
             {
-                "source": 18,
-                "target": 23
-            },
-            {
-                "source": 18,
-                "target": 36
-            },
-            {
-                "source": 18,
+                "source": 20,
                 "target": 62
             },
             {
-                "source": 18,
+                "source": 21,
+                "target": 49
+            },
+            {
+                "source": 21,
                 "target": 67
             },
             {
-                "source": 18,
-                "target": 80
-            },
-            {
                 "source": 23,
-                "target": 75
+                "target": 63
             },
             {
-                "source": 23,
-                "target": 77
+                "source": 29,
+                "target": 33
             },
             {
-                "source": 24,
-                "target": 28
+                "source": 29,
+                "target": 56
             },
             {
-                "source": 24,
-                "target": 62
+                "source": 29,
+                "target": 65
             },
             {
-                "source": 24,
-                "target": 89
+                "source": 29,
+                "target": 66
             },
             {
-                "source": 28,
-                "target": 34
+                "source": 29,
+                "target": 91
             },
             {
-                "source": 30,
-                "target": 76
+                "source": 43,
+                "target": 56
             },
             {
-                "source": 33,
-                "target": 75
+                "source": 43,
+                "target": 63
             },
             {
-                "source": 33,
-                "target": 77
+                "source": 49,
+                "target": 60
             },
             {
-                "source": 34,
-                "target": 38
-            },
-            {
-                "source": 34,
-                "target": 77
-            },
-            {
-                "source": 36,
-                "target": 88
+                "source": 55,
+                "target": 66
             },
             {
                 "source": 55,
                 "target": 67
             },
             {
+                "source": 56,
+                "target": 60
+            },
+            {
+                "source": 60,
+                "target": 76
+            },
+            {
+                "source": 60,
+                "target": 90
+            },
+            {
                 "source": 62,
-                "target": 88
+                "target": 63
             },
             {
-                "source": 71,
-                "target": 77
+                "source": 62,
+                "target": 66
             },
             {
-                "source": 71,
-                "target": 88
+                "source": 65,
+                "target": 76
+            },
+            {
+                "source": 66,
+                "target": 76
+            },
+            {
+                "source": 67,
+                "target": 91
+            },
+            {
+                "source": 76,
+                "target": 96
             }
         ]
     },
@@ -229,85 +241,8 @@
             0,
             1,
             0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
             1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            1,
-            1,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            0,
             0,
             0,
             0,
@@ -323,11 +258,88 @@
             0,
             0,
             0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
             0,
             0,
             0
         ],
-        "value": -6146.0,
+        "value": -6143.0,
         "cardinality": 25,
         "sampleset": {
             "type": "SampleSet",
@@ -340,64 +352,64 @@
                 "type": "array",
                 "data": [
                     [
-                        1367644178,
-                        1115684950,
-                        50411656,
+                        26284291,
+                        41978946,
+                        629835266,
                         0
                     ],
                     [
-                        34615299,
-                        149059656,
-                        1086605440,
-                        4
-                    ],
-                    [
-                        2853738500,
-                        1074921990,
-                        1174689936,
-                        0
-                    ],
-                    [
-                        897626149,
-                        39323726,
-                        33640448,
+                        548411418,
+                        3514959874,
+                        209719310,
                         1
                     ],
                     [
-                        152185896,
-                        34227716,
-                        604299316,
-                        0
+                        76952716,
+                        474006018,
+                        33558704,
+                        2
                     ],
                     [
-                        76548178,
-                        25746506,
-                        101253123,
+                        76613642,
+                        1376045120,
+                        2156008780,
                         1
                     ],
                     [
-                        2097152,
-                        1221806672,
-                        2316572836,
-                        3
-                    ],
-                    [
-                        278006866,
-                        42601034,
-                        2198078488,
+                        803148,
+                        1219627330,
+                        2160332948,
                         0
                     ],
                     [
-                        1086390538,
-                        1141260806,
-                        1401159817,
-                        8
+                        1368463408,
+                        4884554,
+                        44306960,
+                        0
                     ],
                     [
-                        10816650,
-                        404753926,
-                        562561353,
+                        88147794,
+                        1153468528,
+                        134479881,
+                        5
+                    ],
+                    [
+                        543490307,
+                        1116079170,
+                        551159820,
                         0
+                    ],
+                    [
+                        82059689,
+                        1212286976,
+                        101976209,
+                        1
+                    ],
+                    [
+                        9472000,
+                        563757634,
+                        2751467702,
+                        6
                     ]
                 ],
                 "data_type": "uint32",
@@ -413,16 +425,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -6146,
-                        -6126,
+                        -6139,
+                        -6143,
+                        -6135,
+                        -6137,
+                        -6137,
                         -6140,
-                        -6138,
-                        -6128,
-                        -6140,
-                        -6138,
-                        -6134,
-                        -6145,
-                        -6135
+                        -6131,
+                        -6136,
+                        -6143,
+                        -6138
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -561,9 +573,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 3401994,
-                    "sampling_ns": 36924553,
-                    "postprocessing_ns": 146327
+                    "preprocessing_ns": 3462194,
+                    "sampling_ns": 39324129,
+                    "postprocessing_ns": 192963
                 }
             }
         }
@@ -15965,85 +15977,8 @@
                 0,
                 1,
                 0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 1,
                 1,
-                0,
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                1,
-                0,
-                0,
-                0,
-                1,
-                0,
-                1,
-                0,
-                0,
-                1,
-                1,
-                0,
-                1,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                1,
-                1,
-                1,
-                0,
-                0,
-                1,
-                0,
                 0,
                 0,
                 0,
@@ -16059,6 +15994,83 @@
                 0,
                 0,
                 0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 0,
                 0
@@ -16075,9 +16087,9 @@
         "instance": "kcluster100_075_25_5",
         "algorithm": "AlgoAugementedLagrangianPenExactType1SA",
         "optimum": 14.0,
-        "computed_val": 29,
+        "computed_val": 32,
         "is_optimal": false,
         "computed_cardinality": 25,
-        "time": 0.044014692306518555
+        "time": 0.04831743240356445
     }
 }

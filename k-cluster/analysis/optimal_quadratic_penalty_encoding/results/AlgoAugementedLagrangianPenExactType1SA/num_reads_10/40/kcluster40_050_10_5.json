@@ -5,12 +5,16 @@
         "graph": {},
         "nodes": [
             {
-                "_original_labeling": 1,
-                "id": 1
+                "_original_labeling": 0,
+                "id": 0
             },
             {
-                "_original_labeling": 37,
-                "id": 37
+                "_original_labeling": 35,
+                "id": 35
+            },
+            {
+                "_original_labeling": 36,
+                "id": 36
             },
             {
                 "_original_labeling": 39,
@@ -21,24 +25,20 @@
                 "id": 8
             },
             {
-                "_original_labeling": 11,
-                "id": 11
+                "_original_labeling": 18,
+                "id": 18
             },
             {
-                "_original_labeling": 14,
-                "id": 14
-            },
-            {
-                "_original_labeling": 17,
-                "id": 17
-            },
-            {
-                "_original_labeling": 22,
-                "id": 22
+                "_original_labeling": 24,
+                "id": 24
             },
             {
                 "_original_labeling": 27,
                 "id": 27
+            },
+            {
+                "_original_labeling": 29,
+                "id": 29
             },
             {
                 "_original_labeling": 30,
@@ -47,51 +47,37 @@
         ],
         "edges": [
             {
-                "source": 1,
-                "target": 17
+                "source": 0,
+                "target": 29
             },
             {
-                "source": 37,
-                "target": 14
+                "source": 35,
+                "target": 8
             },
             {
-                "source": 39,
-                "target": 17
+                "source": 35,
+                "target": 29
+            },
+            {
+                "source": 36,
+                "target": 8
             },
             {
                 "source": 39,
                 "target": 30
             },
             {
-                "source": 11,
-                "target": 22
-            },
-            {
-                "source": 17,
+                "source": 24,
                 "target": 30
             }
         ]
     },
     "sampler_response": {
         "x": [
-            0,
             1,
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -101,17 +87,31 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            0,
             0,
             0,
             0,
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
             0,
             1
         ],
@@ -128,44 +128,44 @@
                 "type": "array",
                 "data": [
                     [
-                        1744849176,
+                        1074806869,
+                        26
+                    ],
+                    [
+                        1225001233,
                         136
                     ],
                     [
-                        1770014978,
-                        128
+                        1224753411,
+                        168
                     ],
                     [
-                        1208011026,
+                        1289767170,
+                        0
+                    ],
+                    [
+                        5390680,
                         160
                     ],
                     [
-                        1210073436,
-                        32
+                        1208224021,
+                        24
                     ],
                     [
-                        1761871873,
-                        152
+                        1073893724,
+                        2
                     ],
                     [
                         1082268436,
                         2
                     ],
                     [
-                        1216747776,
-                        144
+                        1079001432,
+                        36
                     ],
                     [
-                        1744849168,
+                        1761870081,
                         152
-                    ],
-                    [
-                        1761870113,
-                        144
-                    ],
-                    [
-                        1212303618,
-                        160
                     ]
                 ],
                 "data_type": "uint32",
@@ -181,15 +181,15 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -268,
-                        -266,
-                        -268,
                         -266,
                         -268,
                         -267,
-                        -266,
+                        -267,
                         -267,
                         -268,
+                        -266,
+                        -267,
+                        -265,
                         -269
                     ],
                     "data_type": "float64",
@@ -269,9 +269,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 803409,
-                    "sampling_ns": 8369934,
-                    "postprocessing_ns": 85267
+                    "preprocessing_ns": 878728,
+                    "sampling_ns": 8450180,
+                    "postprocessing_ns": 93310
                 }
             }
         }
@@ -3734,24 +3734,10 @@
             "mui": 5,
             "best_computed_cardinality": 10,
             "best_computed_cardinality_x": [
-                0,
                 1,
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                0,
-                1,
                 0,
                 0,
                 0,
@@ -3761,17 +3747,31 @@
                 0,
                 0,
                 0,
-                1,
-                0,
-                0,
-                1,
-                0,
                 0,
                 0,
                 0,
                 0,
                 0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
                 0,
                 1
             ],
@@ -3790,6 +3790,6 @@
         "computed_val": 6,
         "is_optimal": false,
         "computed_cardinality": 10,
-        "time": 0.010579586029052734
+        "time": 0.011909008026123047
     }
 }

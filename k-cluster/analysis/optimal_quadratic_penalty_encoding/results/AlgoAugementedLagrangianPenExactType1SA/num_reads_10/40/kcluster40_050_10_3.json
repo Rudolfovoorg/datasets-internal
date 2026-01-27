@@ -5,20 +5,32 @@
         "graph": {},
         "nodes": [
             {
-                "_original_labeling": 32,
-                "id": 32
+                "_original_labeling": 0,
+                "id": 0
             },
             {
-                "_original_labeling": 2,
-                "id": 2
+                "_original_labeling": 32,
+                "id": 32
             },
             {
                 "_original_labeling": 35,
                 "id": 35
             },
             {
-                "_original_labeling": 4,
-                "id": 4
+                "_original_labeling": 36,
+                "id": 36
+            },
+            {
+                "_original_labeling": 6,
+                "id": 6
+            },
+            {
+                "_original_labeling": 38,
+                "id": 38
+            },
+            {
+                "_original_labeling": 8,
+                "id": 8
             },
             {
                 "_original_labeling": 10,
@@ -29,59 +41,43 @@
                 "id": 14
             },
             {
-                "_original_labeling": 15,
-                "id": 15
-            },
-            {
-                "_original_labeling": 16,
-                "id": 16
-            },
-            {
-                "_original_labeling": 24,
-                "id": 24
-            },
-            {
-                "_original_labeling": 25,
-                "id": 25
+                "_original_labeling": 30,
+                "id": 30
             }
         ],
         "edges": [
             {
-                "source": 32,
-                "target": 4
+                "source": 0,
+                "target": 14
             },
             {
-                "source": 32,
-                "target": 16
+                "source": 35,
+                "target": 8
             },
             {
-                "source": 2,
+                "source": 35,
+                "target": 36
+            },
+            {
+                "source": 35,
+                "target": 38
+            },
+            {
+                "source": 36,
                 "target": 10
             },
             {
-                "source": 2,
-                "target": 15
+                "source": 36,
+                "target": 38
             },
             {
                 "source": 10,
                 "target": 14
-            },
-            {
-                "source": 15,
-                "target": 25
-            },
-            {
-                "source": 16,
-                "target": 24
             }
         ]
     },
     "sampler_response": {
         "x": [
-            0,
-            0,
-            1,
-            0,
             1,
             0,
             0,
@@ -90,19 +86,12 @@
             0,
             1,
             0,
-            0,
-            0,
             1,
-            1,
+            0,
             1,
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            1,
             1,
             0,
             0,
@@ -110,13 +99,24 @@
             0,
             0,
             0,
-            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             1,
             0,
+            1,
             0,
             0,
+            1,
+            1,
+            0,
+            1,
             0
         ],
         "value": -378.0,
@@ -132,44 +132,44 @@
                 "type": "array",
                 "data": [
                     [
-                        360996884,
-                        128
+                        1269302273,
+                        1
                     ],
                     [
-                        1084359745,
+                        134242420,
                         137
                     ],
                     [
-                        713175172,
+                        2181062996,
+                        24
+                    ],
+                    [
+                        54584584,
+                        8
+                    ],
+                    [
+                        620936,
                         16
                     ],
                     [
-                        1101530113,
-                        137
+                        713139216,
+                        8
                     ],
                     [
-                        101543952,
+                        109606024,
                         128
                     ],
                     [
-                        52716684,
-                        0
-                    ],
-                    [
-                        134246540,
-                        176
-                    ],
-                    [
-                        21028940,
-                        40
-                    ],
-                    [
-                        50447380,
+                        1118307361,
                         9
                     ],
                     [
-                        117976128,
-                        33
+                        1073759553,
+                        89
+                    ],
+                    [
+                        2181325140,
+                        64
                     ]
                 ],
                 "data_type": "uint32",
@@ -187,14 +187,14 @@
                     "data": [
                         -375,
                         -376,
-                        -372,
-                        -376,
-                        -375,
-                        -375,
+                        -374,
                         -377,
                         -375,
+                        -375,
+                        -375,
+                        -375,
                         -378,
-                        -373
+                        -374
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -273,9 +273,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 835399,
-                    "sampling_ns": 8350532,
-                    "postprocessing_ns": 91035
+                    "preprocessing_ns": 818926,
+                    "sampling_ns": 9007938,
+                    "postprocessing_ns": 179505
                 }
             }
         }
@@ -3642,10 +3642,6 @@
             "mui": 7,
             "best_computed_cardinality": 10,
             "best_computed_cardinality_x": [
-                0,
-                0,
-                1,
-                0,
                 1,
                 0,
                 0,
@@ -3654,19 +3650,12 @@
                 0,
                 1,
                 0,
-                0,
-                0,
                 1,
-                1,
+                0,
                 1,
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                1,
                 1,
                 0,
                 0,
@@ -3674,13 +3663,24 @@
                 0,
                 0,
                 0,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 1,
                 0,
+                1,
                 0,
                 0,
+                1,
+                1,
+                0,
+                1,
                 0
             ],
             "initial_lambda": 3.5,
@@ -3698,6 +3698,6 @@
         "computed_val": 7,
         "is_optimal": false,
         "computed_cardinality": 10,
-        "time": 0.010879755020141602
+        "time": 0.012325763702392578
     }
 }

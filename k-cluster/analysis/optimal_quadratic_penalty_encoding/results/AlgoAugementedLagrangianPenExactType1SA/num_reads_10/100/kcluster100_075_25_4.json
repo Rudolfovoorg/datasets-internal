@@ -5,48 +5,44 @@
         "graph": {},
         "nodes": [
             {
+                "_original_labeling": 1,
+                "id": 1
+            },
+            {
                 "_original_labeling": 3,
                 "id": 3
             },
             {
-                "_original_labeling": 9,
-                "id": 9
+                "_original_labeling": 12,
+                "id": 12
             },
             {
-                "_original_labeling": 11,
-                "id": 11
+                "_original_labeling": 16,
+                "id": 16
+            },
+            {
+                "_original_labeling": 17,
+                "id": 17
             },
             {
                 "_original_labeling": 19,
                 "id": 19
             },
             {
-                "_original_labeling": 25,
-                "id": 25
+                "_original_labeling": 20,
+                "id": 20
             },
             {
                 "_original_labeling": 29,
                 "id": 29
             },
             {
-                "_original_labeling": 34,
-                "id": 34
-            },
-            {
                 "_original_labeling": 37,
                 "id": 37
             },
             {
-                "_original_labeling": 38,
-                "id": 38
-            },
-            {
                 "_original_labeling": 44,
                 "id": 44
-            },
-            {
-                "_original_labeling": 45,
-                "id": 45
             },
             {
                 "_original_labeling": 47,
@@ -61,32 +57,32 @@
                 "id": 53
             },
             {
-                "_original_labeling": 55,
-                "id": 55
-            },
-            {
-                "_original_labeling": 59,
-                "id": 59
-            },
-            {
                 "_original_labeling": 63,
                 "id": 63
+            },
+            {
+                "_original_labeling": 64,
+                "id": 64
+            },
+            {
+                "_original_labeling": 66,
+                "id": 66
             },
             {
                 "_original_labeling": 70,
                 "id": 70
             },
             {
-                "_original_labeling": 75,
-                "id": 75
+                "_original_labeling": 73,
+                "id": 73
             },
             {
                 "_original_labeling": 82,
                 "id": 82
             },
             {
-                "_original_labeling": 85,
-                "id": 85
+                "_original_labeling": 83,
+                "id": 83
             },
             {
                 "_original_labeling": 86,
@@ -97,135 +93,132 @@
                 "id": 89
             },
             {
-                "_original_labeling": 92,
-                "id": 92
+                "_original_labeling": 90,
+                "id": 90
             },
             {
-                "_original_labeling": 93,
-                "id": 93
+                "_original_labeling": 98,
+                "id": 98
+            },
+            {
+                "_original_labeling": 99,
+                "id": 99
             }
         ],
         "edges": [
             {
-                "source": 3,
-                "target": 9
+                "source": 1,
+                "target": 83
+            },
+            {
+                "source": 1,
+                "target": 86
             },
             {
                 "source": 3,
-                "target": 34
+                "target": 16
             },
             {
-                "source": 3,
-                "target": 93
+                "source": 12,
+                "target": 29
             },
             {
-                "source": 9,
+                "source": 12,
+                "target": 64
+            },
+            {
+                "source": 12,
+                "target": 86
+            },
+            {
+                "source": 12,
+                "target": 89
+            },
+            {
+                "source": 16,
+                "target": 29
+            },
+            {
+                "source": 16,
+                "target": 70
+            },
+            {
+                "source": 16,
+                "target": 73
+            },
+            {
+                "source": 17,
                 "target": 19
             },
             {
-                "source": 11,
-                "target": 38
+                "source": 17,
+                "target": 44
             },
             {
-                "source": 11,
-                "target": 63
+                "source": 17,
+                "target": 82
             },
             {
-                "source": 25,
+                "source": 17,
+                "target": 89
+            },
+            {
+                "source": 20,
                 "target": 53
             },
             {
-                "source": 25,
-                "target": 59
+                "source": 20,
+                "target": 66
             },
             {
-                "source": 25,
-                "target": 63
+                "source": 20,
+                "target": 99
             },
             {
                 "source": 29,
                 "target": 47
             },
             {
-                "source": 34,
-                "target": 37
-            },
-            {
                 "source": 37,
                 "target": 63
             },
             {
                 "source": 37,
-                "target": 75
+                "target": 99
             },
             {
-                "source": 38,
-                "target": 45
+                "source": 64,
+                "target": 66
             },
             {
-                "source": 38,
-                "target": 75
+                "source": 64,
+                "target": 98
             },
             {
-                "source": 38,
-                "target": 92
-            },
-            {
-                "source": 44,
-                "target": 55
-            },
-            {
-                "source": 45,
-                "target": 47
-            },
-            {
-                "source": 45,
-                "target": 63
-            },
-            {
-                "source": 45,
-                "target": 89
-            },
-            {
-                "source": 49,
-                "target": 85
-            },
-            {
-                "source": 55,
-                "target": 59
-            },
-            {
-                "source": 59,
-                "target": 89
+                "source": 66,
+                "target": 99
             },
             {
                 "source": 70,
                 "target": 89
             },
             {
-                "source": 75,
-                "target": 82
+                "source": 70,
+                "target": 90
             },
             {
-                "source": 92,
-                "target": 93
+                "source": 89,
+                "target": 90
             }
         ]
     },
     "sampler_response": {
         "x": [
             0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
             0,
             1,
+            0,
             0,
             0,
             0,
@@ -237,19 +230,8 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
             0,
             1,
             1,
@@ -258,22 +240,14 @@
             0,
             0,
             0,
-            1,
-            1,
-            0,
-            1,
-            0,
-            1,
             0,
             0,
             0,
             1,
             0,
-            1,
             0,
             0,
             0,
-            1,
             0,
             0,
             0,
@@ -287,6 +261,10 @@
             1,
             0,
             0,
+            1,
+            0,
+            1,
+            0,
             0,
             0,
             1,
@@ -296,7 +274,26 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
             1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             1,
@@ -313,7 +310,10 @@
             0,
             0,
             0,
-            0
+            0,
+            0,
+            1,
+            1
         ],
         "value": -5499.0,
         "cardinality": 25,
@@ -328,64 +328,64 @@
                 "type": "array",
                 "data": [
                     [
-                        571118602,
-                        131106,
-                        1357658688,
-                        1
+                        3628269826,
+                        270606346,
+                        137503332,
+                        2
                     ],
                     [
-                        2257392136,
-                        3634397216,
-                        2368080,
-                        8
-                    ],
-                    [
-                        3959980040,
-                        136708193,
-                        73425008,
-                        10
-                    ],
-                    [
-                        571088896,
-                        543330316,
-                        73427086,
+                        537921690,
+                        541499584,
+                        1145439104,
                         5
                     ],
                     [
-                        537661640,
-                        412128004,
-                        35931170,
-                        9
-                    ],
-                    [
-                        573308929,
-                        551551061,
-                        946102368,
+                        1177289344,
+                        816455701,
+                        2367530,
                         8
                     ],
                     [
-                        839516705,
-                        541237272,
-                        276317702,
-                        0
+                        538644490,
+                        2149748768,
+                        105644613,
+                        12
                     ],
                     [
-                        570952200,
-                        2292363364,
-                        845416512,
-                        0
-                    ],
-                    [
-                        1627914512,
-                        203423829,
-                        1390438450,
-                        0
-                    ],
-                    [
-                        541859976,
-                        2153775376,
-                        443458112,
+                        109621320,
+                        9076816,
+                        853714,
                         8
+                    ],
+                    [
+                        814221322,
+                        404787298,
+                        7094976,
+                        5
+                    ],
+                    [
+                        539507272,
+                        2692878416,
+                        4497958,
+                        8
+                    ],
+                    [
+                        1284116760,
+                        145293904,
+                        1073897824,
+                        0
+                    ],
+                    [
+                        571026512,
+                        134356993,
+                        476321860,
+                        5
+                    ],
+                    [
+                        1646790665,
+                        12587008,
+                        1581279778,
+                        12
                     ]
                 ],
                 "data_type": "uint32",
@@ -401,16 +401,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -5488,
+                        -5482,
+                        -5486,
                         -5494,
-                        -5491,
-                        -5489,
-                        -5497,
-                        -5496,
-                        -5487,
                         -5499,
-                        -5489,
-                        -5494
+                        -5492,
+                        -5499,
+                        -5491,
+                        -5487,
+                        -5491,
+                        -5497
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -549,9 +549,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 3801518,
-                    "sampling_ns": 35462019,
-                    "postprocessing_ns": 153168
+                    "preprocessing_ns": 3786035,
+                    "sampling_ns": 38564010,
+                    "postprocessing_ns": 238219
                 }
             }
         }
@@ -15911,17 +15911,10 @@
             "best_computed_cardinality": 25,
             "best_computed_cardinality_x": [
                 0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
                 1,
                 0,
                 1,
+                0,
                 0,
                 0,
                 0,
@@ -15933,19 +15926,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
                 1,
-                0,
-                0,
-                0,
                 1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
                 0,
                 1,
                 1,
@@ -15954,22 +15936,14 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                0,
-                1,
-                0,
-                1,
                 0,
                 0,
                 0,
                 1,
                 0,
-                1,
                 0,
                 0,
                 0,
-                1,
                 0,
                 0,
                 0,
@@ -15983,6 +15957,10 @@
                 1,
                 0,
                 0,
+                1,
+                0,
+                1,
+                0,
                 0,
                 0,
                 1,
@@ -15992,7 +15970,26 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
                 1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 1,
@@ -16009,7 +16006,10 @@
                 0,
                 0,
                 0,
-                0
+                0,
+                0,
+                1,
+                1
             ],
             "initial_lambda": 8.5,
             "lambdai": 8.5,
@@ -16026,6 +16026,6 @@
         "computed_val": 26,
         "is_optimal": false,
         "computed_cardinality": 25,
-        "time": 0.043024539947509766
+        "time": 0.04828500747680664
     }
 }

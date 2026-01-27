@@ -13,10 +13,6 @@
                 "id": 36
             },
             {
-                "_original_labeling": 37,
-                "id": 37
-            },
-            {
                 "_original_labeling": 39,
                 "id": 39
             },
@@ -29,12 +25,16 @@
                 "id": 13
             },
             {
-                "_original_labeling": 14,
-                "id": 14
+                "_original_labeling": 17,
+                "id": 17
             },
             {
                 "_original_labeling": 18,
                 "id": 18
+            },
+            {
+                "_original_labeling": 19,
+                "id": 19
             },
             {
                 "_original_labeling": 23,
@@ -47,32 +47,24 @@
         ],
         "edges": [
             {
-                "source": 33,
-                "target": 37
-            },
-            {
-                "source": 37,
-                "target": 13
-            },
-            {
                 "source": 39,
                 "target": 18
             },
             {
                 "source": 8,
-                "target": 14
+                "target": 17
             },
             {
                 "source": 13,
-                "target": 14
-            },
-            {
-                "source": 14,
-                "target": 18
+                "target": 19
             },
             {
                 "source": 18,
                 "target": 23
+            },
+            {
+                "source": 19,
+                "target": 31
             }
         ]
     },
@@ -92,34 +84,34 @@
             0,
             0,
             1,
-            1,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0,
             0,
             1,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
             1,
             0,
             0,
             1,
-            1,
+            0,
             0,
             1
         ],
-        "value": -378.0,
+        "value": -380.0,
         "cardinality": 10,
         "sampleset": {
             "type": "SampleSet",
@@ -132,44 +124,44 @@
                 "type": "array",
                 "data": [
                     [
-                        2156159232,
-                        178
+                        100933714,
+                        67
                     ],
                     [
-                        76423424,
+                        2156798208,
+                        146
+                    ],
+                    [
+                        143270274,
+                        130
+                    ],
+                    [
+                        2224292160,
+                        52
+                    ],
+                    [
+                        2182873856,
+                        52
+                    ],
+                    [
+                        214565120,
                         82
                     ],
                     [
-                        147335424,
-                        146
-                    ],
-                    [
-                        2248417600,
-                        50
-                    ],
-                    [
-                        247603202,
-                        66
-                    ],
-                    [
-                        205922568,
-                        66
-                    ],
-                    [
-                        2160722176,
+                        79823105,
                         210
                     ],
                     [
-                        2358257664,
-                        146
+                        1619525952,
+                        197
                     ],
                     [
-                        143273984,
-                        210
+                        2894209088,
+                        66
                     ],
                     [
-                        75759944,
-                        46
+                        210378752,
+                        195
                     ]
                 ],
                 "data_type": "uint32",
@@ -185,16 +177,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -378,
-                        -378,
+                        -374,
+                        -380,
                         -377,
+                        -379,
+                        -375,
+                        -378,
+                        -375,
+                        -375,
                         -376,
-                        -377,
-                        -376,
-                        -378,
-                        -377,
-                        -377,
-                        -373
+                        -378
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -273,9 +265,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 962715,
-                    "sampling_ns": 8227415,
-                    "postprocessing_ns": 131728
+                    "preprocessing_ns": 849151,
+                    "sampling_ns": 8279430,
+                    "postprocessing_ns": 101964
                 }
             }
         }
@@ -3764,30 +3756,30 @@
                 0,
                 0,
                 1,
-                1,
                 0,
                 0,
                 0,
                 1,
-                0,
-                0,
-                0,
-                0,
                 1,
-                0,
-                0,
-                0,
-                0,
+                1,
                 0,
                 0,
                 0,
                 1,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
                 1,
                 0,
                 0,
                 1,
-                1,
+                0,
                 0,
                 1
             ],
@@ -3803,9 +3795,9 @@
         "instance": "kcluster40_050_10_1",
         "algorithm": "AlgoAugementedLagrangianPenExactType1SA",
         "optimum": 5.0,
-        "computed_val": 7,
-        "is_optimal": false,
+        "computed_val": 5,
+        "is_optimal": true,
         "computed_cardinality": 10,
-        "time": 0.010947942733764648
+        "time": 0.011141300201416016
     }
 }

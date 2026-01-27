@@ -13,36 +13,36 @@
                 "id": 2
             },
             {
-                "_original_labeling": 35,
-                "id": 35
+                "_original_labeling": 3,
+                "id": 3
             },
             {
-                "_original_labeling": 39,
-                "id": 39
+                "_original_labeling": 7,
+                "id": 7
             },
             {
                 "_original_labeling": 8,
                 "id": 8
             },
             {
-                "_original_labeling": 9,
-                "id": 9
+                "_original_labeling": 16,
+                "id": 16
             },
             {
-                "_original_labeling": 10,
-                "id": 10
+                "_original_labeling": 18,
+                "id": 18
             },
             {
-                "_original_labeling": 20,
-                "id": 20
+                "_original_labeling": 24,
+                "id": 24
             },
             {
-                "_original_labeling": 29,
-                "id": 29
+                "_original_labeling": 26,
+                "id": 26
             },
             {
-                "_original_labeling": 31,
-                "id": 31
+                "_original_labeling": 27,
+                "id": 27
             }
         ],
         "edges": []
@@ -52,16 +52,12 @@
             0,
             0,
             1,
-            0,
-            0,
+            1,
             0,
             0,
             0,
             1,
             1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -71,8 +67,7 @@
             0,
             1,
             0,
-            0,
-            0,
+            1,
             0,
             0,
             0,
@@ -84,11 +79,16 @@
             1,
             0,
             0,
+            0,
+            0,
             1,
             0,
             0,
             0,
-            1
+            0,
+            0,
+            0,
+            0
         ],
         "value": -50.0,
         "cardinality": 10,
@@ -103,44 +103,44 @@
                 "type": "array",
                 "data": [
                     [
-                        2685404932,
-                        137
+                        218431884,
+                        1
                     ],
                     [
-                        2167544320,
-                        136
+                        271600260,
+                        129
                     ],
                     [
-                        2684492321,
-                        10
+                        2149587553,
+                        3
                     ],
                     [
-                        539527681,
+                        2150111777,
+                        3
+                    ],
+                    [
+                        2656801,
                         11
                     ],
                     [
-                        2150107713,
-                        11
+                        1645371908,
+                        8
                     ],
                     [
-                        251854988,
-                        16
+                        2399277056,
+                        84
                     ],
                     [
-                        2684361504,
-                        137
-                    ],
-                    [
-                        18088652,
+                        51380940,
                         9
                     ],
                     [
-                        2167015937,
-                        10
+                        543691265,
+                        11
                     ],
                     [
-                        2150634048,
-                        139
+                        17107332,
+                        137
                     ]
                 ],
                 "data_type": "uint32",
@@ -244,9 +244,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 970073,
-                    "sampling_ns": 7887606,
-                    "postprocessing_ns": 94705
+                    "preprocessing_ns": 810571,
+                    "sampling_ns": 7588753,
+                    "postprocessing_ns": 112845
                 }
             }
         }
@@ -2912,16 +2912,12 @@
                 0,
                 0,
                 1,
-                0,
-                0,
+                1,
                 0,
                 0,
                 0,
                 1,
                 1,
-                1,
-                0,
-                0,
                 0,
                 0,
                 0,
@@ -2931,8 +2927,7 @@
                 0,
                 1,
                 0,
-                0,
-                0,
+                1,
                 0,
                 0,
                 0,
@@ -2944,11 +2939,16 @@
                 1,
                 0,
                 0,
+                0,
+                0,
                 1,
                 0,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                0
             ],
             "initial_lambda": 0.0,
             "lambdai": 0.0,
@@ -2965,6 +2965,6 @@
         "computed_val": 0,
         "is_optimal": true,
         "computed_cardinality": 10,
-        "time": 0.010527610778808594
+        "time": 0.009998321533203125
     }
 }

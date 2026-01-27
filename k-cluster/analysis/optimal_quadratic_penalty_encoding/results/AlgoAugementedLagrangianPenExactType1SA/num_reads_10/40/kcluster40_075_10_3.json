@@ -5,58 +5,50 @@
         "graph": {},
         "nodes": [
             {
+                "_original_labeling": 0,
+                "id": 0
+            },
+            {
+                "_original_labeling": 35,
+                "id": 35
+            },
+            {
                 "_original_labeling": 4,
                 "id": 4
+            },
+            {
+                "_original_labeling": 6,
+                "id": 6
+            },
+            {
+                "_original_labeling": 38,
+                "id": 38
             },
             {
                 "_original_labeling": 8,
                 "id": 8
             },
             {
-                "_original_labeling": 12,
-                "id": 12
-            },
-            {
-                "_original_labeling": 14,
-                "id": 14
+                "_original_labeling": 10,
+                "id": 10
             },
             {
                 "_original_labeling": 15,
                 "id": 15
             },
             {
-                "_original_labeling": 19,
-                "id": 19
-            },
-            {
-                "_original_labeling": 23,
-                "id": 23
-            },
-            {
-                "_original_labeling": 24,
-                "id": 24
-            },
-            {
-                "_original_labeling": 26,
-                "id": 26
-            },
-            {
                 "_original_labeling": 29,
                 "id": 29
+            },
+            {
+                "_original_labeling": 30,
+                "id": 30
             }
         ],
         "edges": []
     },
     "sampler_response": {
         "x": [
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
             1,
             0,
             0,
@@ -64,18 +56,12 @@
             1,
             0,
             1,
-            1,
-            0,
-            0,
             0,
             1,
             0,
-            0,
-            0,
-            1,
             1,
             0,
-            1,
+            0,
             0,
             0,
             1,
@@ -88,6 +74,20 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
             0
         ],
         "value": -50.0,
@@ -103,44 +103,44 @@
                 "type": "array",
                 "data": [
                     [
-                        629723408,
-                        0
+                        1610646865,
+                        72
                     ],
                     [
-                        369108288,
-                        73
+                        25317518,
+                        128
                     ],
                     [
-                        25190668,
-                        137
+                        629715200,
+                        32
                     ],
                     [
-                        562078468,
-                        9
-                    ],
-                    [
-                        67428672,
-                        67
-                    ],
-                    [
-                        605042112,
-                        64
-                    ],
-                    [
-                        25219342,
+                        1627428176,
                         8
                     ],
                     [
-                        25203086,
+                        553967940,
+                        1
+                    ],
+                    [
+                        33632524,
+                        52
+                    ],
+                    [
+                        604006720,
+                        11
+                    ],
+                    [
+                        84209984,
+                        2
+                    ],
+                    [
+                        1627967760,
                         16
                     ],
                     [
-                        873216256,
-                        64
-                    ],
-                    [
-                        302061826,
-                        76
+                        553967684,
+                        17
                     ]
                 ],
                 "data_type": "uint32",
@@ -244,9 +244,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 820335,
-                    "sampling_ns": 8115669,
-                    "postprocessing_ns": 163933
+                    "preprocessing_ns": 825357,
+                    "sampling_ns": 7920283,
+                    "postprocessing_ns": 92096
                 }
             }
         }
@@ -2893,14 +2893,6 @@
             "mui": 1,
             "best_computed_cardinality": 10,
             "best_computed_cardinality_x": [
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
                 1,
                 0,
                 0,
@@ -2908,18 +2900,12 @@
                 1,
                 0,
                 1,
-                1,
-                0,
-                0,
                 0,
                 1,
                 0,
-                0,
-                0,
-                1,
                 1,
                 0,
-                1,
+                0,
                 0,
                 0,
                 1,
@@ -2932,6 +2918,20 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
                 0
             ],
             "initial_lambda": 0.0,
@@ -2949,6 +2949,6 @@
         "computed_val": 0,
         "is_optimal": true,
         "computed_cardinality": 10,
-        "time": 0.01017904281616211
+        "time": 0.01031494140625
     }
 }

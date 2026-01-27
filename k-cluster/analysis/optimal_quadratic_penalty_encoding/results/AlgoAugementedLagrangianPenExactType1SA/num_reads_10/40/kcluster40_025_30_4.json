@@ -5,10 +5,6 @@
         "graph": {},
         "nodes": [
             {
-                "_original_labeling": 1,
-                "id": 1
-            },
-            {
                 "_original_labeling": 2,
                 "id": 2
             },
@@ -23,6 +19,10 @@
             {
                 "_original_labeling": 5,
                 "id": 5
+            },
+            {
+                "_original_labeling": 6,
+                "id": 6
             },
             {
                 "_original_labeling": 7,
@@ -41,8 +41,16 @@
                 "id": 10
             },
             {
+                "_original_labeling": 11,
+                "id": 11
+            },
+            {
                 "_original_labeling": 12,
                 "id": 12
+            },
+            {
+                "_original_labeling": 14,
+                "id": 14
             },
             {
                 "_original_labeling": 16,
@@ -53,8 +61,8 @@
                 "id": 17
             },
             {
-                "_original_labeling": 19,
-                "id": 19
+                "_original_labeling": 18,
+                "id": 18
             },
             {
                 "_original_labeling": 20,
@@ -73,8 +81,8 @@
                 "id": 23
             },
             {
-                "_original_labeling": 24,
-                "id": 24
+                "_original_labeling": 25,
+                "id": 25
             },
             {
                 "_original_labeling": 26,
@@ -85,24 +93,16 @@
                 "id": 27
             },
             {
-                "_original_labeling": 28,
-                "id": 28
-            },
-            {
                 "_original_labeling": 29,
                 "id": 29
-            },
-            {
-                "_original_labeling": 30,
-                "id": 30
             },
             {
                 "_original_labeling": 31,
                 "id": 31
             },
             {
-                "_original_labeling": 33,
-                "id": 33
+                "_original_labeling": 32,
+                "id": 32
             },
             {
                 "_original_labeling": 34,
@@ -121,107 +121,11 @@
                 "id": 37
             },
             {
-                "_original_labeling": 38,
-                "id": 38
+                "_original_labeling": 39,
+                "id": 39
             }
         ],
         "edges": [
-            {
-                "source": 1,
-                "target": 2
-            },
-            {
-                "source": 1,
-                "target": 4
-            },
-            {
-                "source": 1,
-                "target": 5
-            },
-            {
-                "source": 1,
-                "target": 7
-            },
-            {
-                "source": 1,
-                "target": 8
-            },
-            {
-                "source": 1,
-                "target": 9
-            },
-            {
-                "source": 1,
-                "target": 10
-            },
-            {
-                "source": 1,
-                "target": 16
-            },
-            {
-                "source": 1,
-                "target": 17
-            },
-            {
-                "source": 1,
-                "target": 20
-            },
-            {
-                "source": 1,
-                "target": 21
-            },
-            {
-                "source": 1,
-                "target": 22
-            },
-            {
-                "source": 1,
-                "target": 23
-            },
-            {
-                "source": 1,
-                "target": 24
-            },
-            {
-                "source": 1,
-                "target": 27
-            },
-            {
-                "source": 1,
-                "target": 28
-            },
-            {
-                "source": 1,
-                "target": 29
-            },
-            {
-                "source": 1,
-                "target": 30
-            },
-            {
-                "source": 1,
-                "target": 31
-            },
-            {
-                "source": 1,
-                "target": 33
-            },
-            {
-                "source": 1,
-                "target": 34
-            },
-            {
-                "source": 1,
-                "target": 35
-            },
-            {
-                "source": 1,
-                "target": 36
-            },
-            {
-                "source": 1,
-                "target": 37
-            },
             {
                 "source": 2,
                 "target": 3
@@ -232,6 +136,10 @@
             },
             {
                 "source": 2,
+                "target": 6
+            },
+            {
+                "source": 2,
                 "target": 7
             },
             {
@@ -244,11 +152,15 @@
             },
             {
                 "source": 2,
+                "target": 11
+            },
+            {
+                "source": 2,
                 "target": 12
             },
             {
                 "source": 2,
-                "target": 19
+                "target": 18
             },
             {
                 "source": 2,
@@ -264,15 +176,7 @@
             },
             {
                 "source": 2,
-                "target": 24
-            },
-            {
-                "source": 2,
                 "target": 27
-            },
-            {
-                "source": 2,
-                "target": 28
             },
             {
                 "source": 2,
@@ -280,7 +184,7 @@
             },
             {
                 "source": 2,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 2,
@@ -293,10 +197,6 @@
             {
                 "source": 2,
                 "target": 37
-            },
-            {
-                "source": 2,
-                "target": 38
             },
             {
                 "source": 3,
@@ -324,15 +224,15 @@
             },
             {
                 "source": 3,
+                "target": 14
+            },
+            {
+                "source": 3,
                 "target": 16
             },
             {
                 "source": 3,
                 "target": 17
-            },
-            {
-                "source": 3,
-                "target": 19
             },
             {
                 "source": 3,
@@ -344,7 +244,7 @@
             },
             {
                 "source": 3,
-                "target": 24
+                "target": 25
             },
             {
                 "source": 3,
@@ -352,19 +252,7 @@
             },
             {
                 "source": 3,
-                "target": 28
-            },
-            {
-                "source": 3,
-                "target": 30
-            },
-            {
-                "source": 3,
                 "target": 31
-            },
-            {
-                "source": 3,
-                "target": 33
             },
             {
                 "source": 3,
@@ -372,7 +260,7 @@
             },
             {
                 "source": 3,
-                "target": 38
+                "target": 39
             },
             {
                 "source": 4,
@@ -380,6 +268,10 @@
             },
             {
                 "source": 4,
+                "target": 6
+            },
+            {
+                "source": 4,
                 "target": 7
             },
             {
@@ -392,6 +284,10 @@
             },
             {
                 "source": 4,
+                "target": 11
+            },
+            {
+                "source": 4,
                 "target": 12
             },
             {
@@ -400,7 +296,7 @@
             },
             {
                 "source": 4,
-                "target": 19
+                "target": 18
             },
             {
                 "source": 4,
@@ -416,7 +312,7 @@
             },
             {
                 "source": 4,
-                "target": 24
+                "target": 25
             },
             {
                 "source": 4,
@@ -428,23 +324,11 @@
             },
             {
                 "source": 4,
-                "target": 28
-            },
-            {
-                "source": 4,
                 "target": 29
             },
             {
                 "source": 4,
-                "target": 30
-            },
-            {
-                "source": 4,
                 "target": 31
-            },
-            {
-                "source": 4,
-                "target": 33
             },
             {
                 "source": 4,
@@ -457,6 +341,14 @@
             {
                 "source": 4,
                 "target": 37
+            },
+            {
+                "source": 4,
+                "target": 39
+            },
+            {
+                "source": 5,
+                "target": 6
             },
             {
                 "source": 5,
@@ -468,7 +360,15 @@
             },
             {
                 "source": 5,
+                "target": 11
+            },
+            {
+                "source": 5,
                 "target": 12
+            },
+            {
+                "source": 5,
+                "target": 14
             },
             {
                 "source": 5,
@@ -480,7 +380,7 @@
             },
             {
                 "source": 5,
-                "target": 19
+                "target": 18
             },
             {
                 "source": 5,
@@ -500,18 +400,106 @@
             },
             {
                 "source": 5,
-                "target": 24
+                "target": 25
             },
             {
                 "source": 5,
-                "target": 28
+                "target": 32
             },
             {
                 "source": 5,
-                "target": 33
+                "target": 36
             },
             {
                 "source": 5,
+                "target": 39
+            },
+            {
+                "source": 6,
+                "target": 7
+            },
+            {
+                "source": 6,
+                "target": 8
+            },
+            {
+                "source": 6,
+                "target": 9
+            },
+            {
+                "source": 6,
+                "target": 10
+            },
+            {
+                "source": 6,
+                "target": 11
+            },
+            {
+                "source": 6,
+                "target": 12
+            },
+            {
+                "source": 6,
+                "target": 14
+            },
+            {
+                "source": 6,
+                "target": 16
+            },
+            {
+                "source": 6,
+                "target": 17
+            },
+            {
+                "source": 6,
+                "target": 18
+            },
+            {
+                "source": 6,
+                "target": 21
+            },
+            {
+                "source": 6,
+                "target": 22
+            },
+            {
+                "source": 6,
+                "target": 23
+            },
+            {
+                "source": 6,
+                "target": 25
+            },
+            {
+                "source": 6,
+                "target": 26
+            },
+            {
+                "source": 6,
+                "target": 27
+            },
+            {
+                "source": 6,
+                "target": 29
+            },
+            {
+                "source": 6,
+                "target": 31
+            },
+            {
+                "source": 6,
+                "target": 32
+            },
+            {
+                "source": 6,
+                "target": 34
+            },
+            {
+                "source": 6,
+                "target": 35
+            },
+            {
+                "source": 6,
                 "target": 36
             },
             {
@@ -536,6 +524,10 @@
             },
             {
                 "source": 7,
+                "target": 18
+            },
+            {
+                "source": 7,
                 "target": 20
             },
             {
@@ -548,15 +540,7 @@
             },
             {
                 "source": 7,
-                "target": 24
-            },
-            {
-                "source": 7,
                 "target": 26
-            },
-            {
-                "source": 7,
-                "target": 28
             },
             {
                 "source": 7,
@@ -564,15 +548,11 @@
             },
             {
                 "source": 7,
-                "target": 30
-            },
-            {
-                "source": 7,
                 "target": 31
             },
             {
                 "source": 7,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 7,
@@ -588,7 +568,7 @@
             },
             {
                 "source": 7,
-                "target": 38
+                "target": 39
             },
             {
                 "source": 8,
@@ -600,10 +580,18 @@
             },
             {
                 "source": 8,
+                "target": 11
+            },
+            {
+                "source": 8,
                 "target": 12
             },
             {
                 "source": 8,
+                "target": 14
+            },
+            {
+                "source": 8,
                 "target": 16
             },
             {
@@ -612,7 +600,7 @@
             },
             {
                 "source": 8,
-                "target": 19
+                "target": 18
             },
             {
                 "source": 8,
@@ -628,15 +616,7 @@
             },
             {
                 "source": 8,
-                "target": 24
-            },
-            {
-                "source": 8,
-                "target": 28
-            },
-            {
-                "source": 8,
-                "target": 30
+                "target": 25
             },
             {
                 "source": 8,
@@ -644,7 +624,7 @@
             },
             {
                 "source": 8,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 8,
@@ -656,7 +636,15 @@
             },
             {
                 "source": 8,
-                "target": 38
+                "target": 39
+            },
+            {
+                "source": 9,
+                "target": 11
+            },
+            {
+                "source": 9,
+                "target": 14
             },
             {
                 "source": 9,
@@ -664,15 +652,11 @@
             },
             {
                 "source": 9,
-                "target": 19
-            },
-            {
-                "source": 9,
                 "target": 23
             },
             {
                 "source": 9,
-                "target": 24
+                "target": 25
             },
             {
                 "source": 9,
@@ -688,11 +672,7 @@
             },
             {
                 "source": 9,
-                "target": 30
-            },
-            {
-                "source": 9,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 9,
@@ -707,8 +687,8 @@
                 "target": 37
             },
             {
-                "source": 9,
-                "target": 38
+                "source": 10,
+                "target": 11
             },
             {
                 "source": 10,
@@ -716,6 +696,10 @@
             },
             {
                 "source": 10,
+                "target": 14
+            },
+            {
+                "source": 10,
                 "target": 16
             },
             {
@@ -724,6 +708,10 @@
             },
             {
                 "source": 10,
+                "target": 18
+            },
+            {
+                "source": 10,
                 "target": 21
             },
             {
@@ -736,11 +724,11 @@
             },
             {
                 "source": 10,
-                "target": 27
+                "target": 25
             },
             {
                 "source": 10,
-                "target": 28
+                "target": 27
             },
             {
                 "source": 10,
@@ -748,15 +736,11 @@
             },
             {
                 "source": 10,
-                "target": 30
-            },
-            {
-                "source": 10,
                 "target": 31
             },
             {
                 "source": 10,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 10,
@@ -768,7 +752,63 @@
             },
             {
                 "source": 10,
-                "target": 38
+                "target": 39
+            },
+            {
+                "source": 11,
+                "target": 12
+            },
+            {
+                "source": 11,
+                "target": 14
+            },
+            {
+                "source": 11,
+                "target": 17
+            },
+            {
+                "source": 11,
+                "target": 18
+            },
+            {
+                "source": 11,
+                "target": 20
+            },
+            {
+                "source": 11,
+                "target": 22
+            },
+            {
+                "source": 11,
+                "target": 23
+            },
+            {
+                "source": 11,
+                "target": 25
+            },
+            {
+                "source": 11,
+                "target": 26
+            },
+            {
+                "source": 11,
+                "target": 27
+            },
+            {
+                "source": 11,
+                "target": 31
+            },
+            {
+                "source": 11,
+                "target": 35
+            },
+            {
+                "source": 11,
+                "target": 36
+            },
+            {
+                "source": 12,
+                "target": 14
             },
             {
                 "source": 12,
@@ -776,15 +816,11 @@
             },
             {
                 "source": 12,
-                "target": 19
-            },
-            {
-                "source": 12,
                 "target": 22
             },
             {
                 "source": 12,
-                "target": 24
+                "target": 25
             },
             {
                 "source": 12,
@@ -792,19 +828,11 @@
             },
             {
                 "source": 12,
-                "target": 28
-            },
-            {
-                "source": 12,
                 "target": 29
             },
             {
                 "source": 12,
-                "target": 30
-            },
-            {
-                "source": 12,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 12,
@@ -817,6 +845,58 @@
             {
                 "source": 12,
                 "target": 37
+            },
+            {
+                "source": 14,
+                "target": 16
+            },
+            {
+                "source": 14,
+                "target": 17
+            },
+            {
+                "source": 14,
+                "target": 18
+            },
+            {
+                "source": 14,
+                "target": 21
+            },
+            {
+                "source": 14,
+                "target": 25
+            },
+            {
+                "source": 14,
+                "target": 29
+            },
+            {
+                "source": 14,
+                "target": 31
+            },
+            {
+                "source": 14,
+                "target": 32
+            },
+            {
+                "source": 14,
+                "target": 34
+            },
+            {
+                "source": 14,
+                "target": 35
+            },
+            {
+                "source": 14,
+                "target": 36
+            },
+            {
+                "source": 14,
+                "target": 37
+            },
+            {
+                "source": 14,
+                "target": 39
             },
             {
                 "source": 16,
@@ -824,7 +904,7 @@
             },
             {
                 "source": 16,
-                "target": 19
+                "target": 18
             },
             {
                 "source": 16,
@@ -840,7 +920,7 @@
             },
             {
                 "source": 16,
-                "target": 24
+                "target": 25
             },
             {
                 "source": 16,
@@ -852,19 +932,11 @@
             },
             {
                 "source": 16,
-                "target": 28
-            },
-            {
-                "source": 16,
-                "target": 30
-            },
-            {
-                "source": 16,
                 "target": 31
             },
             {
                 "source": 16,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 16,
@@ -881,10 +953,6 @@
             {
                 "source": 16,
                 "target": 37
-            },
-            {
-                "source": 16,
-                "target": 38
             },
             {
                 "source": 17,
@@ -904,7 +972,7 @@
             },
             {
                 "source": 17,
-                "target": 24
+                "target": 25
             },
             {
                 "source": 17,
@@ -912,7 +980,7 @@
             },
             {
                 "source": 17,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 17,
@@ -927,64 +995,48 @@
                 "target": 37
             },
             {
-                "source": 17,
-                "target": 38
+                "source": 18,
+                "target": 21
             },
             {
-                "source": 19,
-                "target": 20
-            },
-            {
-                "source": 19,
+                "source": 18,
                 "target": 22
             },
             {
-                "source": 19,
+                "source": 18,
                 "target": 23
             },
             {
-                "source": 19,
-                "target": 24
-            },
-            {
-                "source": 19,
+                "source": 18,
                 "target": 26
             },
             {
-                "source": 19,
-                "target": 27
-            },
-            {
-                "source": 19,
-                "target": 28
-            },
-            {
-                "source": 19,
+                "source": 18,
                 "target": 29
             },
             {
-                "source": 19,
-                "target": 30
-            },
-            {
-                "source": 19,
+                "source": 18,
                 "target": 31
             },
             {
-                "source": 19,
-                "target": 33
-            },
-            {
-                "source": 19,
+                "source": 18,
                 "target": 34
             },
             {
-                "source": 19,
+                "source": 18,
                 "target": 35
             },
             {
-                "source": 19,
+                "source": 18,
                 "target": 36
+            },
+            {
+                "source": 18,
+                "target": 37
+            },
+            {
+                "source": 18,
+                "target": 39
             },
             {
                 "source": 20,
@@ -992,6 +1044,10 @@
             },
             {
                 "source": 20,
+                "target": 25
+            },
+            {
+                "source": 20,
                 "target": 26
             },
             {
@@ -1004,15 +1060,11 @@
             },
             {
                 "source": 20,
-                "target": 30
-            },
-            {
-                "source": 20,
                 "target": 31
             },
             {
                 "source": 20,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 20,
@@ -1028,7 +1080,7 @@
             },
             {
                 "source": 20,
-                "target": 38
+                "target": 39
             },
             {
                 "source": 21,
@@ -1036,6 +1088,10 @@
             },
             {
                 "source": 21,
+                "target": 25
+            },
+            {
+                "source": 21,
                 "target": 26
             },
             {
@@ -1044,19 +1100,15 @@
             },
             {
                 "source": 21,
-                "target": 28
-            },
-            {
-                "source": 21,
                 "target": 29
             },
             {
                 "source": 21,
-                "target": 30
+                "target": 31
             },
             {
                 "source": 21,
-                "target": 31
+                "target": 32
             },
             {
                 "source": 21,
@@ -1065,10 +1117,6 @@
             {
                 "source": 21,
                 "target": 37
-            },
-            {
-                "source": 21,
-                "target": 38
             },
             {
                 "source": 22,
@@ -1076,27 +1124,11 @@
             },
             {
                 "source": 22,
-                "target": 24
-            },
-            {
-                "source": 22,
                 "target": 27
             },
             {
                 "source": 22,
-                "target": 28
-            },
-            {
-                "source": 22,
-                "target": 30
-            },
-            {
-                "source": 22,
                 "target": 31
-            },
-            {
-                "source": 22,
-                "target": 33
             },
             {
                 "source": 22,
@@ -1112,11 +1144,7 @@
             },
             {
                 "source": 22,
-                "target": 38
-            },
-            {
-                "source": 23,
-                "target": 24
+                "target": 39
             },
             {
                 "source": 23,
@@ -1128,15 +1156,11 @@
             },
             {
                 "source": 23,
-                "target": 30
-            },
-            {
-                "source": 23,
                 "target": 31
             },
             {
                 "source": 23,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 23,
@@ -1152,43 +1176,39 @@
             },
             {
                 "source": 23,
-                "target": 38
+                "target": 39
             },
             {
-                "source": 24,
+                "source": 25,
                 "target": 26
             },
             {
-                "source": 24,
+                "source": 25,
                 "target": 27
             },
             {
-                "source": 24,
-                "target": 28
-            },
-            {
-                "source": 24,
+                "source": 25,
                 "target": 29
             },
             {
-                "source": 24,
-                "target": 30
+                "source": 25,
+                "target": 31
             },
             {
-                "source": 24,
-                "target": 33
+                "source": 25,
+                "target": 32
             },
             {
-                "source": 24,
+                "source": 25,
                 "target": 34
             },
             {
-                "source": 24,
+                "source": 25,
                 "target": 35
             },
             {
-                "source": 24,
-                "target": 38
+                "source": 25,
+                "target": 37
             },
             {
                 "source": 26,
@@ -1196,15 +1216,7 @@
             },
             {
                 "source": 26,
-                "target": 28
-            },
-            {
-                "source": 26,
                 "target": 31
-            },
-            {
-                "source": 26,
-                "target": 33
             },
             {
                 "source": 26,
@@ -1216,11 +1228,7 @@
             },
             {
                 "source": 26,
-                "target": 38
-            },
-            {
-                "source": 27,
-                "target": 28
+                "target": 39
             },
             {
                 "source": 27,
@@ -1228,15 +1236,11 @@
             },
             {
                 "source": 27,
-                "target": 30
-            },
-            {
-                "source": 27,
                 "target": 31
             },
             {
                 "source": 27,
-                "target": 33
+                "target": 32
             },
             {
                 "source": 27,
@@ -1252,111 +1256,59 @@
             },
             {
                 "source": 27,
-                "target": 38
+                "target": 39
             },
             {
-                "source": 28,
-                "target": 29
-            },
-            {
-                "source": 28,
-                "target": 30
-            },
-            {
-                "source": 28,
-                "target": 31
-            },
-            {
-                "source": 28,
+                "source": 29,
                 "target": 34
             },
             {
-                "source": 28,
+                "source": 29,
+                "target": 36
+            },
+            {
+                "source": 29,
+                "target": 37
+            },
+            {
+                "source": 29,
+                "target": 39
+            },
+            {
+                "source": 31,
+                "target": 32
+            },
+            {
+                "source": 31,
+                "target": 34
+            },
+            {
+                "source": 31,
+                "target": 36
+            },
+            {
+                "source": 31,
+                "target": 37
+            },
+            {
+                "source": 32,
+                "target": 34
+            },
+            {
+                "source": 32,
                 "target": 35
             },
             {
-                "source": 28,
-                "target": 38
-            },
-            {
-                "source": 29,
-                "target": 30
-            },
-            {
-                "source": 29,
-                "target": 33
-            },
-            {
-                "source": 29,
-                "target": 34
-            },
-            {
-                "source": 29,
+                "source": 32,
                 "target": 36
             },
             {
-                "source": 29,
+                "source": 32,
                 "target": 37
             },
             {
-                "source": 29,
-                "target": 38
-            },
-            {
-                "source": 30,
-                "target": 31
-            },
-            {
-                "source": 30,
-                "target": 33
-            },
-            {
-                "source": 30,
-                "target": 34
-            },
-            {
-                "source": 30,
-                "target": 36
-            },
-            {
-                "source": 30,
-                "target": 37
-            },
-            {
-                "source": 30,
-                "target": 38
-            },
-            {
-                "source": 31,
-                "target": 33
-            },
-            {
-                "source": 31,
-                "target": 34
-            },
-            {
-                "source": 31,
-                "target": 36
-            },
-            {
-                "source": 31,
-                "target": 37
-            },
-            {
-                "source": 33,
-                "target": 34
-            },
-            {
-                "source": 33,
-                "target": 35
-            },
-            {
-                "source": 33,
-                "target": 36
-            },
-            {
-                "source": 33,
-                "target": 37
+                "source": 32,
+                "target": 39
             },
             {
                 "source": 34,
@@ -1367,6 +1319,10 @@
                 "target": 36
             },
             {
+                "source": 34,
+                "target": 39
+            },
+            {
                 "source": 35,
                 "target": 36
             },
@@ -1376,23 +1332,40 @@
             },
             {
                 "source": 35,
-                "target": 38
+                "target": 39
             },
             {
                 "source": 36,
                 "target": 37
             },
             {
+                "source": 36,
+                "target": 39
+            },
+            {
                 "source": 37,
-                "target": 38
+                "target": 39
             }
         ]
     },
     "sampler_response": {
         "x": [
             0,
+            0,
             1,
             1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
             1,
             1,
             1,
@@ -1403,16 +1376,11 @@
             1,
             0,
             1,
-            0,
-            0,
-            0,
             1,
             1,
             0,
             1,
-            1,
-            1,
-            1,
+            0,
             1,
             1,
             0,
@@ -1420,18 +1388,10 @@
             1,
             1,
             1,
-            1,
-            1,
             0,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            0
+            1
         ],
-        "value": -139650.0,
+        "value": -13180.0,
         "cardinality": 30,
         "sampleset": {
             "type": "SampleSet",
@@ -1444,44 +1404,44 @@
                 "type": "array",
                 "data": [
                     [
-                        4005179327,
-                        127
-                    ],
-                    [
-                        4224424895,
-                        237
-                    ],
-                    [
-                        3716081387,
-                        127
-                    ],
-                    [
-                        4285415391,
-                        206
-                    ],
-                    [
-                        1609463547,
-                        235
-                    ],
-                    [
-                        4261091262,
-                        126
-                    ],
-                    [
-                        3537758975,
+                        3891986092,
                         253
                     ],
                     [
-                        1945828347,
-                        203
+                        3154075628,
+                        117
                     ],
                     [
-                        4197449207,
-                        207
+                        2633497468,
+                        247
                     ],
                     [
-                        3883372281,
+                        4152235002,
                         255
+                    ],
+                    [
+                        3072999414,
+                        255
+                    ],
+                    [
+                        1878949820,
+                        93
+                    ],
+                    [
+                        4277886884,
+                        239
+                    ],
+                    [
+                        1996430205,
+                        191
+                    ],
+                    [
+                        2935447548,
+                        189
+                    ],
+                    [
+                        4243782459,
+                        223
                     ]
                 ],
                 "data_type": "uint32",
@@ -1497,16 +1457,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -139640,
-                        -139636,
-                        -139634,
-                        -139606,
-                        -139628,
-                        -139650,
-                        -139622,
-                        -139628,
-                        -139600,
-                        -139638
+                        -13172,
+                        -13168,
+                        -13167,
+                        -13165,
+                        -13157,
+                        -13176,
+                        -13174,
+                        -13170,
+                        -13180,
+                        -13166
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -1580,14 +1540,14 @@
             "variable_type": "BINARY",
             "info": {
                 "beta_range": [
-                    7.676048511184333e-05,
-                    0.05510996438605999
+                    0.0007967208971953394,
+                    0.5720034234553123
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 1649320,
-                    "sampling_ns": 9742694,
-                    "postprocessing_ns": 318694
+                    "preprocessing_ns": 879425,
+                    "sampling_ns": 8680449,
+                    "postprocessing_ns": 91637
                 }
             }
         }
@@ -4155,256 +4115,214 @@
                 "Q": [
                     [
                         [
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0
-                        ],
-                        [
-                            0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0
                         ],
                         [
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0
+                            -870.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4412,41 +4330,41 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4455,40 +4373,40 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -4498,39 +4416,39 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4541,38 +4459,38 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4584,37 +4502,37 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -4627,36 +4545,36 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4670,35 +4588,35 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -4713,34 +4631,34 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -4756,33 +4674,33 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4799,32 +4717,32 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4842,31 +4760,31 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -4885,30 +4803,30 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            301.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -4928,29 +4846,29 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            29.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -4971,28 +4889,28 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5014,27 +4932,27 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5057,26 +4975,26 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5100,25 +5018,25 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -5143,24 +5061,24 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5186,23 +5104,23 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5229,22 +5147,22 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0
+                            -870.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5272,21 +5190,21 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -5315,20 +5233,20 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5358,19 +5276,19 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5401,18 +5319,18 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5444,17 +5362,17 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5487,16 +5405,16 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5530,15 +5448,15 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -5573,14 +5491,14 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5616,13 +5534,13 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            301.0,
-                            301.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0
                         ],
                         [
                             0.0,
@@ -5659,12 +5577,12 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            29.0,
+                            29.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5702,11 +5620,11 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            301.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5745,10 +5663,10 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            29.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5788,9 +5706,9 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0,
-                            -9030.0,
-                            302.0
+                            -870.0,
+                            30.0,
+                            30.0
                         ],
                         [
                             0.0,
@@ -5831,28 +5749,83 @@
                             0.0,
                             0.0,
                             0.0,
+                            -870.0,
+                            30.0
+                        ],
+                        [
                             0.0,
-                            -9030.0
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            -870.0
                         ]
                     ]
                 ],
                 "lambda": [
-                    150.5
+                    14.5
                 ],
                 "mu_half": [
-                    301
+                    29
                 ],
                 "norm_Q": [
-                    57729.231486310295
+                    5564.813024711612
                 ]
             },
             "computed_cardinality": 30,
-            "mui": 301,
+            "mui": 29,
             "best_computed_cardinality": 30,
             "best_computed_cardinality_x": [
                 0,
+                0,
                 1,
                 1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
                 1,
                 1,
                 1,
@@ -5863,16 +5836,11 @@
                 1,
                 0,
                 1,
-                0,
-                0,
-                0,
                 1,
                 1,
                 0,
                 1,
-                1,
-                1,
-                1,
+                0,
                 1,
                 1,
                 0,
@@ -5880,32 +5848,24 @@
                 1,
                 1,
                 1,
-                1,
-                1,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                0
+                1
             ],
-            "initial_lambda": 150.5,
-            "lambdai": 150.5,
+            "initial_lambda": 14.5,
+            "lambdai": 14.5,
             "step": 1.1,
             "max_iterations": 50,
             "number_of_iterations": 1
         }
     },
-    "algorithm": "AlgoAugementedLagrangianPenExactType1SA(g=(40, 596),k=30, method=Sampler(sampler=SimulatedAnnealingSampler(), num_reads=10), result=Result, initial_lambda=150.5,initial_mu=301, step=1.1, max_iterations=50))\nlambdai=150.5\nmui=301\nnumber_of_iterations=1",
+    "algorithm": "AlgoAugementedLagrangianPenExactType1SA(g=(40, 596),k=30, method=Sampler(sampler=SimulatedAnnealingSampler(), num_reads=10), result=Result, initial_lambda=14.5,initial_mu=29, step=1.1, max_iterations=50))\nlambdai=14.5\nmui=29\nnumber_of_iterations=1",
     "super_summary": {
         "instance": "kcluster40_025_30_4",
         "algorithm": "AlgoAugementedLagrangianPenExactType1SA",
         "optimum": 301.0,
-        "computed_val": 315,
+        "computed_val": 305,
         "is_optimal": false,
         "computed_cardinality": 30,
-        "time": 0.014365673065185547
+        "time": 0.013001680374145508
     }
 }

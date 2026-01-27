@@ -5,178 +5,134 @@
         "graph": {},
         "nodes": [
             {
-                "_original_labeling": 0,
-                "id": 0
+                "_original_labeling": 1,
+                "id": 1
             },
             {
-                "_original_labeling": 3,
-                "id": 3
+                "_original_labeling": 5,
+                "id": 5
             },
             {
-                "_original_labeling": 6,
-                "id": 6
+                "_original_labeling": 12,
+                "id": 12
             },
             {
-                "_original_labeling": 9,
-                "id": 9
+                "_original_labeling": 14,
+                "id": 14
             },
             {
-                "_original_labeling": 11,
-                "id": 11
+                "_original_labeling": 23,
+                "id": 23
             },
             {
-                "_original_labeling": 13,
-                "id": 13
+                "_original_labeling": 27,
+                "id": 27
             },
             {
-                "_original_labeling": 21,
-                "id": 21
+                "_original_labeling": 28,
+                "id": 28
             },
             {
-                "_original_labeling": 32,
-                "id": 32
+                "_original_labeling": 30,
+                "id": 30
             },
             {
-                "_original_labeling": 38,
-                "id": 38
+                "_original_labeling": 34,
+                "id": 34
             },
             {
-                "_original_labeling": 40,
-                "id": 40
+                "_original_labeling": 36,
+                "id": 36
             },
             {
-                "_original_labeling": 42,
-                "id": 42
+                "_original_labeling": 41,
+                "id": 41
             },
             {
-                "_original_labeling": 45,
-                "id": 45
+                "_original_labeling": 43,
+                "id": 43
+            },
+            {
+                "_original_labeling": 44,
+                "id": 44
+            },
+            {
+                "_original_labeling": 47,
+                "id": 47
             },
             {
                 "_original_labeling": 52,
                 "id": 52
             },
             {
-                "_original_labeling": 54,
-                "id": 54
-            },
-            {
-                "_original_labeling": 57,
-                "id": 57
-            },
-            {
-                "_original_labeling": 61,
-                "id": 61
-            },
-            {
-                "_original_labeling": 64,
-                "id": 64
-            },
-            {
-                "_original_labeling": 67,
-                "id": 67
-            },
-            {
-                "_original_labeling": 69,
-                "id": 69
+                "_original_labeling": 63,
+                "id": 63
             },
             {
                 "_original_labeling": 72,
                 "id": 72
+            },
+            {
+                "_original_labeling": 76,
+                "id": 76
+            },
+            {
+                "_original_labeling": 77,
+                "id": 77
+            },
+            {
+                "_original_labeling": 79,
+                "id": 79
             }
         ],
         "edges": [
             {
-                "source": 0,
-                "target": 3
+                "source": 5,
+                "target": 44
             },
             {
-                "source": 0,
-                "target": 61
+                "source": 5,
+                "target": 76
             },
             {
-                "source": 3,
-                "target": 32
+                "source": 12,
+                "target": 79
             },
             {
-                "source": 3,
-                "target": 52
+                "source": 14,
+                "target": 47
             },
             {
-                "source": 11,
-                "target": 57
+                "source": 14,
+                "target": 79
             },
             {
-                "source": 13,
-                "target": 52
+                "source": 23,
+                "target": 79
             },
             {
-                "source": 21,
-                "target": 67
+                "source": 28,
+                "target": 43
             },
             {
-                "source": 32,
-                "target": 52
+                "source": 30,
+                "target": 47
             },
             {
-                "source": 40,
-                "target": 57
+                "source": 36,
+                "target": 47
             },
             {
-                "source": 64,
-                "target": 72
-            },
-            {
-                "source": 67,
-                "target": 69
+                "source": 36,
+                "target": 79
             }
         ]
     },
     "sampler_response": {
         "x": [
-            1,
-            0,
             0,
             1,
             0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            1,
             0,
             0,
             1,
@@ -191,31 +147,71 @@
             1,
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
             0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
             0,
             0,
             1,
             0,
             0,
             0,
+            1,
+            1,
+            0,
+            1,
             0,
             0,
             0,
-            0
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
         ],
-        "value": -1459.0,
+        "value": -1460.0,
         "cardinality": 20,
         "sampleset": {
             "type": "SampleSet",
@@ -228,54 +224,54 @@
                 "type": "array",
                 "data": [
                     [
-                        304121888,
-                        2425488273,
-                        9473
+                        2988479520,
+                        8536213,
+                        9088
                     ],
                     [
-                        2107977,
-                        575677761,
-                        297
+                        2370169,
+                        1115693377,
+                        1312
                     ],
                     [
-                        1426882657,
-                        1116020737,
-                        33032
+                        2208311360,
+                        2688692289,
+                        4488
                     ],
                     [
-                        271889,
-                        1082172805,
-                        35106
+                        1159736440,
+                        2189431041,
+                        8449
                     ],
                     [
-                        2443184200,
-                        5255489,
-                        12680
+                        357311073,
+                        109060161,
+                        2065
                     ],
                     [
-                        538715634,
-                        276902336,
-                        0
-                    ],
-                    [
-                        2166366793,
-                        46150977,
-                        33056
-                    ],
-                    [
-                        152638242,
-                        1076963394,
+                        302091297,
+                        3256885702,
                         264
                     ],
                     [
-                        385922081,
-                        3263299585,
-                        8472
+                        1484804130,
+                        2148571668,
+                        45312
                     ],
                     [
-                        371752960,
-                        2805342352,
-                        1536
+                        2172919881,
+                        46150976,
+                        4400
+                    ],
+                    [
+                        1403031649,
+                        2182348801,
+                        12552
+                    ],
+                    [
+                        1479016512,
+                        2704281937,
+                        4361
                     ]
                 ],
                 "data_type": "uint32",
@@ -291,16 +287,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -1453,
-                        -1459,
-                        -1453,
+                        -1451,
                         -1457,
-                        -1459,
+                        -1456,
+                        -1453,
+                        -1458,
+                        -1451,
+                        -1460,
                         -1455,
-                        -1457,
-                        -1454,
-                        -1457,
-                        -1453
+                        -1456,
+                        -1460
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -419,9 +415,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 2246838,
-                    "sampling_ns": 24620269,
-                    "postprocessing_ns": 109408
+                    "preprocessing_ns": 2353923,
+                    "sampling_ns": 25791864,
+                    "postprocessing_ns": 129928
                 }
             }
         }
@@ -10412,49 +10408,9 @@
             "mui": 7,
             "best_computed_cardinality": 20,
             "best_computed_cardinality_x": [
-                1,
-                0,
                 0,
                 1,
                 0,
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                1,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                1,
-                0,
-                1,
                 0,
                 0,
                 1,
@@ -10469,29 +10425,69 @@
                 1,
                 0,
                 0,
-                1,
                 0,
                 0,
                 0,
-                1,
                 0,
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                1,
                 0,
                 0,
                 1,
                 0,
                 0,
                 0,
+                1,
+                1,
+                0,
+                1,
                 0,
                 0,
                 0,
-                0
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1
             ],
             "initial_lambda": 3.5,
             "lambdai": 3.5,
@@ -10505,9 +10501,9 @@
         "instance": "kcluster80_075_20_3",
         "algorithm": "AlgoAugementedLagrangianPenExactType1SA",
         "optimum": 6.0,
-        "computed_val": 11,
+        "computed_val": 10,
         "is_optimal": false,
         "computed_cardinality": 20,
-        "time": 0.02938699722290039
+        "time": 0.0319826602935791
     }
 }

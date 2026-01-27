@@ -9,40 +9,40 @@
                 "id": 0
             },
             {
-                "_original_labeling": 2,
-                "id": 2
-            },
-            {
-                "_original_labeling": 35,
-                "id": 35
+                "_original_labeling": 1,
+                "id": 1
             },
             {
                 "_original_labeling": 4,
                 "id": 4
             },
             {
-                "_original_labeling": 36,
-                "id": 36
-            },
-            {
-                "_original_labeling": 6,
-                "id": 6
-            },
-            {
-                "_original_labeling": 39,
-                "id": 39
+                "_original_labeling": 7,
+                "id": 7
             },
             {
                 "_original_labeling": 8,
                 "id": 8
             },
             {
-                "_original_labeling": 18,
-                "id": 18
+                "_original_labeling": 10,
+                "id": 10
             },
             {
-                "_original_labeling": 29,
-                "id": 29
+                "_original_labeling": 20,
+                "id": 20
+            },
+            {
+                "_original_labeling": 23,
+                "id": 23
+            },
+            {
+                "_original_labeling": 27,
+                "id": 27
+            },
+            {
+                "_original_labeling": 30,
+                "id": 30
             }
         ],
         "edges": []
@@ -50,25 +50,16 @@
     "sampler_response": {
         "x": [
             1,
-            0,
             1,
             0,
-            1,
-            0,
-            1,
             0,
             1,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             1,
             0,
+            1,
             0,
             0,
             0,
@@ -81,14 +72,23 @@
             1,
             0,
             0,
+            1,
             0,
             0,
             0,
             1,
+            0,
+            0,
             1,
             0,
             0,
-            1
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ],
         "value": -50.0,
         "cardinality": 10,
@@ -103,44 +103,44 @@
                 "type": "array",
                 "data": [
                     [
-                        537133397,
-                        152
+                        1217398163,
+                        0
                     ],
                     [
-                        134631745,
-                        18
+                        1074004437,
+                        24
                     ],
                     [
-                        1241776277,
-                        34
+                        168186632,
+                        2
                     ],
                     [
-                        143004033,
+                        1212432725,
+                        0
+                    ],
+                    [
+                        170004928,
                         96
                     ],
                     [
-                        1241776532,
+                        214176004,
+                        36
+                    ],
+                    [
+                        675545428,
+                        3
+                    ],
+                    [
+                        170004928,
                         34
                     ],
                     [
-                        134353868,
-                        64
-                    ],
-                    [
-                        134484812,
-                        18
-                    ],
-                    [
-                        1208222149,
+                        134615752,
                         80
                     ],
                     [
-                        278869,
-                        26
-                    ],
-                    [
-                        163973377,
-                        32
+                        138563916,
+                        2
                     ]
                 ],
                 "data_type": "uint32",
@@ -244,9 +244,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 804231,
-                    "sampling_ns": 8134013,
-                    "postprocessing_ns": 103036
+                    "preprocessing_ns": 951177,
+                    "sampling_ns": 8568032,
+                    "postprocessing_ns": 133051
                 }
             }
         }
@@ -2930,25 +2930,16 @@
             "best_computed_cardinality": 10,
             "best_computed_cardinality_x": [
                 1,
-                0,
                 1,
                 0,
-                1,
-                0,
-                1,
                 0,
                 1,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                1,
                 1,
                 0,
+                1,
                 0,
                 0,
                 0,
@@ -2961,14 +2952,23 @@
                 1,
                 0,
                 0,
+                1,
                 0,
                 0,
                 0,
                 1,
+                0,
+                0,
                 1,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ],
             "initial_lambda": 0,
             "lambdai": 0,
@@ -2985,6 +2985,6 @@
         "computed_val": 0,
         "is_optimal": true,
         "computed_cardinality": 10,
-        "time": 0.010066032409667969
+        "time": 0.011543750762939453
     }
 }
