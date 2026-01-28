@@ -9,36 +9,32 @@
                 "id": 0
             },
             {
-                "_original_labeling": 2,
-                "id": 2
+                "_original_labeling": 1,
+                "id": 1
             },
             {
                 "_original_labeling": 3,
                 "id": 3
             },
             {
+                "_original_labeling": 8,
+                "id": 8
+            },
+            {
                 "_original_labeling": 11,
                 "id": 11
+            },
+            {
+                "_original_labeling": 12,
+                "id": 12
             },
             {
                 "_original_labeling": 22,
                 "id": 22
             },
             {
-                "_original_labeling": 24,
-                "id": 24
-            },
-            {
-                "_original_labeling": 27,
-                "id": 27
-            },
-            {
-                "_original_labeling": 30,
-                "id": 30
-            },
-            {
-                "_original_labeling": 35,
-                "id": 35
+                "_original_labeling": 26,
+                "id": 26
             },
             {
                 "_original_labeling": 37,
@@ -49,28 +45,28 @@
                 "id": 41
             },
             {
-                "_original_labeling": 42,
-                "id": 42
+                "_original_labeling": 44,
+                "id": 44
             },
             {
-                "_original_labeling": 47,
-                "id": 47
+                "_original_labeling": 48,
+                "id": 48
             },
             {
-                "_original_labeling": 50,
-                "id": 50
+                "_original_labeling": 52,
+                "id": 52
             },
             {
-                "_original_labeling": 53,
-                "id": 53
+                "_original_labeling": 60,
+                "id": 60
             },
             {
-                "_original_labeling": 59,
-                "id": 59
+                "_original_labeling": 61,
+                "id": 61
             },
             {
-                "_original_labeling": 65,
-                "id": 65
+                "_original_labeling": 62,
+                "id": 62
             },
             {
                 "_original_labeling": 70,
@@ -81,153 +77,114 @@
                 "id": 74
             },
             {
-                "_original_labeling": 79,
-                "id": 79
+                "_original_labeling": 75,
+                "id": 75
+            },
+            {
+                "_original_labeling": 77,
+                "id": 77
             }
         ],
         "edges": [
             {
                 "source": 0,
-                "target": 42
+                "target": 8
             },
             {
                 "source": 0,
-                "target": 79
+                "target": 61
             },
             {
-                "source": 2,
+                "source": 1,
                 "target": 22
             },
             {
-                "source": 2,
-                "target": 47
-            },
-            {
-                "source": 2,
-                "target": 53
-            },
-            {
-                "source": 2,
-                "target": 70
-            },
-            {
                 "source": 3,
-                "target": 24
+                "target": 60
+            },
+            {
+                "source": 8,
+                "target": 11
+            },
+            {
+                "source": 8,
+                "target": 60
+            },
+            {
+                "source": 8,
+                "target": 75
             },
             {
                 "source": 11,
-                "target": 27
+                "target": 26
             },
             {
-                "source": 11,
-                "target": 47
+                "source": 12,
+                "target": 26
             },
             {
-                "source": 11,
-                "target": 59
+                "source": 12,
+                "target": 75
             },
             {
-                "source": 24,
-                "target": 53
+                "source": 12,
+                "target": 77
             },
             {
-                "source": 24,
-                "target": 65
-            },
-            {
-                "source": 24,
-                "target": 79
-            },
-            {
-                "source": 27,
-                "target": 41
-            },
-            {
-                "source": 30,
-                "target": 37
-            },
-            {
-                "source": 30,
-                "target": 65
-            },
-            {
-                "source": 35,
-                "target": 79
+                "source": 26,
+                "target": 52
             },
             {
                 "source": 37,
                 "target": 41
             },
             {
-                "source": 41,
-                "target": 53
+                "source": 37,
+                "target": 44
             },
             {
-                "source": 50,
-                "target": 59
+                "source": 37,
+                "target": 52
             },
             {
-                "source": 53,
+                "source": 37,
+                "target": 61
+            },
+            {
+                "source": 48,
                 "target": 70
             },
             {
-                "source": 65,
+                "source": 52,
                 "target": 70
             },
             {
-                "source": 65,
-                "target": 74
+                "source": 62,
+                "target": 75
             },
             {
-                "source": 65,
-                "target": 79
+                "source": 70,
+                "target": 75
+            },
+            {
+                "source": 70,
+                "target": 77
+            },
+            {
+                "source": 74,
+                "target": 75
+            },
+            {
+                "source": 74,
+                "target": 77
             }
         ]
     },
     "sampler_response": {
         "x": [
             1,
-            0,
-            1,
             1,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
             1,
             0,
             0,
@@ -237,21 +194,12 @@
             0,
             0,
             1,
-            0,
-            0,
             1,
             0,
             0,
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -265,9 +213,57 @@
             0,
             0,
             0,
-            1
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
         ],
-        "value": -3576.0,
+        "value": -3577.0,
         "cardinality": 20,
         "sampleset": {
             "type": "SampleSet",
@@ -280,54 +276,54 @@
                 "type": "array",
                 "data": [
                     [
-                        560337024,
-                        811728921,
-                        408
+                        1149305116,
+                        3506636368,
+                        33280
                     ],
                     [
-                        1212180490,
-                        537015808,
-                        34001
+                        1112149001,
+                        2684748081,
+                        73
                     ],
                     [
-                        6769168,
-                        276826595,
-                        5120
+                        2236874769,
+                        3491238400,
+                        17760
                     ],
                     [
-                        2151942674,
-                        270534698,
-                        29738
+                        71309579,
+                        1880166944,
+                        11328
                     ],
                     [
-                        3225430724,
-                        1434604033,
-                        16
+                        17959045,
+                        1611861569,
+                        1168
                     ],
                     [
-                        1094725901,
-                        8663053,
-                        17476
+                        22547,
+                        270011051,
+                        34856
                     ],
                     [
-                        1228933133,
-                        136611368,
-                        33858
+                        1482981400,
+                        15618312,
+                        2
                     ],
                     [
-                        1073742082,
-                        1380142128,
-                        37048
+                        1091178512,
+                        2550281096,
+                        1556
                     ],
                     [
-                        1254293512,
-                        1480928769,
-                        8
+                        1178898449,
+                        1344274521,
+                        17728
                     ],
                     [
-                        1188364360,
-                        1092626177,
-                        24576
+                        1241809425,
+                        3489825298,
+                        34064
                     ]
                 ],
                 "data_type": "uint32",
@@ -344,15 +340,15 @@
                     "type": "array",
                     "data": [
                         -3571,
-                        -3567,
-                        -3573,
-                        -3575,
-                        -3565,
-                        -3570,
-                        -3576,
                         -3568,
+                        -3576,
+                        -3577,
                         -3572,
-                        -3571
+                        -3573,
+                        -3572,
+                        -3566,
+                        -3576,
+                        -3572
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -471,9 +467,9 @@
                 ],
                 "beta_schedule_type": "geometric",
                 "timing": {
-                    "preprocessing_ns": 2445030,
-                    "sampling_ns": 28657045,
-                    "postprocessing_ns": 243146
+                    "preprocessing_ns": 2589016,
+                    "sampling_ns": 28129896,
+                    "postprocessing_ns": 141735
                 }
             }
         }
@@ -10621,47 +10617,8 @@
             "best_computed_cardinality": 20,
             "best_computed_cardinality_x": [
                 1,
-                0,
-                1,
                 1,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                1,
-                0,
-                0,
-                0,
-                1,
                 1,
                 0,
                 0,
@@ -10671,21 +10628,12 @@
                 0,
                 0,
                 1,
-                0,
-                0,
                 1,
                 0,
                 0,
                 0,
                 0,
                 0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
                 0,
                 0,
                 0,
@@ -10699,7 +10647,55 @@
                 0,
                 0,
                 0,
-                1
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
             ],
             "initial_lambda": 0,
             "lambdai": 0,
@@ -10713,9 +10709,9 @@
         "instance": "kcluster80_075_20_5",
         "algorithm": "AlgoAugementedLagrangianPenExactType2SA",
         "optimum": 7.0,
-        "computed_val": 24,
+        "computed_val": 23,
         "is_optimal": false,
         "computed_cardinality": 20,
-        "time": 0.03547477722167969
+        "time": 0.03442955017089844
     }
 }

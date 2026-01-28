@@ -9,12 +9,12 @@
                 "id": 1
             },
             {
-                "_original_labeling": 34,
-                "id": 34
-            },
-            {
                 "_original_labeling": 4,
                 "id": 4
+            },
+            {
+                "_original_labeling": 37,
+                "id": 37
             },
             {
                 "_original_labeling": 39,
@@ -29,10 +29,6 @@
                 "id": 11
             },
             {
-                "_original_labeling": 12,
-                "id": 12
-            },
-            {
                 "_original_labeling": 14,
                 "id": 14
             },
@@ -43,6 +39,10 @@
             {
                 "_original_labeling": 27,
                 "id": 27
+            },
+            {
+                "_original_labeling": 30,
+                "id": 30
             }
         ],
         "edges": [
@@ -51,28 +51,16 @@
                 "target": 4
             },
             {
-                "source": 1,
-                "target": 34
+                "source": 37,
+                "target": 14
             },
             {
-                "source": 34,
-                "target": 8
-            },
-            {
-                "source": 34,
-                "target": 39
-            },
-            {
-                "source": 4,
-                "target": 12
+                "source": 37,
+                "target": 23
             },
             {
                 "source": 39,
-                "target": 12
-            },
-            {
-                "source": 12,
-                "target": 27
+                "target": 30
             },
             {
                 "source": 14,
@@ -94,22 +82,11 @@
             0,
             0,
             1,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -120,10 +97,21 @@
             0,
             0,
             0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
             0,
             1
         ],
-        "value": -492.0,
+        "value": -495.0,
         "cardinality": 10,
         "sampleset": {
             "type": "SampleSet",
@@ -136,44 +124,44 @@
                 "type": "array",
                 "data": [
                     [
-                        1073895701,
-                        32
+                        1216629016,
+                        128
                     ],
                     [
-                        142629138,
-                        132
+                        1208354817,
+                        184
                     ],
                     [
-                        8522516,
-                        176
-                    ],
-                    [
-                        1216366612,
-                        44
-                    ],
-                    [
-                        1208359205,
-                        0
-                    ],
-                    [
-                        159384853,
+                        168053009,
                         136
                     ],
                     [
-                        1241534787,
-                        32
+                        1210075420,
+                        2
                     ],
                     [
-                        1276119316,
-                        36
+                        1082527908,
+                        10
                     ],
                     [
-                        144066561,
-                        144
+                        1082266028,
+                        2
                     ],
                     [
-                        142609170,
-                        176
+                        143808768,
+                        10
+                    ],
+                    [
+                        1216366866,
+                        160
+                    ],
+                    [
+                        1083326733,
+                        2
+                    ],
+                    [
+                        1241780483,
+                        40
                     ]
                 ],
                 "data_type": "uint32",
@@ -189,16 +177,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -491,
                         -492,
                         -491,
                         -491,
                         -491,
-                        -490,
-                        -490,
-                        -490,
+                        -491,
+                        -491,
+                        -487,
+                        -495,
                         -489,
-                        -492
+                        -489
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -230,7 +218,7 @@
                     "type": "array",
                     "data": [
                         0,
-                        0,
+                        1,
                         0,
                         0,
                         0,
@@ -292,9 +280,9 @@
             "variable_type": "BINARY",
             "info": {
                 "timing": {
-                    "preprocessing_ns": 328149,
-                    "sampling_ns": 109533,
-                    "postprocessing_ns": 61745
+                    "preprocessing_ns": 362167,
+                    "sampling_ns": 148496,
+                    "postprocessing_ns": 79833
                 }
             }
         }
@@ -3769,22 +3757,11 @@
                 0,
                 0,
                 1,
-                1,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 1,
                 0,
                 0,
-                0,
-                1,
                 0,
                 0,
                 0,
@@ -3795,6 +3772,17 @@
                 0,
                 0,
                 0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 0,
                 1
             ],
@@ -3810,9 +3798,9 @@
         "instance": "kcluster40_050_10_5",
         "algorithm": "AlgoAugementedLagrangianPenExactType2SAPP",
         "optimum": 5.0,
-        "computed_val": 8,
-        "is_optimal": false,
+        "computed_val": 5,
+        "is_optimal": true,
         "computed_cardinality": 10,
-        "time": 0.012270212173461914
+        "time": 0.014671087265014648
     }
 }

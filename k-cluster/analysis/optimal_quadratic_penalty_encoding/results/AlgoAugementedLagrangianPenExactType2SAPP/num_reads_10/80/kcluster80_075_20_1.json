@@ -5,80 +5,80 @@
         "graph": {},
         "nodes": [
             {
-                "_original_labeling": 1,
-                "id": 1
-            },
-            {
-                "_original_labeling": 2,
-                "id": 2
-            },
-            {
-                "_original_labeling": 3,
-                "id": 3
-            },
-            {
                 "_original_labeling": 6,
                 "id": 6
+            },
+            {
+                "_original_labeling": 7,
+                "id": 7
+            },
+            {
+                "_original_labeling": 10,
+                "id": 10
+            },
+            {
+                "_original_labeling": 11,
+                "id": 11
             },
             {
                 "_original_labeling": 13,
                 "id": 13
             },
             {
-                "_original_labeling": 25,
-                "id": 25
+                "_original_labeling": 16,
+                "id": 16
             },
             {
-                "_original_labeling": 29,
-                "id": 29
+                "_original_labeling": 26,
+                "id": 26
             },
             {
-                "_original_labeling": 33,
-                "id": 33
+                "_original_labeling": 28,
+                "id": 28
             },
             {
-                "_original_labeling": 48,
-                "id": 48
+                "_original_labeling": 34,
+                "id": 34
             },
             {
-                "_original_labeling": 50,
-                "id": 50
+                "_original_labeling": 43,
+                "id": 43
             },
             {
-                "_original_labeling": 54,
-                "id": 54
+                "_original_labeling": 47,
+                "id": 47
+            },
+            {
+                "_original_labeling": 51,
+                "id": 51
+            },
+            {
+                "_original_labeling": 53,
+                "id": 53
             },
             {
                 "_original_labeling": 57,
                 "id": 57
             },
             {
-                "_original_labeling": 58,
-                "id": 58
-            },
-            {
                 "_original_labeling": 61,
                 "id": 61
             },
             {
-                "_original_labeling": 70,
-                "id": 70
+                "_original_labeling": 66,
+                "id": 66
+            },
+            {
+                "_original_labeling": 67,
+                "id": 67
+            },
+            {
+                "_original_labeling": 68,
+                "id": 68
             },
             {
                 "_original_labeling": 72,
                 "id": 72
-            },
-            {
-                "_original_labeling": 74,
-                "id": 74
-            },
-            {
-                "_original_labeling": 76,
-                "id": 76
-            },
-            {
-                "_original_labeling": 78,
-                "id": 78
             },
             {
                 "_original_labeling": 79,
@@ -87,136 +87,130 @@
         ],
         "edges": [
             {
-                "source": 1,
-                "target": 25
+                "source": 6,
+                "target": 43
             },
             {
-                "source": 1,
-                "target": 48
+                "source": 7,
+                "target": 16
             },
             {
-                "source": 1,
-                "target": 58
+                "source": 7,
+                "target": 53
             },
             {
-                "source": 1,
-                "target": 76
+                "source": 10,
+                "target": 47
             },
             {
-                "source": 2,
-                "target": 6
+                "source": 10,
+                "target": 53
             },
             {
-                "source": 3,
+                "source": 10,
                 "target": 57
             },
             {
+                "source": 11,
+                "target": 34
+            },
+            {
+                "source": 11,
+                "target": 53
+            },
+            {
                 "source": 13,
-                "target": 76
+                "target": 53
+            },
+            {
+                "source": 13,
+                "target": 68
             },
             {
                 "source": 13,
                 "target": 79
             },
             {
-                "source": 25,
-                "target": 50
-            },
-            {
-                "source": 25,
-                "target": 70
-            },
-            {
-                "source": 25,
-                "target": 72
-            },
-            {
-                "source": 25,
-                "target": 78
-            },
-            {
-                "source": 29,
-                "target": 50
-            },
-            {
-                "source": 29,
-                "target": 74
-            },
-            {
-                "source": 33,
-                "target": 58
-            },
-            {
-                "source": 33,
+                "source": 26,
                 "target": 61
             },
             {
-                "source": 54,
-                "target": 70
+                "source": 28,
+                "target": 34
             },
             {
-                "source": 54,
-                "target": 74
+                "source": 28,
+                "target": 61
+            },
+            {
+                "source": 28,
+                "target": 67
+            },
+            {
+                "source": 34,
+                "target": 43
+            },
+            {
+                "source": 34,
+                "target": 68
+            },
+            {
+                "source": 43,
+                "target": 68
+            },
+            {
+                "source": 47,
+                "target": 51
+            },
+            {
+                "source": 51,
+                "target": 53
+            },
+            {
+                "source": 51,
+                "target": 67
+            },
+            {
+                "source": 51,
+                "target": 68
             },
             {
                 "source": 57,
-                "target": 78
-            },
-            {
-                "source": 58,
-                "target": 70
-            },
-            {
-                "source": 58,
-                "target": 78
+                "target": 66
             },
             {
                 "source": 61,
-                "target": 70
+                "target": 67
+            },
+            {
+                "source": 66,
+                "target": 67
+            },
+            {
+                "source": 66,
+                "target": 72
             }
         ]
     },
     "sampler_response": {
         "x": [
             0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            0,
             0,
             0,
             0,
             0,
             0,
             1,
+            1,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
+            1,
             0,
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -232,11 +226,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            1,
             0,
             0,
             1,
@@ -250,16 +239,43 @@
             0,
             1,
             0,
+            0,
+            0,
             1,
+            0,
+            0,
             0,
             1,
             0,
             1,
             0,
+            0,
+            0,
             1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             1
         ],
-        "value": -5178.0,
+        "value": -5174.0,
         "cardinality": 20,
         "sampleset": {
             "type": "SampleSet",
@@ -272,54 +288,54 @@
                 "type": "array",
                 "data": [
                     [
-                        570466502,
-                        19021978,
-                        10498
+                        469778441,
+                        2424945,
+                        45590
                     ],
                     [
-                        2819162242,
-                        4242,
-                        7879
+                        541868160,
+                        2743336980,
+                        14088
                     ],
                     [
-                        570433614,
-                        642056194,
-                        54592
+                        1142993536,
+                        79691926,
+                        32969
                     ],
                     [
-                        604833792,
-                        173611136,
-                        33161
+                        76611685,
+                        582090756,
+                        41036
                     ],
                     [
-                        16844325,
-                        1627398198,
-                        41264
+                        2852651089,
+                        1174543745,
+                        258
                     ],
                     [
-                        1357021352,
-                        68425746,
-                        33025
+                        20989066,
+                        3758135728,
+                        770
                     ],
                     [
-                        692322313,
-                        1884827776,
-                        41028
+                        2171016,
+                        2822838274,
+                        6923
                     ],
                     [
-                        576979008,
-                        1661018113,
-                        39992
+                        335621312,
+                        573081604,
+                        33052
                     ],
                     [
-                        1740677281,
-                        20977668,
-                        4612
+                        1078173864,
+                        571507152,
+                        20736
                     ],
                     [
-                        1073754279,
-                        277088280,
-                        5513
+                        138641447,
+                        118555136,
+                        13572
                     ]
                 ],
                 "data_type": "uint32",
@@ -335,16 +351,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -5166,
-                        -5167,
-                        -5178,
-                        -5175,
-                        -5176,
-                        -5168,
-                        -5162,
+                        -5173,
                         -5164,
+                        -5169,
+                        -5165,
                         -5167,
-                        -5160
+                        -5164,
+                        -5169,
+                        -5174,
+                        -5166,
+                        -5164
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -478,9 +494,9 @@
             "variable_type": "BINARY",
             "info": {
                 "timing": {
-                    "preprocessing_ns": 495840,
-                    "sampling_ns": 361682,
-                    "postprocessing_ns": 90213
+                    "preprocessing_ns": 547106,
+                    "sampling_ns": 426064,
+                    "postprocessing_ns": 121790
                 }
             }
         }
@@ -10580,44 +10596,22 @@
             "best_computed_cardinality": 20,
             "best_computed_cardinality_x": [
                 0,
-                1,
-                1,
-                1,
-                0,
-                0,
-                1,
-                0,
                 0,
                 0,
                 0,
                 0,
                 0,
                 1,
+                1,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                1,
+                1,
                 0,
                 1,
                 0,
                 0,
-                0,
                 1,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0,
@@ -10633,11 +10627,6 @@
                 0,
                 0,
                 0,
-                1,
-                0,
-                0,
-                1,
-                1,
                 0,
                 0,
                 1,
@@ -10651,13 +10640,40 @@
                 0,
                 1,
                 0,
+                0,
+                0,
                 1,
+                0,
+                0,
                 0,
                 1,
                 0,
                 1,
                 0,
+                0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1
             ],
             "initial_lambda": 0,
@@ -10672,9 +10688,9 @@
         "instance": "kcluster80_075_20_1",
         "algorithm": "AlgoAugementedLagrangianPenExactType2SAPP",
         "optimum": 8.0,
-        "computed_val": 22,
+        "computed_val": 26,
         "is_optimal": false,
         "computed_cardinality": 20,
-        "time": 0.032961130142211914
+        "time": 0.043769121170043945
     }
 }

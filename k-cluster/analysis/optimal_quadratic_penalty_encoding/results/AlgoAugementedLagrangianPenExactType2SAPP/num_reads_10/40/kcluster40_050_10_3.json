@@ -5,20 +5,28 @@
         "graph": {},
         "nodes": [
             {
-                "_original_labeling": 32,
-                "id": 32
+                "_original_labeling": 0,
+                "id": 0
+            },
+            {
+                "_original_labeling": 1,
+                "id": 1
             },
             {
                 "_original_labeling": 2,
                 "id": 2
             },
             {
-                "_original_labeling": 35,
-                "id": 35
+                "_original_labeling": 3,
+                "id": 3
             },
             {
-                "_original_labeling": 37,
-                "id": 37
+                "_original_labeling": 32,
+                "id": 32
+            },
+            {
+                "_original_labeling": 35,
+                "id": 35
             },
             {
                 "_original_labeling": 6,
@@ -29,84 +37,63 @@
                 "id": 39
             },
             {
-                "_original_labeling": 13,
-                "id": 13
-            },
-            {
                 "_original_labeling": 14,
                 "id": 14
             },
             {
                 "_original_labeling": 19,
                 "id": 19
-            },
-            {
-                "_original_labeling": 27,
-                "id": 27
             }
         ],
         "edges": [
             {
-                "source": 32,
-                "target": 13
+                "source": 0,
+                "target": 2
+            },
+            {
+                "source": 0,
+                "target": 14
+            },
+            {
+                "source": 1,
+                "target": 6
+            },
+            {
+                "source": 1,
+                "target": 14
+            },
+            {
+                "source": 1,
+                "target": 19
             },
             {
                 "source": 2,
                 "target": 19
             },
             {
+                "source": 3,
+                "target": 6
+            },
+            {
+                "source": 3,
+                "target": 32
+            },
+            {
                 "source": 35,
                 "target": 19
             },
             {
-                "source": 35,
-                "target": 37
-            },
-            {
-                "source": 37,
-                "target": 14
-            },
-            {
-                "source": 37,
-                "target": 27
-            },
-            {
                 "source": 6,
                 "target": 19
-            },
-            {
-                "source": 6,
-                "target": 27
-            },
-            {
-                "source": 39,
-                "target": 27
-            },
-            {
-                "source": 19,
-                "target": 27
             }
         ]
     },
     "sampler_response": {
         "x": [
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
             1,
-            0,
-            0,
+            1,
+            1,
             0,
             0,
             1,
@@ -125,9 +112,22 @@
             1,
             0,
             0,
-            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             1,
+            0,
+            0,
+            1,
+            0,
+            0,
             0,
             1
         ],
@@ -144,44 +144,44 @@
                 "type": "array",
                 "data": [
                     [
-                        1216360837,
-                        16
-                    ],
-                    [
-                        134766660,
-                        169
-                    ],
-                    [
-                        142655749,
+                        2671696,
                         137
                     ],
                     [
-                        52977864,
-                        4
-                    ],
-                    [
-                        2102609,
-                        69
-                    ],
-                    [
-                        79823066,
-                        128
-                    ],
-                    [
-                        537454602,
+                        1610648904,
                         72
                     ],
                     [
-                        9048075,
-                        193
+                        604614664,
+                        66
                     ],
                     [
-                        1086739,
-                        68
+                        1226858544,
+                        9
                     ],
                     [
-                        1761869845,
-                        24
+                        1753350229,
+                        128
+                    ],
+                    [
+                        2147591260,
+                        32
+                    ],
+                    [
+                        638204992,
+                        0
+                    ],
+                    [
+                        540751,
+                        137
+                    ],
+                    [
+                        83928384,
+                        67
+                    ],
+                    [
+                        134275268,
+                        161
                     ]
                 ],
                 "data_type": "uint32",
@@ -197,16 +197,16 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -687,
-                        -690,
-                        -688,
-                        -686,
                         -689,
-                        -682,
+                        -684,
                         -685,
                         -687,
-                        -686,
-                        -682
+                        -684,
+                        -687,
+                        -687,
+                        -690,
+                        -690,
+                        -689
                     ],
                     "data_type": "float64",
                     "shape": [
@@ -300,9 +300,9 @@
             "variable_type": "BINARY",
             "info": {
                 "timing": {
-                    "preprocessing_ns": 310051,
-                    "sampling_ns": 94160,
-                    "postprocessing_ns": 61706
+                    "preprocessing_ns": 309151,
+                    "sampling_ns": 116588,
+                    "postprocessing_ns": 61363
                 }
             }
         }
@@ -3669,23 +3669,10 @@
             "mui": 14,
             "best_computed_cardinality": 10,
             "best_computed_cardinality_x": [
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 1,
                 1,
-                0,
-                0,
+                1,
+                1,
                 0,
                 0,
                 1,
@@ -3704,9 +3691,22 @@
                 1,
                 0,
                 0,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 1,
+                0,
+                0,
+                1,
+                0,
+                0,
                 0,
                 1
             ],
@@ -3725,6 +3725,6 @@
         "computed_val": 10,
         "is_optimal": false,
         "computed_cardinality": 10,
-        "time": 0.012643098831176758
+        "time": 0.012099742889404297
     }
 }

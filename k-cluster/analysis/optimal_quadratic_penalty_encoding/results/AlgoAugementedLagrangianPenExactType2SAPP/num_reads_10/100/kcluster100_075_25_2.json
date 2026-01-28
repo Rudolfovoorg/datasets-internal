@@ -5,16 +5,16 @@
         "graph": {},
         "nodes": [
             {
-                "_original_labeling": 1,
-                "id": 1
+                "_original_labeling": 0,
+                "id": 0
             },
             {
-                "_original_labeling": 9,
-                "id": 9
+                "_original_labeling": 2,
+                "id": 2
             },
             {
-                "_original_labeling": 10,
-                "id": 10
+                "_original_labeling": 3,
+                "id": 3
             },
             {
                 "_original_labeling": 14,
@@ -25,80 +25,80 @@
                 "id": 15
             },
             {
-                "_original_labeling": 16,
-                "id": 16
+                "_original_labeling": 26,
+                "id": 26
             },
             {
-                "_original_labeling": 24,
-                "id": 24
+                "_original_labeling": 33,
+                "id": 33
             },
             {
-                "_original_labeling": 28,
-                "id": 28
+                "_original_labeling": 35,
+                "id": 35
             },
             {
-                "_original_labeling": 42,
-                "id": 42
-            },
-            {
-                "_original_labeling": 44,
-                "id": 44
-            },
-            {
-                "_original_labeling": 45,
-                "id": 45
+                "_original_labeling": 43,
+                "id": 43
             },
             {
                 "_original_labeling": 52,
                 "id": 52
             },
             {
-                "_original_labeling": 60,
-                "id": 60
+                "_original_labeling": 56,
+                "id": 56
             },
             {
-                "_original_labeling": 62,
-                "id": 62
+                "_original_labeling": 63,
+                "id": 63
             },
             {
-                "_original_labeling": 64,
-                "id": 64
+                "_original_labeling": 67,
+                "id": 67
             },
             {
-                "_original_labeling": 66,
-                "id": 66
+                "_original_labeling": 68,
+                "id": 68
+            },
+            {
+                "_original_labeling": 73,
+                "id": 73
+            },
+            {
+                "_original_labeling": 74,
+                "id": 74
             },
             {
                 "_original_labeling": 76,
                 "id": 76
             },
             {
-                "_original_labeling": 77,
-                "id": 77
+                "_original_labeling": 78,
+                "id": 78
+            },
+            {
+                "_original_labeling": 80,
+                "id": 80
             },
             {
                 "_original_labeling": 83,
                 "id": 83
             },
             {
-                "_original_labeling": 85,
-                "id": 85
+                "_original_labeling": 87,
+                "id": 87
             },
             {
-                "_original_labeling": 89,
-                "id": 89
+                "_original_labeling": 90,
+                "id": 90
             },
             {
-                "_original_labeling": 92,
-                "id": 92
+                "_original_labeling": 91,
+                "id": 91
             },
             {
                 "_original_labeling": 93,
                 "id": 93
-            },
-            {
-                "_original_labeling": 94,
-                "id": 94
             },
             {
                 "_original_labeling": 99,
@@ -107,264 +107,230 @@
         ],
         "edges": [
             {
-                "source": 1,
-                "target": 10
+                "source": 0,
+                "target": 3
             },
             {
-                "source": 1,
-                "target": 16
-            },
-            {
-                "source": 1,
-                "target": 28
-            },
-            {
-                "source": 1,
-                "target": 45
-            },
-            {
-                "source": 1,
-                "target": 62
-            },
-            {
-                "source": 1,
-                "target": 83
-            },
-            {
-                "source": 1,
-                "target": 85
-            },
-            {
-                "source": 1,
-                "target": 99
-            },
-            {
-                "source": 9,
+                "source": 0,
                 "target": 14
             },
             {
-                "source": 9,
-                "target": 16
+                "source": 0,
+                "target": 74
             },
             {
-                "source": 9,
-                "target": 83
-            },
-            {
-                "source": 9,
-                "target": 89
-            },
-            {
-                "source": 10,
-                "target": 44
-            },
-            {
-                "source": 10,
-                "target": 60
-            },
-            {
-                "source": 10,
-                "target": 89
-            },
-            {
-                "source": 10,
-                "target": 92
-            },
-            {
-                "source": 10,
+                "source": 0,
                 "target": 93
             },
             {
-                "source": 10,
-                "target": 94
+                "source": 2,
+                "target": 33
+            },
+            {
+                "source": 2,
+                "target": 35
+            },
+            {
+                "source": 3,
+                "target": 67
+            },
+            {
+                "source": 3,
+                "target": 91
             },
             {
                 "source": 14,
-                "target": 44
-            },
-            {
-                "source": 14,
-                "target": 92
+                "target": 90
             },
             {
                 "source": 15,
-                "target": 24
+                "target": 43
             },
             {
                 "source": 15,
-                "target": 42
+                "target": 56
             },
             {
-                "source": 16,
-                "target": 24
+                "source": 15,
+                "target": 74
             },
             {
-                "source": 16,
-                "target": 60
+                "source": 15,
+                "target": 90
             },
             {
-                "source": 16,
-                "target": 77
-            },
-            {
-                "source": 24,
-                "target": 28
-            },
-            {
-                "source": 24,
-                "target": 44
-            },
-            {
-                "source": 24,
-                "target": 94
-            },
-            {
-                "source": 28,
+                "source": 26,
                 "target": 76
             },
             {
-                "source": 28,
-                "target": 94
+                "source": 26,
+                "target": 93
             },
             {
-                "source": 28,
+                "source": 33,
+                "target": 43
+            },
+            {
+                "source": 33,
+                "target": 52
+            },
+            {
+                "source": 33,
+                "target": 67
+            },
+            {
+                "source": 33,
+                "target": 91
+            },
+            {
+                "source": 35,
+                "target": 52
+            },
+            {
+                "source": 35,
+                "target": 68
+            },
+            {
+                "source": 35,
+                "target": 74
+            },
+            {
+                "source": 35,
+                "target": 87
+            },
+            {
+                "source": 35,
+                "target": 90
+            },
+            {
+                "source": 35,
                 "target": 99
             },
             {
-                "source": 42,
-                "target": 77
+                "source": 43,
+                "target": 56
             },
             {
-                "source": 42,
+                "source": 43,
+                "target": 87
+            },
+            {
+                "source": 43,
+                "target": 90
+            },
+            {
+                "source": 52,
+                "target": 63
+            },
+            {
+                "source": 52,
+                "target": 67
+            },
+            {
+                "source": 52,
+                "target": 93
+            },
+            {
+                "source": 56,
+                "target": 63
+            },
+            {
+                "source": 56,
+                "target": 78
+            },
+            {
+                "source": 63,
+                "target": 67
+            },
+            {
+                "source": 63,
+                "target": 68
+            },
+            {
+                "source": 63,
+                "target": 74
+            },
+            {
+                "source": 63,
+                "target": 78
+            },
+            {
+                "source": 63,
+                "target": 80
+            },
+            {
+                "source": 63,
                 "target": 83
             },
             {
-                "source": 42,
-                "target": 89
+                "source": 67,
+                "target": 68
             },
             {
-                "source": 45,
-                "target": 62
+                "source": 67,
+                "target": 83
             },
             {
-                "source": 45,
+                "source": 68,
+                "target": 78
+            },
+            {
+                "source": 68,
+                "target": 83
+            },
+            {
+                "source": 73,
                 "target": 76
             },
             {
-                "source": 52,
-                "target": 64
+                "source": 73,
+                "target": 78
             },
             {
-                "source": 52,
-                "target": 93
+                "source": 73,
+                "target": 80
             },
             {
-                "source": 60,
-                "target": 64
+                "source": 74,
+                "target": 91
             },
             {
-                "source": 60,
+                "source": 76,
+                "target": 78
+            },
+            {
+                "source": 76,
+                "target": 91
+            },
+            {
+                "source": 80,
+                "target": 90
+            },
+            {
+                "source": 80,
+                "target": 91
+            },
+            {
+                "source": 80,
                 "target": 99
-            },
-            {
-                "source": 62,
-                "target": 93
-            },
-            {
-                "source": 64,
-                "target": 77
-            },
-            {
-                "source": 66,
-                "target": 76
-            },
-            {
-                "source": 66,
-                "target": 93
-            },
-            {
-                "source": 77,
-                "target": 89
             },
             {
                 "source": 83,
-                "target": 94
+                "target": 91
             },
             {
-                "source": 89,
-                "target": 94
+                "source": 87,
+                "target": 99
             }
         ]
     },
     "sampler_response": {
         "x": [
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
             0,
             1,
             1,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            1,
-            0,
-            1,
             0,
             0,
             0,
@@ -381,7 +347,36 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             1,
             0,
@@ -390,16 +385,49 @@
             1,
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
             1,
             1,
+            0,
+            0,
+            0,
+            0,
             1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
             0,
             0,
             0,
             0,
             1
         ],
-        "value": -11828.0,
+        "value": -11821.0,
         "cardinality": 25,
         "sampleset": {
             "type": "SampleSet",
@@ -412,64 +440,64 @@
                 "type": "array",
                 "data": [
                     [
-                        1075577872,
-                        11674657,
-                        2720948224,
-                        10
+                        603980807,
+                        302147620,
+                        685842450,
+                        12
                     ],
                     [
-                        336592904,
-                        2428719171,
-                        1620706308,
-                        10
-                    ],
-                    [
-                        39403552,
-                        655895942,
-                        24644,
-                        2
-                    ],
-                    [
-                        285328898,
-                        1343239168,
-                        1915236357,
-                        8
-                    ],
-                    [
-                        22609920,
-                        1367933264,
-                        37306454,
-                        2
-                    ],
-                    [
-                        100731913,
-                        293732464,
-                        544738389,
+                        537255936,
+                        1242824930,
+                        822458372,
                         0
                     ],
                     [
-                        34341440,
-                        2215698630,
-                        818939941,
-                        2
+                        25247904,
+                        118038574,
+                        553676841,
+                        4
                     ],
                     [
-                        536887370,
-                        2232027211,
-                        2720544768,
-                        6
+                        335841281,
+                        18753552,
+                        1108463638,
+                        1
                     ],
                     [
-                        2231699560,
-                        3623944450,
-                        1162346517,
+                        33559554,
+                        1141899623,
+                        2300191106,
+                        12
+                    ],
+                    [
+                        67158029,
+                        2165311498,
+                        747197976,
                         8
                     ],
                     [
-                        26224780,
-                        9576452,
-                        2426179653,
+                        1174493312,
+                        140518218,
+                        169361448,
                         4
+                    ],
+                    [
+                        520388616,
+                        274993424,
+                        1755455760,
+                        8
+                    ],
+                    [
+                        814309648,
+                        268492821,
+                        2318401672,
+                        5
+                    ],
+                    [
+                        2152239105,
+                        1284521987,
+                        1420693888,
+                        0
                     ]
                 ],
                 "data_type": "uint32",
@@ -485,15 +513,15 @@
                 "energy": {
                     "type": "array",
                     "data": [
-                        -11823,
-                        -11813,
-                        -11817,
-                        -11828,
-                        -11815,
+                        -11819,
+                        -11818,
+                        -11814,
+                        -11808,
                         -11821,
-                        -11810,
-                        -11809,
-                        -11815,
+                        -11821,
+                        -11812,
+                        -11816,
+                        -11817,
                         -11821
                     ],
                     "data_type": "float64",
@@ -648,9 +676,9 @@
             "variable_type": "BINARY",
             "info": {
                 "timing": {
-                    "preprocessing_ns": 533990,
-                    "sampling_ns": 562260,
-                    "postprocessing_ns": 83556
+                    "preprocessing_ns": 636934,
+                    "sampling_ns": 707377,
+                    "postprocessing_ns": 164651
                 }
             }
         }
@@ -16289,73 +16317,11 @@
             "mui": 38,
             "best_computed_cardinality": 25,
             "best_computed_cardinality_x": [
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                1,
-                0,
-                0,
-                0,
-                1,
-                1,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 1,
                 0,
                 1,
                 1,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                1,
-                0,
-                1,
-                0,
-                1,
                 0,
                 0,
                 0,
@@ -16372,7 +16338,36 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 1,
                 0,
@@ -16381,9 +16376,42 @@
                 1,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
                 1,
                 1,
+                0,
+                0,
+                0,
+                0,
                 1,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
                 0,
                 0,
                 0,
@@ -16402,9 +16430,9 @@
         "instance": "kcluster100_075_25_2",
         "algorithm": "AlgoAugementedLagrangianPenExactType2SAPP",
         "optimum": 18.0,
-        "computed_val": 47,
+        "computed_val": 54,
         "is_optimal": false,
         "computed_cardinality": 25,
-        "time": 0.04703164100646973
+        "time": 0.057868242263793945
     }
 }
