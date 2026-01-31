@@ -1,4 +1,4 @@
-2,HH_BEASLEY1998TS,"/home/roman/git-rudolfovo/datasets-internal/k-cluster/analysis/optimal_quadratic_penalty_encoding/results/AlgoAugmentedLagrangianPenExactTypeYMQLIB/40/input_data/kcluster40_050_10_3.mqlib",714,2.000007,[0:0;700:0.329978;703:0.329979;706:0.32998;709:0.329981;712:0.329982;713:0.329983;714:0.330002]
+2,HH_BEASLEY1998TS,"/home/roman/git-rudolfovo/datasets-internal/k-cluster/analysis/optimal_quadratic_penalty_encoding/results/AlgoAugmentedLagrangianPenExactTypeYMQLIB/40/input_data/kcluster40_050_10_3.mqlib",714,2.00001,[0:1e-06;699:0.322208;703:0.322209;705:0.32221;708:0.322211;710:0.322212;712:0.322213;713:0.322214;714:0.322232]
 
 Solution:
-1 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 1
+1 0 0 0 1 0 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 1 0

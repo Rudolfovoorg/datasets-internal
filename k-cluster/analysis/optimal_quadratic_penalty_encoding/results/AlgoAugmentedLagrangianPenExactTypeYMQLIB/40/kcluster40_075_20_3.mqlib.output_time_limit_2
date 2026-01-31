@@ -1,4 +1,4 @@
-2,HH_PALUBECKIS2004bMST2,"/home/roman/git-rudolfovo/datasets-internal/k-cluster/analysis/optimal_quadratic_penalty_encoding/results/AlgoAugmentedLagrangianPenExactTypeYMQLIB/40/input_data/kcluster40_075_20_3.mqlib",7661,2.001353,[0:1e-06;7637:0.33895;7640:0.338951;7645:0.338953;7646:0.338953;7649:0.338954;7650:0.338955;7651:0.338959;7652:0.33896;7654:0.338961;7656:0.338962;7657:0.338963;7658:0.338966;7659:0.338967;7660:0.338968;7661:0.338968]
+2,HH_PALUBECKIS2004bMST2,"/home/roman/git-rudolfovo/datasets-internal/k-cluster/analysis/optimal_quadratic_penalty_encoding/results/AlgoAugmentedLagrangianPenExactTypeYMQLIB/40/input_data/kcluster40_075_20_3.mqlib",7661,2.002026,[0:1e-06;7636:0.317159;7640:0.317161;7644:0.317162;7647:0.317162;7648:0.317163;7650:0.317164;7653:0.317164;7656:0.317165;7658:0.317166;7659:0.317167;7660:0.317171;7661:0.317212]
 
 Solution:
-1 0 0 1 0 0 1 1 1 0 1 0 1 1 1 1 0 0 1 1 1 0 0 0 1 0 1 0 0 1 1 0 1 0 0 0 1 0 1 0
+0 0 0 0 1 0 1 0 1 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0
