@@ -1,4 +1,4 @@
-1,HH_MERZ2002KOPT,"/home/roman/git-rudolfovo/datasets-internal/k-cluster/analysis/optimal_quadratic_penalty_encoding/results/AlgoAugmentedLagrangianPenExactType2MQLIB/160/input_data/kcluster160_050_80_3.mqlib",504306,1.000072,[0:1e-06;504303:0.333333;504306:0.333902]
+1,HH_MERZ2002KOPT,"/home/roman/git-rudolfovo/datasets-internal/k-cluster/analysis/optimal_quadratic_penalty_encoding/results/AlgoAugmentedLagrangianPenExactType2MQLIB/160/input_data/kcluster160_050_80_3.mqlib",510706,1.000279,[0:1e-06;510699:0.35652;510704:0.356909;510705:0.357588;510706:0.358222]
 
 Solution:
-0 1 1 1 1 1 1 1 0 0 0 0 1 0 1 1 0 0 0 0 1 0 1 1 0 0 1 0 0 1 0 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 0 0 1 1 1 0 0 1 1 0 0 1 0 1 1 1 0 0 1 1 1 1 1 0 0 0 0 1 1 1 1 0 1 0 0 1 1 1 0 1 0 1 0 1 1 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 1 1 0 1 0 1 0 0 0 1 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 0 0 1 1 1 1 0 0 0 0 1 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1
+0 1 0 1 1 1 1 1 0 0 0 0 1 0 1 1 0 0 0 0 1 0 1 1 0 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 1 0 0 0 0 1 1 1 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 1 0 0 1 1 1 0 1 0 1 0 1 1 0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 1 1 0 1 0 1 0 0 0 1 1 0 1 1 1 1 0 1 1 0 0 1 1 0 1 0 0 1 1 1 1 0 0 0 0 1 0 1 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 1
